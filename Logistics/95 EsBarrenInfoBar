@@ -13,7 +13,6 @@ Erestrumbarren #1
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
-
 {{/items}}
  
 Erestrumbarren #2
@@ -23,7 +22,6 @@ Erestrumbarren #2
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
-
 {{/items}}
  
 Erestrumbarren #3
@@ -33,7 +31,6 @@ Erestrumbarren #3
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
-
 {{/items}}
  
 Erestrumbarren #4
@@ -43,5 +40,4 @@ Erestrumbarren #4
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
-
 {{/items}}
