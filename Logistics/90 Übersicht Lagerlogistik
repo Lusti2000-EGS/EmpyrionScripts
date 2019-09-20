@@ -13,7 +13,7 @@ Promethium / Promethium / Pr
 
 === Definition der Verarbeitungsart ===
 Barren / Ingot
-Pellet / Pellet
+Pellet / Pallet
 Rohprod / Rawprod
 Raffiniert / Refined
 
@@ -39,7 +39,7 @@ Script:[+40]EsBarrenLog*	2278
 Script:[+40]ZsBarrenLog*	2279
 Script:[+40]MgPulverLog*	2271
 Script:[+40]PeRohprodLog*	2293
-Script:[+40]PrPalletsLog*	2277
+Script:[+40]PrPelletLog*	2277
 
 === Info Scripts ===
 Script:FeBarrenInfo*
