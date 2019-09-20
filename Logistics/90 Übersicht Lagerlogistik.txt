@@ -1,0 +1,46 @@
+=== Definition der Namen und Kürzel ===
+Eisen / Iron / Fe
+Kupfer / Copper / Cu
+Silizium / Silicium / Si
+Kobalt / Cobalt / Co
+Neodymium / Neodymium / Nd
+Sathium / Sathium / Sa
+Erestrum / Erestrum / Es	
+Zaskosium / Zascosium / Zs
+Magnesium / Magnesium / Mg
+Pentaxid / Pentaxit / Pe
+Promethium / Promethium / Pr
+
+=== Übersicht der Scripts ===
+
+
+=== Einrichtung der Logistik ===
+==== Benennung der Container ====
+95 #[XX] [Name]
+
+=== Logstik Scripts ===
+Script:[+40]FeBarrenLog*	2272
+Script:[+40]CuBarrenLog*	2276
+Script:[+40]SiBarrenLog*	2274
+Script:[+40]CoBarrenLog*	2273
+Script:[+40]NdBarrenLog*	2275
+Script:[+40]SaBarrenLog*	2285
+Script:[+40]EsBarrenLog*	2278
+Script:[+40]ZsBarrenLog*	2279
+Script:[+40]MgPulverLog*	2271
+Script:[+40]PeRohprodLog*	2293
+Script:[+40]PrPalletsLog*	2277
+
+=== Info Scripts ===
+Script:FeBarrenInfo*
+Script:CuBarrenInfo*
+Script:SiBarrenInfo*
+Script:CoBarrenInfo*
+Script:NdBarrenInfo*
+Script:SaBarrenInfo*
+Script:EsBarrenInfo*
+Script:ZsBarrenInfo*
+Script:MgPulverInfo*
+Script:PeBarrenInfo*
+
+=== Pendenzenliste ===
