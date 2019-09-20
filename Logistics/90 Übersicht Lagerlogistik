@@ -11,12 +11,22 @@ Magnesium / Magnesium / Mg
 Pentaxid / Pentaxit / Pe
 Promethium / Promethium / Pr
 
+=== Definition der Verarbeitungsart ===
+Barren / Ingot
+Pellet / Pellet
+Rohprod / Rawprod
+Raffiniert / Refined
+
 === Übersicht der Scripts ===
 
 
 === Einrichtung der Logistik ===
 ==== Benennung der Container ====
-95 #[XX] [Name]
+Rohprodukte:
+95 #[NN] [KürzelProdukt][Verarbeitungsart]
+
+Zwischenprodukte:
+96 #[NN] [KürzelProdukt][Verarbeitungsart]
 
 === Logstik Scripts ===
 Script:[+40]FeBarrenLog*	2272
