@@ -13,7 +13,6 @@ Kobaltbarren #1
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
-
 {{/items}}
  
 Kobaltbarren #2
@@ -23,7 +22,6 @@ Kobaltbarren #2
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
-
 {{/items}}
  
 Kobaltbarren #3
@@ -33,7 +31,6 @@ Kobaltbarren #3
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
-
 {{/items}}
  
 Kobaltbarren #4
@@ -43,5 +40,4 @@ Kobaltbarren #4
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
-
 {{/items}}
