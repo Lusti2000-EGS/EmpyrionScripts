@@ -13,6 +13,7 @@ Kupferbarren #1
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
+ 
 {{/items}}
  
 Kupferbarren #2
@@ -22,6 +23,7 @@ Kupferbarren #2
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
+ 
 {{/items}}
  
 Kupferbarren #3
@@ -31,6 +33,7 @@ Kupferbarren #3
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
+ 
 {{/items}}
  
 Kupferbarren #4
@@ -40,4 +43,5 @@ Kupferbarren #4
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
+ 
 {{/items}}
