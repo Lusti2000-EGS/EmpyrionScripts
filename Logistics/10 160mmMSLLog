@@ -6,7 +6,7 @@ OutputLCDLabel:	160mmMSLLog[001 - 999]
 
 {{fontsize @root 4}}
 {{#items E.S '00 Eingangslager'}}
-{{#test Id eq 2200}}
+{{#test Id eq 2215}}
 {{move this @root.E.S '10 160mmMSL' 6400}}
 {{datetime}}
 {{Source}} -> {{Destination}}
