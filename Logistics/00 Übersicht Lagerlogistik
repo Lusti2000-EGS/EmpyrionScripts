@@ -32,7 +32,7 @@ Rohprodukte:
 Zwischenprodukte:
 96 #[NN] [KürzelProdukt][Verarbeitungsart]
 
-=== Logstik Scripts ===
+=== Logistik Scripts ===
 Script:[+40]FeBarrenLog*	2272
 Script:[+40]CuBarrenLog*	2276
 Script:[+40]SiBarrenLog*	2274
@@ -48,6 +48,14 @@ Script:[+40]PrPelletLog*	2277
 Script:[+40]AuBarrenLog*  2298
 Script:[+40]FePlattenLog* 2265
 Script:[+40]SaPlattenLog* 2295
+
+Ammo:
+Script:[+40]15mmBulletLog*    2104
+Script:[+40]PlChargeSVLog*    2198
+Script:[+40]RailgunBulletLog* 2199
+Script:[+40]13mmMSLLog*       2200
+Script:[+40]LsChargeSVLog*    2202
+
 
 === Info Scripts ===
 Script:FeBarrenInfo*
