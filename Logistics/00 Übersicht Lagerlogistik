@@ -11,6 +11,7 @@ Magnesium / Magnesium / Mg
 Pentaxid / Pentaxit / Pe
 Promethium / Promethium / Pr
 Gold / Gold / Au
+Wasser / Water / H2O
 
 === Definition der Verarbeitungsart ===
 Erz / Ore
@@ -42,8 +43,11 @@ Script:[+40]EsBarrenLog*	2278
 Script:[+40]ZsBarrenLog*	2279
 Script:[+40]MgPulverLog*	2271
 Script:[+40]PeRohprodLog*	2293
+Script:[+40]PrErzLog*     2254
 Script:[+40]PrPelletLog*	2277
 Script:[+40]AuBarrenLog*  2298
+Script:[+40]FePlattenLog* 2265
+Script:[+40]SaPlattenLog* 2295
 
 === Info Scripts ===
 Script:FeBarrenInfo*
@@ -56,5 +60,6 @@ Script:EsBarrenInfo*
 Script:ZsBarrenInfo*
 Script:MgPulverInfo*
 Script:PeBarrenInfo*
+Script:FePlattenInfo*
 
 === Pendenzenliste ===
