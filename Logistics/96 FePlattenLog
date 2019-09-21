@@ -16,7 +16,7 @@ OutputLCDLabel:	FePlattenLog[001 - 999]
 {{/test}}
 {{/items}}
 
-{{#items E.S '95 #04 FePlatten'}}
+{{#items E.S '96 #04 FePlatten'}}
 {{move this @root.E.S '96 #03 FePlatten' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -25,7 +25,7 @@ OutputLCDLabel:	FePlattenLog[001 - 999]
 {{/move}}
 {{/items}}
 
-{{#items E.S '95 #03 FePlatten'}}
+{{#items E.S '96 #03 FePlatten'}}
 {{move this @root.E.S '96 #02 FePlatten' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -34,7 +34,7 @@ OutputLCDLabel:	FePlattenLog[001 - 999]
 {{/move}}
 {{/items}}
 
-{{#items E.S '95 #02 FePlatten'}}
+{{#items E.S '96 #02 FePlatten'}}
 {{move this @root.E.S '96 #01 FePlatten' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
