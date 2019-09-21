@@ -53,8 +53,19 @@ Ammo:
 Script:[+40]15mmBulletLog*    2104
 Script:[+40]PlChargeSVLog*    2198
 Script:[+40]RailgunBulletLog* 2199
-Script:[+40]13mmMSLLog*       2200
+Script:[+40]130mmMSLLog*      2200
 Script:[+40]LsChargeSVLog*    2202
+Script:[+40]LsChargeCVLog*    2205
+Script:[+40]PlChargeCVLog*    2210
+Script:[+40]FlakShellCVLog*   2214
+Script:[+40]160mmMSLLog*      2215
+Script:[+40]LsChargeIICVLog*  2219
+
+Halbfabrikate:
+Script:[+40]WasserstoffLog*   2289
+
+Endfabrikate:
+Script:[+40]FusionszelleLog*  2373
 
 
 === Info Scripts ===
