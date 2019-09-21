@@ -6,7 +6,7 @@ OutputLCDLabel:	FePlattenInfo[001 - 999]
 
 {{fontsize @root 7}}
  
-Zaskosiumbarren #1
+Stahlplatten #1
  
 {{#items E.S '96 #01 FePlatten'}}
 {{bar count 0 127872 20}}
@@ -16,7 +16,7 @@ Zaskosiumbarren #1
 
 {{/items}}
  
-Zaskosiumbarren #2
+Stahlplatten #2
  
 {{#items E.S '96 #02 FePlatten'}}
 {{bar count 0 127872 20}}
@@ -26,7 +26,7 @@ Zaskosiumbarren #2
 
 {{/items}}
  
-Zaskosiumbarren #3
+Stahlplatten #3
  
 {{#items E.S '96 #03 FePlatten'}}
 {{bar count 0 127872 20}}
@@ -36,7 +36,7 @@ Zaskosiumbarren #3
 
 {{/items}}
  
-Zaskosiumbarren #4
+Stahlplatten #4
  
 {{#items E.S '96 #04 FePlatten'}}
 {{bar count 0 127872 20}}
