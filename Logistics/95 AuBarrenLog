@@ -6,7 +6,7 @@ OutputLCDLabel:	AuBarrenLog[001 - 999]
 
 {{fontsize @root 4}}
 {{#items E.S '00 Eingangslager'}}
-{{#test Id eq 2273}}
+{{#test Id eq 2298}}
 {{move this @root.E.S '95 #01 AuBarren' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
