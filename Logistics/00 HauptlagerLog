@@ -31,7 +31,7 @@ OutputLCDLabel:	HauptlagerLog[001 - 999]
 {{/items}}
 
 {{#items E.S '96 #01*'}}
-{{#test Id in '2265'}}
+{{#test Id in '2265,2295'}}
 {{move this @root.E.S '00 Hauptlager' 1998}}
 {{datetime}}
 {{Source}} ->
