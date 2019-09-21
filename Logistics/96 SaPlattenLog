@@ -16,7 +16,7 @@ OutputLCDLabel:	SaPlattenLog[001 - 999]
 {{/test}}
 {{/items}}
 
-{{#items E.S '96 #04 FePlatten'}}
+{{#items E.S '96 #04 SaPlatten'}}
 {{move this @root.E.S '96 #03 SaPlatten' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -25,7 +25,7 @@ OutputLCDLabel:	SaPlattenLog[001 - 999]
 {{/move}}
 {{/items}}
 
-{{#items E.S '96 #03 FePlatten'}}
+{{#items E.S '96 #03 SaPlatten'}}
 {{move this @root.E.S '96 #02 SaPlatten' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -34,7 +34,7 @@ OutputLCDLabel:	SaPlattenLog[001 - 999]
 {{/move}}
 {{/items}}
 
-{{#items E.S '96 #02 FePlatten'}}
+{{#items E.S '96 #02 SaPlatten'}}
 {{move this @root.E.S '96 #01 SaPlatten' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
