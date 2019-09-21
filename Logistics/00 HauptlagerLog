@@ -5,6 +5,19 @@ OutputLCDLabel:	HauptlagerLog[001 - 999]
 ==== /DO NOT COPY ====
 
 {{fontsize @root 4}}
+
+{{#items E.S '94 #01*'}}
+{{#test Id in '2254'}}
+{{move this @root.E.S '00 Hauptlager' 1998}}
+{{datetime}}
+{{Source}} ->
+ {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
 {{#items E.S '95 #01*'}}
 {{#test Id in '2272,2276,2274,2273,2275,2278,2285,2279,2298,2293'}}
 {{move this @root.E.S '00 Hauptlager' 1998}}
