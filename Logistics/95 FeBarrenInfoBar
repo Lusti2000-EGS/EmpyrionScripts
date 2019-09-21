@@ -13,6 +13,7 @@ Eisenbarren #1
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
+ 
 {{/items}}
  
 Eisenbarren #2
@@ -22,6 +23,7 @@ Eisenbarren #2
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
+ 
 {{/items}}
  
 Eisenbarren #3
@@ -31,6 +33,7 @@ Eisenbarren #3
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
+ 
 {{/items}}
  
 Eisenbarren #4
@@ -40,4 +43,5 @@ Eisenbarren #4
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
+ 
 {{/items}}
