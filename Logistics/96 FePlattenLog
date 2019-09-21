@@ -6,7 +6,7 @@ OutputLCDLabel:	FePlattenLog[001 - 999]
 
 {{fontsize @root 4}}
 {{#items E.S '00 Eingangslager'}}
-{{#test Id eq }}
+{{#test Id eq 2265}}
 {{move this @root.E.S '95 #04 FePlatten' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
