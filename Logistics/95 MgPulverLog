@@ -7,38 +7,11 @@ OutputLCDLabel:	MgPulverLog[001 - 999]
 {{fontsize @root 4}}
 {{#items E.S '00 Eingangslager'}}
 {{#test Id eq 2271}}
-{{move this @root.E.S '95 #04 MgPulver' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-{{#items E.S '95 #04 MgPulver'}}
-{{move this @root.E.S '95 #03 MgPulver' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/items}}
-
-{{#items E.S '95 #03 MgPulver'}}
-{{move this @root.E.S '95 #02 MgPulver' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/items}}
-
-{{#items E.S '95 #02 MgPulver'}}
 {{move this @root.E.S '95 #01 MgPulver' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
 {{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
 {{/move}}
+{{/test}}
 {{/items}}
