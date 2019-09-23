@@ -1,0 +1,31 @@
+= Allgemeine Definitionen =
+== Definition der Namen und Kürzel ==
+Eisen / Iron / Fe
+Kupfer / Copper / Cu
+Silizium / Silicium / Si
+Kobalt / Cobalt / Co
+Neodymium / Neodymium / Nd
+Sathium / Sathium / Sa
+Erestrum / Erestrum / Es	
+Zaskosium / Zascosium / Zs
+Magnesium / Magnesium / Mg
+Pentaxid / Pentaxit / Pe
+Promethium / Promethium / Pr
+Gold / Gold / Au
+Wasser / Water / H2O
+
+== Definition der Verarbeitungsart ==
+Erz / Ore
+Barren / Ingot
+Pellet / Pallet
+Pulver / Powder
+Rohprod / Rawprod
+Raffiniert / Refined
+
+== Nummerkreise ==
+Erze:
+94 #[NN] [KürzelProdukt][Verarbeitungsart]
+Rohprodukte:
+95 #[NN] [KürzelProdukt][Verarbeitungsart]
+Zwischenprodukte:
+96 #[NN] [KürzelProdukt][Verarbeitungsart]
