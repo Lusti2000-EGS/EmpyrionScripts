@@ -2,6 +2,10 @@
 Author:		Lusti2000
 ScriptLCDLabel:	Script:[+40]HauptlagerLog*
 OutputLCDLabel:	HauptlagerLog[001 - 999]
+Description: This script gets various production materials to the main storage. Thererfore all constructors can use the
+materials in the main storage witch will fill up constantly.
+Beschreibung: Dieser Script verschiebt diverse Produktionsmaterialien in das Hauptlager. Dadurch können alle Konstruktoren
+Material aus diesem Lager beziehen welches ständig wieder befüllt wird.
 ==== /DO NOT COPY ====
 
 {{fontsize @root 4}}
