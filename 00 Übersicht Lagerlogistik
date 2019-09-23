@@ -1,39 +1,7 @@
-=== Definition der Namen und Kürzel ===
-Eisen / Iron / Fe
-Kupfer / Copper / Cu
-Silizium / Silicium / Si
-Kobalt / Cobalt / Co
-Neodymium / Neodymium / Nd
-Sathium / Sathium / Sa
-Erestrum / Erestrum / Es	
-Zaskosium / Zascosium / Zs
-Magnesium / Magnesium / Mg
-Pentaxid / Pentaxit / Pe
-Promethium / Promethium / Pr
-Gold / Gold / Au
-Wasser / Water / H2O
-
-=== Definition der Verarbeitungsart ===
-Erz / Ore
-Barren / Ingot
-Pellet / Pallet
-Pulver / Powder
-Rohprod / Rawprod
-Raffiniert / Refined
-
-=== Übersicht der Scripts ===
-
-
-=== Einrichtung der Logistik ===
-==== Benennung der Container ====
-Rohprodukte:
-95 #[NN] [KürzelProdukt][Verarbeitungsart]
-
-Zwischenprodukte:
-96 #[NN] [KürzelProdukt][Verarbeitungsart]
-
+= LogistikScripting =
 === Logistik Scripts ===
 Script:[+40]FeBarrenLog*	  2272
+Script:FeBarrenInfo*
 Script:[+40]CuBarrenLog*	  2276
 Script:[+40]SiBarrenLog*	  2274
 Script:[+40]CoBarrenLog*	  2273
@@ -64,14 +32,14 @@ Script:[+40]LsChargeIICVLog*  2219
 Script:[+40]LsChargeHVLog*    2208
 
 Halbfabrikate:
-Script:[+40]WasserstoffLog*   2289
+Script:[+40]WasserstoffLog*   2289    96 #01 Wasserstoff
 
 Endfabrikate:
 Script:[+40]FusionszelleLog*  2373
 
 
 === Info Scripts ===
-Script:FeBarrenInfo*
+
 Script:CuBarrenInfo*
 Script:SiBarrenInfo*
 Script:CoBarrenInfo*
