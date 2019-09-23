@@ -1,29 +1,69 @@
 = LogistikScripting =
-== Logistik Scripts ==
-Script:[+40]FeBarrenLog*	  2272
-Script:FeBarrenInfo*
+== Erz ==
+	Pentaxid (unraffiniert) 2293
+		Script:[+40]PeRohprodLog*
+=>	Script:PeBarrenInfo*
+	Promethiumerz 2254
+		Script:[+40]PrErzLog*
+		Script:PrErzInfo*
 
-Script:[+40]CuBarrenLog*      2276
-Script:[+40]SiBarrenLog*	  2274
-Script:[+40]CoBarrenLog*	  2273
-Script:[+40]NdBarrenLog*	  2275
-Script:[+40]SaBarrenLog*	  2285
-Script:[+40]EsBarrenLog*	  2278
-Script:[+40]ZsBarrenLog*	  2279
-Script:[+40]MgPulverLog*	  2271
-Script:[+40]PeRohprodLog*	  2293
-Script:[+40]PrErzLog*			2254
-Script:[+40]PrPelletLog*	  	2277
-Script:[+40]AuBarrenLog*    2298
-Script:[+40]FePlattenLog*   2265
-Script:[+40]SaPlattenLog*   2295
-Script:[+40]H2OKanisterLog* 2396
+== Rohmaterial ==
+	Eisenbarren 2272
+		Script:[+40]FeBarrenLog*
+		Script:FeBarrenInfo*
+	Kupferbarren 2276
+		Script:[+40]CuBarrenLog*
+		Script:CuBarrenInfo*
+	Siliziumbarren 2274
+		Script:[+40]SiBarrenLog*
+		Script:SiBarrenInfo*
+	Kobaltbarren 2273
+		Script:[+40]CoBarrenLog*
+		Script:CoBarrenInfo*
+	Neodymiumbarren 2275
+		Script:[+40]NdBarrenLog*
+		Script:NdBarrenInfo*
+	Sathiumbarren 2285
+		Script:[+40]SaBarrenLog*
+		Script:SaBarrenInfo*
+	Erestrumbarren 2278
+		Script:[+40]EsBarrenLog*
+		Script:EsBarrenInfo*
+	Zaskosiumbarren 2279
+		Script:[+40]ZsBarrenLog*
+		Script:ZsBarrenInfo*
+	Goldbarren 2298
+		Script:[+40]AuBarrenLog*
+=>	Script:AuBarrenInfo*
+	Magnesiumpulver 2271
+		Script:[+40]MgPulverLog*
+		Script:MgPulverInfo*
+	Promethiumpellet 2277
+		Script:[+40]PrPelletLog*	 
+		Script:PrPelletInfo*
+	Wasserkanister 2396
+		Script:[+40]H2OKanisterLog*
 
-Ammo:
-Script:[+40]15mmBulletLog*    2104
-Script:[+40]PlChargeSVLog*    2198
-Script:[+40]RailgunBulletLog* 2199
-Script:[+40]130mmMSLLog*      2200
+== Halbfabrikate ==
+	Stahlplatten 2265
+		Script:[+40]FePlattenLog*
+		Script:FePlattenInfo*
+	gehärtete Stahlplatten 2295
+		Script:[+40]SaPlattenLog* 
+		Script:SaPlattenInfo*
+	Wasserstoffflaschen 2289
+		Script:[+40]WasserstoffLog*
+
+== Munition ==
+	15mm Bullet (BA/CV/HV/SV) 2104
+		Script:[+40]15mmBulletLog* 
+	Pl. Charge SV (SV) 2198
+		Script:[+40]PlChargeSVLog*
+	Railgun Bullet (SV/Player) 2199
+		Script:[+40]RailgunBulletLog*
+=>130mm MSL 2200
+		Script:[+40]130mmMSLLog*
+	LsCharge
 Script:[+40]LsChargeSVLog*    2202
 Script:[+40]LsChargeCVLog*    2205
 Script:[+40]PlChargeCVLog*    2210
@@ -33,7 +73,7 @@ Script:[+40]LsChargeIICVLog*  2219
 Script:[+40]LsChargeHVLog*    2208
 
 Halbfabrikate:
-Script:[+40]WasserstoffLog*   2289    96 #01 Wasserstoff
+
 
 Endfabrikate:
 Script:[+40]FusionszelleLog*  2373
@@ -41,15 +81,7 @@ Script:[+40]FusionszelleLog*  2373
 
 === Info Scripts ===
 
-Script:CuBarrenInfo*
-Script:SiBarrenInfo*
-Script:CoBarrenInfo*
-Script:NdBarrenInfo*
-Script:SaBarrenInfo*
-Script:EsBarrenInfo*
-Script:ZsBarrenInfo*
-Script:MgPulverInfo*
-Script:PeBarrenInfo*
-Script:FePlattenInfo*
+
+
 
 === Pendenzenliste ===
