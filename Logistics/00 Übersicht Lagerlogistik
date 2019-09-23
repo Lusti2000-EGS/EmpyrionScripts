@@ -48,6 +48,7 @@ Script:[+40]PrPelletLog*	  2277
 Script:[+40]AuBarrenLog*    2298
 Script:[+40]FePlattenLog*   2265
 Script:[+40]SaPlattenLog*   2295
+Script:[+40]H2OKanisterLog* 2396
 
 Ammo:
 Script:[+40]15mmBulletLog*    2104
@@ -60,6 +61,7 @@ Script:[+40]PlChargeCVLog*    2210
 Script:[+40]FlakShellCVLog*   2214
 Script:[+40]160mmMSLLog*      2215
 Script:[+40]LsChargeIICVLog*  2219
+Script:[+40]LsChargeHVLog*    2208
 
 Halbfabrikate:
 Script:[+40]WasserstoffLog*   2289
