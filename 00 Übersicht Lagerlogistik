@@ -1,7 +1,8 @@
 = LogistikScripting =
-=== Logistik Scripts ===
+== Logistik Scripts ==
 Script:[+40]FeBarrenLog*	  2272
 Script:FeBarrenInfo*
+
 Script:[+40]CuBarrenLog*	  2276
 Script:[+40]SiBarrenLog*	  2274
 Script:[+40]CoBarrenLog*	  2273
@@ -11,8 +12,8 @@ Script:[+40]EsBarrenLog*	  2278
 Script:[+40]ZsBarrenLog*	  2279
 Script:[+40]MgPulverLog*	  2271
 Script:[+40]PeRohprodLog*	  2293
-Script:[+40]PrErzLog*       2254
-Script:[+40]PrPelletLog*	  2277
+Script:[+40]PrErzLog*			2254
+Script:[+40]PrPelletLog*	  	2277
 Script:[+40]AuBarrenLog*    2298
 Script:[+40]FePlattenLog*   2265
 Script:[+40]SaPlattenLog*   2295
