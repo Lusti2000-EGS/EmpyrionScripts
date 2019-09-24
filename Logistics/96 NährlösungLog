@@ -6,7 +6,7 @@ OutputLCDLabel:	NahrlosungLog[001 - 999]
 
 {{fontsize @root 4}}
 {{#items E.S '00 Eingangslager'}}
-{{#test Id eq 2256}}
+{{#test Id eq 2380}}
 {{move this @root.E.S '96 #01 Nahrlosung' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
