@@ -53,6 +53,10 @@
 		Script:SaPlattenInfo*
 	Wasserstoffflaschen 2289
 		Script:[+40]WasserstoffLog*
+	Glasfaser 2255
+		Script:[+40]GlasfaserLog*
+	mechanische Komponenten 2256
+		Script:[+40]mechKompLog*
 
 == Munition ==
 	15mm Bullet (BA/CV/HV/SV) 2104
