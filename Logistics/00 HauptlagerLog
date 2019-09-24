@@ -11,7 +11,7 @@ Material aus diesem Lager beziehen welches ständig wieder befüllt wird.
 {{fontsize @root 4}}
 
 {{#items E.S '94 #01*'}}
-{{#test Id in '2254'}}
+{{#test Id in '2254,2290'}}
 {{move this @root.E.S '00 Hauptlager' 1998}}
 {{datetime}}
 {{Source}} ->
@@ -35,7 +35,7 @@ Material aus diesem Lager beziehen welches ständig wieder befüllt wird.
 {{/items}}
 
 {{#items E.S '96 #01*'}}
-{{#test Id in '2265,2295,2289,2255,2256,2267,2260,2258,2259,2261,2262,2263,2264,2282,2286,2283,2257,2327,2380'}}
+{{#test Id in '2265,2295,2289,2255,2256,2267,2260,2258,2259,2261,2262,2263,2264,2282,2286,2283,2257,2327,2380,2292'}}
 {{move this @root.E.S '00 Hauptlager' 1998}}
 {{datetime}}
 {{Source}} ->
