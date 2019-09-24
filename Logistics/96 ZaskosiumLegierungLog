@@ -7,7 +7,7 @@ OutputLCDLabel:	ZaskosiumLLog[001 - 999]
 {{fontsize @root 4}}
 {{#items E.S '00 Eingangslager'}}
 {{#test Id eq 2327}}
-{{move this @root.E.S '96 #01 ZaskosiumLegierung' 127872}}
+{{move this @root.E.S '96 #01 ZascosiumLegierung' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
