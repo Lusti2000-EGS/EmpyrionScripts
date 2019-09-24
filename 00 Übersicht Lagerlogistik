@@ -2,7 +2,7 @@
 == Erz ==
 	Pentaxid (unraffiniert) 2293
 		Script:[+40]PeRohprodLog*
-=>	Script:PeBarrenInfo*
+=>		Script:PeBarrenInfo*
 	Promethiumerz 2254
 		Script:[+40]PrErzLog*
 		Script:PrErzInfo*
@@ -76,16 +76,5 @@ Script:[+40]160mmMSLLog*      2215
 Script:[+40]LsChargeIICVLog*  2219
 Script:[+40]LsChargeHVLog*    2208
 
-Halbfabrikate:
-
-
 Endfabrikate:
-Script:[+40]FusionszelleLog*  2373
-
-
-=== Info Scripts ===
-
-
-
-
-=== Pendenzenliste ===
+	Script:[+40]FusionszelleLog*  2373
