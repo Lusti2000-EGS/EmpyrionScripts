@@ -1,0 +1,11 @@
+{{fontsize @root 4}}
+{{#items E.S '00 Eingangslager'}}
+{{#test Id eq 2254}}
+{{move this @root.E.S '94 #01 Holzstamme' 127872}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
