@@ -7,7 +7,7 @@ OutputLCDLabel:	KohlenstoffLog[001 - 999]
 {{fontsize @root 4}}
 {{#items E.S '00 Eingangslager'}}
 {{#test Id eq 2283}}
-{{move this @root.E.S '95 #01 Kohlenstoffsubstrat' 127872}}
+{{move this @root.E.S '96 #01 Kohlenstoffsubstrat' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
