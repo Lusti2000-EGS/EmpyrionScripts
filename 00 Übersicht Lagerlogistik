@@ -1,13 +1,14 @@
 = LogistikScripting =
-== Erz ==
+== Erz 94==
 	Pentaxid (unraffiniert) 2293
 		Script:[+40]PeRohprodLog*
 =>		Script:PeBarrenInfo*
 	Promethiumerz 2254
 		Script:[+40]PrErzLog*
 		Script:PrErzInfo*
+	Schotter 2280
 
-== Rohmaterial ==
+== Rohmaterial 95==
 	Eisenbarren 2272
 		Script:[+40]FeBarrenLog*
 		Script:FeBarrenInfo*
@@ -43,8 +44,11 @@
 		Script:PrPelletInfo*
 	Wasserkanister 2396
 		Script:[+40]H2OKanisterLog*
+	Gesteinsmehl 2281
+	
+	Kohlenstoffsubstrat 2283
 
-== Halbfabrikate ==
+== Halbfabrikate 96==
 	Stahlplatten 2265
 		Script:[+40]FePlattenLog*
 		Script:FePlattenInfo*
@@ -57,6 +61,42 @@
 		Script:[+40]GlasfaserLog*
 	mechanische Komponenten 2256
 		Script:[+40]mechKompLog*
+	Glasplatten 2267
+		Script:[+40]GlasplattenLog*
+	Elektronik 2260
+		Script:[+40]ElektronikLog*
+	Computer 2258
+		Script:[+40]ComputerLog*
+	Energie Matrix 2259
+		Script:[+40]EnergiemLog*
+	Fluxspule 2261
+		Script:[+40]FluxspuleLog*
+	Motor 2262
+		Script:[+40]MotorLog*
+	Nanoröhren 2263
+		Script:[+40]NanorohrenLog*
+	Kobalt Legierung 2264
+		Script:[+40]KobaltLegLog*
+	Oszillator 2282
+		Script:[+40]OszillatorLog*
+	Stromspule 2286
+		Script:[+40]StromspuleLog*	
+	Kohlenstoffsubstrat 2283
+		Script:[+40]KohlenstoffLog*
+	Kondensatoreinheit 2257
+		Script:[+40]KondensatorLog*
+	Zascosium Legierung 2327
+		Script:[+40]ZascosiumLLog*
+	Nährlösung 2380
+		Script:[+40]NahrlosungLog*
+
+
+
+
+	Zement 2292
+	Bergbaugerätekern 2302
+	Elementares Pentaxid 2309
+	
 
 == Munition ==
 	15mm Bullet (BA/CV/HV/SV) 2104
