@@ -2,11 +2,13 @@
 == Erz 94==
 	Pentaxid (unraffiniert) 2293
 		Script:[+40]PeRohprodLog*
-=>		Script:PeBarrenInfo*
 	Promethiumerz 2254
 		Script:[+40]PrErzLog*
 		Script:PrErzInfo*
 	Schotter 2280
+		Script:[+40]SchotterLog*
+	Holzstämme 2290
+WL		Script:[+40]HolzstammeLog*
 
 == Rohmaterial 95==
 	Eisenbarren 2272
@@ -46,7 +48,7 @@
 		Script:[+40]H2OKanisterLog*
 	Gesteinsmehl 2281
 	
-	Kohlenstoffsubstrat 2283
+	
 
 == Halbfabrikate 96==
 	Stahlplatten 2265
@@ -89,32 +91,46 @@
 		Script:[+40]ZascosiumLLog*
 	Nährlösung 2380
 		Script:[+40]NahrlosungLog*
-
-
-
-
 	Zement 2292
+WL		Script:[+40]ZementLog*
 	Bergbaugerätekern 2302
 	Elementares Pentaxid 2309
 	
 
 == Munition ==
-	15mm Bullet (BA/CV/HV/SV) 2104
-		Script:[+40]15mmBulletLog* 
+=== BA===
+	165mm MSL (BA)
+		Script:[+40]165mmMSLLog*
+
+	15mm Bullet (BA/CV/SV/HV) 2104
+MV		Script:[+40]15mmBulletLog*
+
+
+
+
+
 	Pl. Charge SV (SV) 2198
 		Script:[+40]PlChargeSVLog*
-	Railgun Bullet (SV/Player) 2199
+	Railgun Bullet (SV/PL) 2199
 		Script:[+40]RailgunBulletLog*
-=>130mm MSL 2200
+	130mm MSL 2200 (SV)
 		Script:[+40]130mmMSLLog*
-	LsCharge
-Script:[+40]LsChargeSVLog*    2202
-Script:[+40]LsChargeCVLog*    2205
-Script:[+40]PlChargeCVLog*    2210
-Script:[+40]FlakShellCVLog*   2214
-Script:[+40]160mmMSLLog*      2215
-Script:[+40]LsChargeIICVLog*  2219
-Script:[+40]LsChargeHVLog*    2208
+	Ls. Charge SV 2202 (SV)
+		Script:[+40]LsChargeSVLog*
+	Ls. Charge CV 2205 (CV)
+		Script:[+40]LsChargeCVLog*
+	Pl. Charge CV 2210 (CV)
+		Script:[+40]PlChargeCVLog*
+	Flak Shell CV 2214 (CV)
+		Script:[+40]FlakShellCVLog*
+	160mm MSL (CV)
+		Script:[+40]160mmMSLLog*
+	Ls. Charge II CV 2219 (CV)
+		Script:[+40]LsChargeIICVLog*
+	Pl. Charge HV 2208 (HV)
+		Script:[+40]LsChargeHVLog*
+	130mm H-MSL (HV)
+		Script:[+40]130mmHMSLLog*
 
 Endfabrikate:
 	Script:[+40]FusionszelleLog*  2373
