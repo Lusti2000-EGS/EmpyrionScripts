@@ -95,42 +95,58 @@ WL		Script:[+40]HolzstammeLog*
 WL		Script:[+40]ZementLog*
 	Bergbaugerätekern 2302
 	Elementares Pentaxid 2309
-	
+
+== Endfabrikate 10 ==
+	Fusoinszelle 2373
+		Script:[+40]FusionszelleLog*
 
 == Munition ==
 === BA===
 	165mm MSL (BA)
-		Script:[+40]165mmMSLLog*
-
+td		Script:[+40]165mmMSLLog*
+	155mm H-MSL (BA)
+td		Script:[+40]155mmHMSLLog*
+	Flak Shell BA (BA)
+td		Script:[+40]FlakShellBALog*
+	Pl. Charge BA (BA)
+td		Script:[+40]PlChargeBALog*
+	Ls. Charge BA (BA)
+td		Script:[+40]LsChargeBALog*
+	30mm Bullet (BA/CV)
+td		Script:[+40]30mmBulletLog*
 	15mm Bullet (BA/CV/SV/HV) 2104
 MV		Script:[+40]15mmBulletLog*
-
-
-
-
-
-	Pl. Charge SV (SV) 2198
-		Script:[+40]PlChargeSVLog*
-	Railgun Bullet (SV/PL) 2199
-		Script:[+40]RailgunBulletLog*
-	130mm MSL 2200 (SV)
-		Script:[+40]130mmMSLLog*
-	Ls. Charge SV 2202 (SV)
-		Script:[+40]LsChargeSVLog*
-	Ls. Charge CV 2205 (CV)
-		Script:[+40]LsChargeCVLog*
-	Pl. Charge CV 2210 (CV)
-		Script:[+40]PlChargeCVLog*
-	Flak Shell CV 2214 (CV)
-		Script:[+40]FlakShellCVLog*
+	Projectile Rifle Round 2102 (BA/CV/PL)
+td		Script:[+40]58mmRoundLog*
+=== CV ===
 	160mm MSL (CV)
 		Script:[+40]160mmMSLLog*
+	150mm H-MSL (CV)
+		Script:[+40]150mmHMSLLog*
+	Flak Shell CV 2214 (CV)
+		Script:[+40]FlakShellCVLog*
+	Pl. Charge CV 2210 (CV)
+		Script:[+40]PlChargeCVLog*
 	Ls. Charge II CV 2219 (CV)
 		Script:[+40]LsChargeIICVLog*
-	Pl. Charge HV 2208 (HV)
-		Script:[+40]LsChargeHVLog*
+	Ls. Charge CV 2205 (CV)
+		Script:[+40]LsChargeCVLog*
+=== SV ===
+	135mm H-MSL (SV)
+		Script:[+40]135mmHMSLLog*
+	130mm MSL 2200 (SV)
+		Script:[+40]130mmMSLLog*
+	Pl. Charge SV (SV) 2198
+		Script:[+40]PlChargeSVLog*
+	Ls. Charge SV 2202 (SV)
+		Script:[+40]LsChargeSVLog*
+	Railgun Bullet (SV/PL) 2199
+		Script:[+40]RailgunBulletLog*
+=== HV ===
+	Artillery Shell HV (HV)
+		Script:[+40]ArtyShellHVLog*
 	130mm H-MSL (HV)
 		Script:[+40]130mmHMSLLog*
+	Pl. Charge HV 2208 (HV)
+		Script:[+40]LsChargeHVLog*
 
-Endfabrikate:
-	Script:[+40]FusionszelleLog*  2373
