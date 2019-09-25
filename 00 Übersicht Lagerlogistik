@@ -102,17 +102,17 @@ WL		Script:[+40]ZementLog*
 
 == Munition ==
 === BA===
-	165mm MSL (BA)
+	165mm MSL (BA) 2204
 td		Script:[+40]165mmMSLLog*
-	155mm H-MSL (BA)
+	155mm H-MSL (BA) 2217
 td		Script:[+40]155mmHMSLLog*
-	Flak Shell BA (BA)
+	Flak Shell BA (BA) 2209
 td		Script:[+40]FlakShellBALog*
-	Pl. Charge BA (BA)
+	Pl. Charge BA (BA) 2218
 td		Script:[+40]PlChargeBALog*
-	Ls. Charge BA (BA)
+	Ls. Charge BA (BA) 2216
 td		Script:[+40]LsChargeBALog*
-	30mm Bullet (BA/CV)
+	30mm Bullet (BA/CV) 2201
 td		Script:[+40]30mmBulletLog*
 	15mm Bullet (BA/CV/SV/HV) 2104
 MV		Script:[+40]15mmBulletLog*
