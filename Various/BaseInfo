@@ -4,15 +4,16 @@ ScriptLCDLabel:	Script:BaseInfo*
 OutputLCDLabel:	BaseInfo[n]
 ==== /DO NOT COPY ====
 
-{{fontsize @root 4}}
+{{fontsize @root 5}}
 
+Basis Füllstände:
 {{#use E.S.FuelTank}}
 {{bar Content 0 Capacity 20}}
 {{~math Content '/' Capacity}}
 {{~format . '{0,8:P2}'}}
 {{~/math}} Fuel
 {{/use}}
-
+ 
 {{#use E.S.OxygenTank}}
 {{bar Content 0 Capacity 20}}
 {{~math Content '/' Capacity}}
