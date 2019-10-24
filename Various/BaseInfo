@@ -9,9 +9,11 @@ OutputLCDLabel:	BaseInfo[n]
 {{~math Content '/' Capacity}}
 {{~format . '{0,8:P2}'}}
 {{~/math}} Fuel
+{{/use}}
 
 {{#use E.S.OxygenTank}}
 {{bar Content 0 Capacity 20}}
 {{~math Content '/' Capacity}}
 {{~format . '{0,8:P2}'}}
 {{~/math}} Fuel
+{{/use}}
