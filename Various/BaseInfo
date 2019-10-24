@@ -1,3 +1,9 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:BaseInfo*
+OutputLCDLabel:	BaseInfo[n]
+==== /DO NOT COPY ====
+
 {{#use E.S.FuelTank}}
 {{bar Content 0 Capacity 20}}
 {{~math Content '/' Capacity}}
