@@ -4,6 +4,8 @@ ScriptLCDLabel:	Script:BaseInfo*
 OutputLCDLabel:	BaseInfo[n]
 ==== /DO NOT COPY ====
 
+{{fontsize @root 4}}
+
 {{#use E.S.FuelTank}}
 {{bar Content 0 Capacity 20}}
 {{~math Content '/' Capacity}}
