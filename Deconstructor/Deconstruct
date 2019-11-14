@@ -1,1 +1,10 @@
+{{fontsize @root 4}}
 
+{{#entitiesbyname @root '*'}}
+{{#each .}}
+{{#devices S (concat 'Core-Destruct-' Id)}}
+{{../Name}}:{{../Id}}
+{{deconstruct @root .. '00 Eingangslager'}}
+{{/devices}}
+{{/each}}
+{{/entitiesbyname}}
