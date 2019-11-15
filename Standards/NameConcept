@@ -1,0 +1,50 @@
+--- Produktion ---
+00 Eingangslager
+00 Hauptlager
+
+--- Versorgung ---
+01 Versorgung (Energiezellen / Sauerstoff / Pentaxid(veredelt) / Kern)
+01 Notfall (Zusatzkockpit / persönliche Sauerstoffflaschen)
+01 Munition (PL) (Munition für Spielerwaffen / Knock-knocks)
+01 Medizin
+
+--- Verbrauchslager ---
+05 Energie (Energiezellen / Fusionszellen)
+05 Pentaxid(raffiniert)
+
+--- Baumaterial ---
+10 BA Teile
+10 CV Teile
+10 HV Teile
+10 SV Teile
+
+--- Handel ---
+11 Bargeld
+11 Verkauf #XX
+
+--- Dekonstruktion ---
+13 Dekonstruktor #XX
+
+--- Munition (Munitionskisten, nicht Lager)
+15 Munition #XX
+
+--- Lootcontainer ---
+20 Loot #XX (so viele Lootcontainer wie nötig)
+20 Loot #MV
+20 Loot #LU
+20 Loot #PA
+
+--- Spielercontainer ---
+30 [Spielername]
+
+--- Warenlager ---
+40 leichte Rüstung
+40 mittlere Rüstung
+40 schwere Rüstung
+41 Schnellbau (Produkte zur Beschleunigung Blueprints)
+
+--- Materiallager ---
+94 Erze (Erze / Pentaxid(roh))
+95 Rohmaterial (Barren / Promethiumpellets)
+96 Zwischenmaterial (Motoren / Kabel)
+97 Endmaterial (Blöcke / Cores / Munition)
