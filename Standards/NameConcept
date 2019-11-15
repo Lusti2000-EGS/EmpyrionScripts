@@ -25,9 +25,6 @@
 --- Dekonstruktion ---
 13 Dekonstruktor #XX
 
---- Munition (Munitionskisten, nicht Lager)
-15 Munition #XX
-
 --- Lootcontainer ---
 20 Loot #XX (so viele Lootcontainer wie nötig)
 20 Loot #MV
@@ -42,6 +39,9 @@
 40 mittlere Rüstung
 40 schwere Rüstung
 41 Schnellbau (Produkte zur Beschleunigung Blueprints)
+
+--- Munition (Munitionskisten, nicht Lager)
+50 Munition #XX
 
 --- Materiallager ---
 94 Erze (Erze / Pentaxid(roh))
