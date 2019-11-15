@@ -5,6 +5,7 @@
 {{#devices S (concat 'Core-Destruct-' Id)}}
 {{../Name}}:{{../Id}}
 {{deconstruct @root .. '00 Eingangslager'}}
+{{/deconstruct}}
 {{/devices}}
 {{/each}}
 {{/entitiesbyname}}
