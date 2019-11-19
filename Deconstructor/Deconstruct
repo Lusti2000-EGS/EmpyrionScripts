@@ -1,3 +1,9 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]Deconstruct
+OutputLCDLabel:	Deconstruct[001 - 999]
+==== /DO NOT COPY ====
+
 {{fontsize 4}}
 
 {{#entitiesbyname @root '*'}}
