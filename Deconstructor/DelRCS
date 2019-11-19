@@ -1,0 +1,24 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]DelRCS*
+OutputLCDLabel:	DelRCS[001 - 999]
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#entitiesbyname '*'}}
+{{#each .}}
+{{Name}}:
+{{#deconstruct . '99 Test' 'Core-DelRCS' '272,420,604,934'}}
+  min: {{MinPos}}
+  max: {{MaxPos}}
+  current X: {{X}}
+  current Y: {{Y}}
+  current Z: {{Z}}
+  TotalBlocks: {{TotalBlocks}}
+  CheckedBlocks: {{CheckedBlocks}}
+  RemovedBlocks: {{RemovedBlocks}}
+{{else}}
+- {{/deconstruct}}
+
+{{/each}}
+{{/entitiesbyname}}
