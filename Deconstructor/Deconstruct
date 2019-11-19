@@ -1,4 +1,4 @@
-{{fontsize @root 4}}
+{{fontsize 4}}
 
 {{#entitiesbyname @root '*'}}
 {{#each .}}
