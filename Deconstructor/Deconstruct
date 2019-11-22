@@ -6,11 +6,10 @@ OutputLCDLabel:	Deconstruct[001 - 999]
 
 {{fontsize 4}}
 
-{{#entitiesbyname @root '*'}}
+{{#entitiesbyname '*'}}
 {{#each .}}
-{{#devices S (concat 'Core-Destruct-' Id)}}
 {{../Name}}:{{../Id}}
-{{deconstruct @root .. '00 Eingangslager'}}
+{{deconstruct . '99 Test' 'Core-Destruct'}}
 {{/deconstruct}}
 {{/devices}}
 {{/each}}
