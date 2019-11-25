@@ -7,7 +7,7 @@ OutputLCDLabel:	CoBarrenLog[001 - 999]
 {{fontsize @root 4}}
 {{#items E.S '00 Eingangslager'}}
 {{#test Id eq 2273}}
-{{move this @root.E.S '95 #04 CoBarren' 127872}}
+{{move this @root.E.S '95 Kobaltbarren #04' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
@@ -16,8 +16,8 @@ OutputLCDLabel:	CoBarrenLog[001 - 999]
 {{/test}}
 {{/items}}
 
-{{#items E.S '95 #04 CoBarren'}}
-{{move this @root.E.S '95 #03 CoBarren' 127872}}
+{{#items E.S '95 Kobaltbarren #04'}}
+{{move this @root.E.S '995 Kobaltbarren #03' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
@@ -25,8 +25,8 @@ OutputLCDLabel:	CoBarrenLog[001 - 999]
 {{/move}}
 {{/items}}
 
-{{#items E.S '95 #03 CoBarren'}}
-{{move this @root.E.S '95 #02 CoBarren' 127872}}
+{{#items E.S '95 Kobaltbarren #03'}}
+{{move this @root.E.S '95 Kobaltbarren #02' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
@@ -34,8 +34,8 @@ OutputLCDLabel:	CoBarrenLog[001 - 999]
 {{/move}}
 {{/items}}
 
-{{#items E.S '95 #02 CoBarren'}}
-{{move this @root.E.S '95 #01 CoBarren' 127872}}
+{{#items E.S '95 Kobaltbarren #02'}}
+{{move this @root.E.S '95 Kobaltbarren #01' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
