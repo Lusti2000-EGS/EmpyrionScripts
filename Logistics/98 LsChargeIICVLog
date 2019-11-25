@@ -4,10 +4,10 @@ ScriptLCDLabel:	Script:[+40]LsChargeIICVLog*
 OutputLCDLabel:	LsChargeIICVLog[001 - 999]
 ==== /DO NOT COPY ====
 
-{{fontsize @root 4}}
+{{fontsize 4}}
 {{#items E.S '00 Eingangslager'}}
 {{#test Id eq 2219}}
-{{move this @root.E.S '10 LsChargeIICV' 64000}}
+{{move this @root.E.S '98 LsChargeII CV' 64000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
