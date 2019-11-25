@@ -1,0 +1,8 @@
+{{fontsize 6}}
+
+Alle Barren in der Basis:
+{{#each E.S.Items}}
+{{#test Id in '2272,2273,2274,2275,2276,2277,2278,2279,2280,2281,2285,2294,2298,2265'}}
+{{Format Count '{0,7}'}} {{i18n Key 'Deutsch'}}
+{{/test}}
+{{/each}}
