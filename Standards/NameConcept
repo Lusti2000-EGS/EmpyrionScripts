@@ -44,8 +44,9 @@
 40 schwere Rüstung
 41 Schnellbau (Produkte zur Beschleunigung Blueprints)
 
---- Munition (Munitionskisten, nicht Lager)
-50 Munition #XX
+--- Munition)
+50 Munitionsart
+51 Munition (Munitionskiste)
 
 --- Materiallager ---
 94 Erze (Erze / Pentaxid(roh))
