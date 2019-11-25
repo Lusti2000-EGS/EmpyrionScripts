@@ -3,17 +3,16 @@
 00 Hauptlager
 
 --- Versorgung ---
-01 Versorgung (Energiezellen / Sauerstoff / Pentaxid(veredelt) / Kern)
+01 Versorgung (Energiezellen / Sauerstoff / Pentaxid(veredelt))
+- 01 Fusionszelle
+- 01 Sauerstoff
+- 01 Pentaxit(veredelt)
 01 Notfall (Zusatzkockpit / persönliche Sauerstoffflaschen)
 01 Munition (PL) (Munition für Spielerwaffen / Knock-knocks)
 01 Medizin
 
 --- Harvester ---
-03 Harvest (nur Harvester Boxen)
-
---- Verbrauchslager ---
-05 Energie (Energiezellen / Fusionszellen)
-05 Pentaxid(raffiniert)
+05 Harvest (nur Harvester Boxen)
 
 --- Baumaterial ---
 10 BA Teile
