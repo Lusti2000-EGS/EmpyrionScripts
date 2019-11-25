@@ -7,7 +7,7 @@ OutputLCDLabel:	LsChargeSVLog[001 - 999]
 {{fontsize 4}}
 {{#items E.S '00 Eingangslager'}}
 {{#test Id eq 2202}}
-{{move this @root.E.S '09 LsChargeSV' 64000}}
+{{move this @root.E.S '98 LsChargeSV' 64000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
