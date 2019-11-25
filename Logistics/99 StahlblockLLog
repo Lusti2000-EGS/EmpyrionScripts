@@ -7,7 +7,7 @@ OutputLCDLabel:	FeBlockLLog[001 - 999]
 {{fontsize 4}}
 {{#items E.S '00 Eingangslager'}}
 {{#test Id eq 402}}
-{{move this @root.E.S '99 StahlblockL' 127872}}
+{{move this @root.E.S '97 StahlblockL' 127872}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
