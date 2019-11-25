@@ -1,0 +1,36 @@
+{{fontsize 7}}
+
+{{#each P.Player}}
+- {{Name}}
+{{/each}}
+
+
+Inhalt:
+{{#items E.S 'Silizum Erz'}}
+- {{Count}} {{i18n Key 'Deutsch'}} -> {{Name}} 
+{{/items}}
+  
+Basisinfo
+{{#use E.S.FuelTank}}
+{{bar Content 0 Capacity 20}}
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} /
+ {{~format Content '{0,7}'}} / {{format Capacity '{0,7}'}} Energie
+{{/use}}
+
+{{#use E.S.OxygenTank}}
+{{bar Content 0 Capacity 20}}
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} / 
+ {{~format Content '{0,7}'}} / {{format Capacity '{0,7}'}} Sauerstoff
+{{/use}}
+
+{#use E.S.PentaxidTank}}
+{{bar Content 0 Capacity 20 }}
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} / 
+ {{~format Content '{0,7}'}} / {{format Capacity '{0,7}'}} AU
+{{/use}}
