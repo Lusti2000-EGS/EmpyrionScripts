@@ -7,9 +7,9 @@
 - 01 Fusionszelle
 - 01 Sauerstoff
 - 01 Pentaxit(veredelt)
-01 Notfall (Zusatzkockpit / persönliche Sauerstoffflaschen)
-01 Munition (PL) (Munition für Spielerwaffen / Knock-knocks)
-01 Medizin
+- 01 Munition (PL) (Munition für Spielerwaffen / Knock-knocks)
+- 01 Medizin
+- 01 Notfall (Zusatzkockpit / persönliche Sauerstoffflaschen)
 
 --- Harvester ---
 05 Harvest (nur Harvester Boxen)
@@ -19,6 +19,7 @@
 10 CV Teile
 10 HV Teile
 10 SV Teile
+10 Schnellbau (Produkte zur Beschleunigung Blueprints)
 
 --- Handel ---
 11 Bargeld
@@ -26,33 +27,48 @@
 
 --- Dekonstruktion ---
 13 Dekonstruktor
-13 Schmelze
 
 --- Lootcontainer ---
-20 Loot #XX (so viele Lootcontainer wie nötig)
-20 Loot #MV
-20 Loot #LU
-20 Loot #PA
+20 Loot #XX (so viele Lootcontainer wie nötig/möglich)
 
---- Spielercontainer ---
+--- Spielercontainer (Spind)---
 30 [Spielername]
+- 30 Lusti
+- 30 Zwergenkrone
+- 30 Master-Voggard
+- 30 Pars
 
 --- Warenlager ---
-40 leichte Rüstung
-40 mittlere Rüstung
-40 schwere Rüstung
-41 Schnellbau (Produkte zur Beschleunigung Blueprints)
+40 Rüstungen
+- 40 leichte Rüstung
+- 40 mittlere Rüstung
+- 40 schwere Rüstung
+40 Rüstungsboost
+- 
 
 --- Munition ---
 55 Munition (Munitionskiste)
 
 --- Materiallager ---
 94 Erze (Erze / Pentaxid(roh))
+- 94 Roherzschmelze
+- 94 Pentaxid(roh)
+- 94 Prometiumerz
+- 94 Magnesiumerz
+
 95 Rohmaterial (Barren / Promethiumpellets)
-96 Zwischenmaterial (Motoren / Kabel)
-97 Endmaterial (Blöcke / Cores)
+- 95 Prometiumpellets
+
+
+96 Zwischenmaterial (z.B. Motor / Glasfaserkabel)
+
+97 Endmaterial (z.B. Blöcke / Cores)
+- 97 Gefechts-Stahlblock L
+- 97 Stahlblock L
+- 97 Xenoblock
+
 98 Munition 
-- 98 15mmBullet | 15mmBullet | 2104 | BA/CV/SV/HV
-- 98 Pl.Charge SV | PK Ladung KR | 2198 | SV
-- 98 Railgun Bullet | Railgun Kugel | 2199 | PL/SV
-- 98 Ls.Charge SV | Ls Ladung KR | 2202 | SV
+- 98 15mmBullet
+- 98 Pl.Charge SV
+- 98 Railgun Bullet
+- 98 Ls.Charge SV
