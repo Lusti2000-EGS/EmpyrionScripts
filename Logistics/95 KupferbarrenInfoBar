@@ -4,44 +4,36 @@ ScriptLCDLabel:	Script:CuBarrenInfo*
 OutputLCDLabel:	CuBarrenInfo[001 - 999]
 ==== /DO NOT COPY ====
 
-{{fontsize @root 7}}
+{{fontsize 5}}
  
 Kupferbarren #1
- 
-{{#items E.S '95 #01 CuBarren'}}
+{{#items E.S '95 Kupferbarren #01'}}
 {{bar count 0 127872 20}}
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
- 
 {{/items}}
  
 Kupferbarren #2
- 
-{{#items E.S '95 #02 CuBarren'}}
+{{#items E.S '995 Kupferbarren #02'}}
 {{bar count 0 127872 20}}
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
- 
 {{/items}}
  
 Kupferbarren #3
- 
-{{#items E.S '95 #03 CuBarren'}}
+{{#items E.S '95 Kupferbarren #03'}}
 {{bar count 0 127872 20}}
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
- 
 {{/items}}
  
 Kupferbarren #4
- 
-{{#items E.S '95 #04 CuBarren'}}
+{{#items E.S '95 Kupferbarren #04'}}
 {{bar count 0 127872 20}}
 {{~math count '/' 127872}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
- 
 {{/items}}
