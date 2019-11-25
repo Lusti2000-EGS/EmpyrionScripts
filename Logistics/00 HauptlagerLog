@@ -8,7 +8,7 @@ Beschreibung: Dieser Script verschiebt diverse Produktionsmaterialien in das Hau
 Material aus diesem Lager beziehen welches ständig wieder befüllt wird.
 ==== /DO NOT COPY ====
 
-{{fontsize @root 4}}
+{{fontsize 4}}
 
 {{#items E.S '94 #01*'}}
 {{#test Id in '2254,2290'}}
