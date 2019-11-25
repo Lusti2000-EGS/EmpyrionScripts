@@ -1,6 +1,8 @@
 --- Produktion ---
 00 Eingangslager
 00 Hauptlager
+00 Schmelze (geht in die Schmelze)
+00 Dekonstruktor (geht in den Dekonstruktor)
 
 --- Versorgung ---
 01 Versorgung (Energiezellen / Sauerstoff / Pentaxid(veredelt))
@@ -26,7 +28,7 @@
 11 Verkauf #XX
 
 --- Dekonstruktion ---
-13 Dekonstruktor
+
 
 --- Lootcontainer ---
 20 Loot #XX (so viele Lootcontainer wie nötig/möglich)
@@ -51,13 +53,14 @@
 
 --- Materiallager ---
 94 Erze (Erze / Pentaxid(roh))
-- 94 Roherzschmelze
 - 94 Pentaxid(roh)
-- 94 Prometiumerz
+- 94 Prometiumerz #XX
 - 94 Magnesiumerz
+- 94 Holzstamm #XX
 
 95 Rohmaterial (Barren / Promethiumpellets)
 - 95 Prometiumpellets
+- 95 Goldbarren #01
 
 
 96 Zwischenmaterial (z.B. Motor / Glasfaserkabel)
