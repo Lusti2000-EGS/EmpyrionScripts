@@ -1,0 +1,10 @@
+
+
+
+
+
+
+{{fill item structure tank [max]}}
+
+    Füllt in der Struktur (structure) den Tank (tank) = Fuel/Pxygen/Pentaxid mit dem Item (item) auf. Der prozentuale Füllstand kann mit (max) optional limitiert werden. Standard ist 100.
+
