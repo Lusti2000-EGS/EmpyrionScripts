@@ -1,14 +1,18 @@
-{{fontsize 4}}
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]Refill*
+OutputLCDLabel:	Refill[001 - 999]
+==== /DO NOT COPY ====
 
-{{#items E.S '15 Munition (SV)'}}
-{{#test Id eq 2199}}
-{{#entitybyid '30240394'}}
-{{move ../../. S '50 Munition' 5000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/entitybyid}}
-{{/test}}
+{{fontsize 4}}
+{{#items E.S. '01 Versorgung'}}
+{{#fill this @root.E.S 'Fuel' 100}}
+Fuel: {{Source}}->{{Destination}}
+{{/fill}}
+{{#fill this @root.E.S 'Oxygen' 100}}
+Oxygen: {{Source}}->{{Destination}}
+{{/fill}}
+{{#fill this @root.E.S 'Pentaxid' 100}}
+Pentaxid: {{Source}}->{{Destination}}
+{{/fill}}
 {{/items}}
