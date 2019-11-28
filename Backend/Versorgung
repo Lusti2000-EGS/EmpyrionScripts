@@ -5,17 +5,18 @@ OutputLCDLabel:	Versorgung[001 - 999]
 ==== /DO NOT COPY ====
 {{fontsize 4}}
 
-{{entitiesbyname '*'}}
-{{each .}}
+
 {{#items E.S '01 Versorgung'}}
 {{#test Id eq 2373}}
+{{entitiesbyname '*'}}
+{{each .}}
 {{move this ../../. S '01 Versorgung' 100}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
 {{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
 {{/move}}
-{{/test}}
-{{items}}
 {{/each}}
 {{/entitiesbyname}}
+{{/test}}
+{{items}}
