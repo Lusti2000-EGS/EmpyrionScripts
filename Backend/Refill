@@ -2,6 +2,7 @@
 Author:		Lusti2000
 ScriptLCDLabel:	Script:[+40]Refill*
 OutputLCDLabel:	Refill[001 - 999]
+Herkunftstank:  01 Versorgung
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
