@@ -20,3 +20,25 @@ OutputLCDLabel:	Versorgung[001 - 999]
 {{/entitiesbyname}}
 {{/test}}
 {{items}}
+
+{{#entitiesbyname @root '*'}}
+{{#each .}}
+{{#items S 'Loot*'}}
+{{move this @root.E.S 'TransferBox'}}
+{{SourceE.Name}}:{{Source}} -> {{~DestinationE.Name}}:{{Destination}}
+{{format Count '{0,5}'}} | {{i18n Id 'Deutsch'}}
+{{/move}}
+{{/items}}
+{{/each}}
+{{/entitiesbyname}}
+
+----------CV -> BA-----------------------
+{{#items E.S 'TransferBox'}}
+{{#entitiesbyname @root '*'}}
+{{#each .}}
+{{move ../../. S 'Input Transfer'}} {{SourceE.Name}}:{{Source}} -> {{~DestinationE.Name}}:{{Destination}}
+{{format Count '{0,5}'}} | {{i18n Id 'Deutsch'}}
+{{/move}}
+{{/each}}
+{{/entitiesbyname}}
+{{/items}}
