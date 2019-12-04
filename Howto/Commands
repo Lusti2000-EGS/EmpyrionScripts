@@ -1,7 +1,12 @@
 Fragen an Astic
 Ist der Punkt ( . ) und this dasselbe?
-Warum erzeugt lights automatisch eine Liste (inkludiert each), E.S.Passengers jedoch nicht?
-Warum heisst color nicht fontcolor (exequo fintsize)?
+Warum erzeugt {{lights}} automatisch eine Liste (inkludiert each), E.S.Passengers jedoch nicht?
+Warum heisst {{color}} nicht fontcolor (exequo fontsize)?
+Wenn {{lights}} eine Liste erzeugt, wird dann {{lightintensity this}} jedes Objekt dieser Liste verändern?
+Muss {{lightcolor}} und {{lightintensity}} immer in Kombination mit {{lights}} verwendet werden ?
+  Oder: ist {{lightcolor E.S 'XMas' 'HHHHHH'}} zulässig?
+Triggert {{getswitch}} nur beim Wechsel des Schalters oder wird dies in regelmässigen Abständen abgefragt?
+Geben Befehle mit inkludiertem {{each}} ein Array zurück?
 
 
 
@@ -12,6 +17,16 @@ Playfield Befehle:
 {{P.PlanetClass}}     gibt die Klasse des Planeten als String zuück (Desert)
 {{P.IsPvP}}           gibt als Boolean zurück, ob dieses Playfield PvP ist (true/false)
 {{P.Player}}}         gibt alle Spieler auf dem Planeten als String zurück (meist mit {{each}} verwendet)
+  {{Name}}
+  {{Credits}}
+  {{Died}}
+  {{Kills}}
+  {{Ping}}
+  {{Origin}}
+  {{UpgradePoints}}
+  {{ExperiencePoints}}
+  {{FactionRole}}
+  {{SteamId}}
 
 Entität:
 {{E.Name}}            gibt den Namen der Entität als String zurück
@@ -19,15 +34,16 @@ Entität:
 {{E.Pos}}             gibt die Position der Entität als String zurück (X,Y,Z)
 
 Entität / Struktur:
-{{each}}              Aufzählung starten
 {{E.S.DockedE}}       Gibt alle Entitäten an welche an diese Struktur gedockt sind
 {{E.S.Pilot.Name}}    Gibt den Namen des Politen als String zurück
 {{E.S.Passengers}}    Gibt den Namen des Passagiers als String zurück (meist mit {{each}} verwendet}}
-{{E.S.Items}}         Gibt alle Objekte auf dieser Struktur als String zurück (meist mit {{each}} zurück)
+{{E.S.Items}}         Gibt alle Objekte auf dieser Struktur als String zurück (meist mit {{each}} verwendet)
   {{Id}}
   {{Count}}
   {{Name}}
   {{i18n Key 'Deutsch'}}
+ {{E.S.GetDeviceTypeNames}} Gibt alle möglichen Devicestypes als String zurück (meist mit {{each}} verwendet)
+
 
 Struktur:
 {{use S.FuelTank}}
@@ -35,7 +51,8 @@ Struktur:
 {{use S.PentaxidTank}}
 {{S.DamageLevel}}
 
-Befehle ohne Strukturbezug:
+Befehle ohne (direkten) Strukturbezug:
+{{each}}              Aufzählung starten
 {{datetime}}          Gibt die Serverzeit zurück
 {{datetime 'HH:mm'}}  Gibt die Serverzeit mit Stunden und Minuten zurück
 {{test}}              Prüft auf true/false eines Statements
@@ -45,3 +62,29 @@ Befehle ohne Strukturbezug:
 {{fontsize N}}        setzt Schriftgrösse eines LCD's (N=Schriftgrösse)
 {{color 'HHHHHH'}}    setzt Schriftfarbe des LCD's (HHHHHH=Hexadezimalcode der Farbe)
 {{bgcolor 'HHHHHH'}}  setzt Hintergrundfarbe des LCD's (HHHHHH=Hexadezimalcode der Farbe)
+{{lights [Entität.Struktur] '[Filter]'}}
+{{lightcolor [Struktur] 'HHHHHH'}}  in Kombination mit {{lights}} verwendet
+{{lightintensity [Struktur] 'HHHHHH'}}  in Kombination mit {{lights}} verwendet
+{{scroll [Struktur] [Zeilen]}}
+{{devicesoftype [Entität.Struktur] '[DeviceTypeName]'}} gibt alle Devices dieses Typs  als String zurück (meist mit {{each}} verwendet)
+  {{CustomName}}
+  {{else}}            null-Teil von {{devicesoftype}}
+{{devices [Entität.Struktur] '[Filter]'}}
+  {{CustomName}}
+  {{Position}}
+  {{Damage}}
+  {{HitPoints}}
+  {{Active}}
+  {{setactive [Struktur] '[true/false]'}}
+
+Stats:
+{{Stamina / StaminaMax}}
+{{Food / FoodMax}}
+{{Health / HealthMax}}
+{{Oxygen / OxygenMax}}
+{{Radiation / RadiationMax}}
+{{BodyTemp / BodyTempMax}}
+
+
+
+
