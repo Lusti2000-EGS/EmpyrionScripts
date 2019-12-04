@@ -27,6 +27,7 @@ Playfield Befehle:
   {{ExperiencePoints}}
   {{FactionRole}}
   {{SteamId}}
+  {{Bag}}
 
 Entität:
 {{E.Name}}            gibt den Namen der Entität als String zurück
