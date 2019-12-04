@@ -77,6 +77,15 @@ Befehle ohne (direkten) Strukturbezug:
   {{HitPoints}}
   {{Active}}
   {{setactive [Struktur] '[true/false]'}}
+{{move [Entität.Struktur] '[Filter]' N}}
+  {{SourceE.Name}}
+  {{Source}}
+  {{DestinationE.Name}}
+  {{Destination}}
+  {{entitiesbyname '[Filter]'}}
+  {{entitybyname '[Filter]'}}
+  {{entitiesbyid '[Filter]'}}
+  {{entitybyid '[Filter]'}}
 
 Stats:
 {{Stamina / StaminaMax}}
@@ -85,7 +94,4 @@ Stats:
 {{Oxygen / OxygenMax}}
 {{Radiation / RadiationMax}}
 {{BodyTemp / BodyTempMax}}
-
-
-
 
