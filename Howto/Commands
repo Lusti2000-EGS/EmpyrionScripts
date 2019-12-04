@@ -1,0 +1,47 @@
+Fragen an Astic
+Ist der Punkt ( . ) und this dasselbe?
+Warum erzeugt lights automatisch eine Liste (inkludiert each), E.S.Passengers jedoch nicht?
+Warum heisst color nicht fontcolor (exequo fintsize)?
+
+
+
+Playfield Befehle:
+{{P.Name}}            gibt den Namen des Playfields als String zurück
+{{P.PlayfieldType}}   gibt den Typ eines Playfields als String zurück (Planet / Orbit)
+{{P.PlanetType}}      gibt des Typ des Planetes als String zurück (Desert)
+{{P.PlanetClass}}     gibt die Klasse des Planeten als String zuück (Desert)
+{{P.IsPvP}}           gibt als Boolean zurück, ob dieses Playfield PvP ist (true/false)
+{{P.Player}}}         gibt alle Spieler auf dem Planeten als String zurück (meist mit {{each}} verwendet)
+
+Entität:
+{{E.Name}}            gibt den Namen der Entität als String zurück
+{{E.Id}}              gibt die Id der Entität als String zurück
+{{E.Pos}}             gibt die Position der Entität als String zurück (X,Y,Z)
+
+Entität / Struktur:
+{{each}}              Aufzählung starten
+{{E.S.DockedE}}       Gibt alle Entitäten an welche an diese Struktur gedockt sind
+{{E.S.Pilot.Name}}    Gibt den Namen des Politen als String zurück
+{{E.S.Passengers}}    Gibt den Namen des Passagiers als String zurück (meist mit {{each}} verwendet}}
+{{E.S.Items}}         Gibt alle Objekte auf dieser Struktur als String zurück (meist mit {{each}} zurück)
+  {{Id}}
+  {{Count}}
+  {{Name}}
+  {{i18n Key 'Deutsch'}}
+
+Struktur:
+{{use S.FuelTank}}
+{{use S.OxygenTank}}
+{{use S.PentaxidTank}}
+{{S.DamageLevel}}
+
+Befehle ohne Strukturbezug:
+{{datetime}}          Gibt die Serverzeit zurück
+{{datetime 'HH:mm'}}  Gibt die Serverzeit mit Stunden und Minuten zurück
+{{test}}              Prüft auf true/false eines Statements
+  {{else}}            false-Teil von {{test}}
+{{intervall N}}       führt einen Intervall aus (N=Sekunden)
+  {{else}}            else-Teil von {{intervall}}
+{{fontsize N}}        setzt Schriftgrösse eines LCD's (N=Schriftgrösse)
+{{color 'HHHHHH'}}    setzt Schriftfarbe des LCD's (HHHHHH=Hexadezimalcode der Farbe)
+{{bgcolor 'HHHHHH'}}  setzt Hintergrundfarbe des LCD's (HHHHHH=Hexadezimalcode der Farbe)
