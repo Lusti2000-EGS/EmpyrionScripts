@@ -1,0 +1,24 @@
+<color=white><size=6><align=center>ZULU {{datetime 'HH:mm' '+0'}}
+CET {{datetime 'HH:mm' '+1'}}
+EET {{datetime 'HH:mm' '+3'}}</size>
+ 
+<size=6>Status der Basis</size>
+<size=3>Schaden: {{~format E.S.DamageLevel '{0,8:P2}'}}
+{{#use E.S.FuelTank}}
+{{bar Content 0 Capacity 20}}
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} Fuel
+{{/use}}
+{{#use E.S.OxygenTank}}
+{{bar Content 0 Capacity 20}}
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} O2
+{{/use}}
+{{#use E.S.PentaxidTank}}
+{{bar Content 0 Capacity 20}}
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} Pe
+{{/use}}</size></color>
