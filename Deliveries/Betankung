@@ -1,0 +1,19 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]Refill*
+OutputLCDLabel:	Refill[001 - 999]
+Herkunftstank:  01 Versorgung
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S. '01 Versorgung'}}
+{{#fill this @root.E.S 'Fuel' 100}}
+Fuel: {{Source}}->{{Destination}}
+{{/fill}}
+{{#fill this @root.E.S 'Oxygen' 100}}
+Oxygen: {{Source}}->{{Destination}}
+{{/fill}}
+{{#fill this @root.E.S 'Pentaxid' 100}}
+Pentaxid: {{Source}}->{{Destination}}
+{{/fill}}
+{{/items}}
