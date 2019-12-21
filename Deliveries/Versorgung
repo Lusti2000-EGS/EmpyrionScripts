@@ -21,6 +21,20 @@ OutputLCDLabel:	Versorgung[001 - 999]
 {{/test}}
 {{items}}
 
+ACTIC Orig
+{{#items E.S 'BoxTransfer'}}
+{{#entitiesbyname '*'}}
+{{#each .}}
+{{move ../../. S 'InputBox*'}}
+{{SourceE.Name}}:{{Source}}
+-> {{~DestinationE.Name}}:{{Destination}}
+{{format Count '{0,5}'}} : {{i18n Id 'Deutsch'}}
+{{/move}}
+{{/each}}
+{{/entitiesbyname}}
+{{/items}}
+
+
 {{#entitiesbyname @root '*'}}
 {{#each .}}
 {{#items S 'Loot*'}}
