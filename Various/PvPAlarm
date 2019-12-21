@@ -1,0 +1,7 @@
+{{fontsize 4}}
+{{#each P.Player}}
+{{#test Name in "Lusti2000,Pars,jakukito,Master-Voggard,ElCordez"}}
+{{else}}
+{{datetime}} {{Name}}
+{{/test}}
+{{/each}}
