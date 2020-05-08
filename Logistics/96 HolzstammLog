@@ -1,8 +1,10 @@
 ==== DO NOT COPY ====
 Author: Lusti2000
 Empyrion: A12.3 (tested)
+
 ScriptLCDLabel:	Script:[+40]HolzstammLog*
 OutputLCDLabel:	HolzstammLog[001 - 999]
+Container Volume: 320000
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
