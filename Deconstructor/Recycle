@@ -9,8 +9,8 @@ OutputLCDLabel:	Recycle[001 - 999]
 {{#entitiesbyname '*'}}
 {{#each .}}
 {{../Name}}:{{../Id}}
-{{Recycle . '00 Main Storage' 'Core-Recycle'}}
-{{/deconstruct}}
+{{recycle . '00 Main Storage' 'Core-Recycle'}}
+{{/recycle}}
 {{/devices}}
 {{/each}}
 {{/entitiesbyname}}
