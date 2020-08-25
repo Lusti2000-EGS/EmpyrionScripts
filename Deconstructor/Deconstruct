@@ -2,6 +2,7 @@
 Author:		Lusti2000
 ScriptLCDLabel:	Script:[+40]Deconstruct*
 OutputLCDLabel:	Deconstruct[001 - 999]
+Destination Container: Output
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
@@ -9,7 +10,7 @@ OutputLCDLabel:	Deconstruct[001 - 999]
 {{#entitiesbyname '*'}}
 {{#each .}}
 {{../Name}}:{{../Id}}
-{{deconstruct . '99 Test' 'Core-Destruct'}}
+{{deconstruct . 'Output' 'Core-Destruct'}}
 {{/deconstruct}}
 {{/devices}}
 {{/each}}
