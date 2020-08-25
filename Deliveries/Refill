@@ -2,11 +2,11 @@
 Author:		Lusti2000
 ScriptLCDLabel:	Script:[+40]Refill*
 OutputLCDLabel:	Refill[001 - 999]
-Herkunftstank:  01 Versorgung
+Source Container:  Source
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
-{{#items E.S. '01 Versorgung'}}
+{{#items E.S. 'Source'}}
 {{#fill this @root.E.S 'Fuel' 100}}
 Fuel: {{Source}}->{{Destination}}
 {{/fill}}
