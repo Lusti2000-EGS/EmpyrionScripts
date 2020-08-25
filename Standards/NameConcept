@@ -1,8 +1,6 @@
---- Produktion ---
-00 Eingangslager
-00 Hauptlager
-00 Schmelze (geht in die Schmelze)
-00 Dekonstruktor (geht in den Dekonstruktor)
+--- Production ---
+00 Input Storage
+00 Main Storage
 
 --- Versorgung ---
 01 Versorgung (Energiezellen / Sauerstoff / Pentaxid(veredelt))
