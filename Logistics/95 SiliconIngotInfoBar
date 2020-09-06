@@ -11,5 +11,3 @@ Silicon Ingot
 {{~format . '{0,8:P2}'}}
 {{~/math}}
 {{/items}}
-{{~/math}}
-{{/items}}
