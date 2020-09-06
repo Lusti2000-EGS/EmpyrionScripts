@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:CuBarrenInfo*
+OutputLCDLabel:	CuBarrenInfo[001 - 999]
+==== /DO NOT COPY ====
+
+Copper Ingot
+{{#items E.S '95 Copper Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
