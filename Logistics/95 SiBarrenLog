@@ -1,13 +1,13 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]SiBarrenLog*
-OutputLCDLabel:	SiBarrenLog[001 - 999]
+ScriptLCDLabel:	Script:[+40]SiIngotLog*
+OutputLCDLabel:	SiIngotLog[001 - 999]
 ==== /DO NOT COPY ====
 
-{{fontsize @root 4}}
-{{#items E.S '00 Eingangslager'}}
+{{fontsize 4}}
+{{#items E.S '00 Entry Storage'}}
 {{#test Id eq 2274}}
-{{move this @root.E.S '95 #04 SiBarren' 127872}}
+{{move this @root.E.S '95 Silicon Ingot' 426666}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
@@ -15,31 +15,3 @@ OutputLCDLabel:	SiBarrenLog[001 - 999]
 {{/move}}
 {{/test}}
 {{/items}}
-
-{{#items E.S '95 #04 SiBarren'}}
-{{move this @root.E.S '95 #03 SiBarren' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/items}}
-
-{{#items E.S '95 #03 SiBarren'}}
-{{move this @root.E.S '95 #02 SiBarren' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/items}}
-
-{{#items E.S '95 #02 SiBarren'}}
-{{move this @root.E.S '95 #01 SiBarren' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/items}}
- 
