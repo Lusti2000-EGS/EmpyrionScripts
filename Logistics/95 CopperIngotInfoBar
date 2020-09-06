@@ -1,7 +1,7 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:CuBarrenInfo*
-OutputLCDLabel:	CuBarrenInfo[001 - 999]
+ScriptLCDLabel:	Script:CuIngotInfo*
+OutputLCDLabel:	CuIngotInfo[001 - 999]
 ==== /DO NOT COPY ====
 
 Copper Ingot
