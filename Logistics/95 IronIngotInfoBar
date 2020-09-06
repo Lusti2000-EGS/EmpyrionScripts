@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:FeBarrenInfo*
+OutputLCDLabel:	FeBarrenInfo[001 - 999]
+==== /DO NOT COPY ====
+
+{{fontsize 5}}
+
+Eisenbarren #1
+{{#items E.S '95 Eisenbarren #01'}}
+{{bar count 0 127872 20}}
+{{~math count '/' 127872}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
