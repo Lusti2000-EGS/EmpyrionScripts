@@ -1,44 +1,17 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]CuBarrenLog*
-OutputLCDLabel:	CuBarrenLog[001 - 999]
+ScriptLCDLabel:	Script:[+40]CuIngotLog*
+OutputLCDLabel:	CuIngotLog[001 - 999]
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
-{{#items E.S '00 Eingangslager'}}
+{{#items E.S '00 Entry Storage'}}
 {{#test Id eq 2276}}
-{{move this @root.E.S '95 Kupferbarren #04' 127872}}
+{{move this @root.E.S '95 Copper Ingot' 426666}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
 {{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
 {{/move}}
 {{/test}}
-{{/items}}
-
-{{#items E.S '95 Kupferbarren #04'}}
-{{move this @root.E.S '95 Kupferbarren #03' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/items}}
-
-{{#items E.S '95 Kupferbarren #03'}}
-{{move this @root.E.S '95 Kupferbarren #02' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/items}}
-
-{{#items E.S '95 Kupferbarren #02'}}
-{{move this @root.E.S '95 Kupferbarren #01' 127872}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
 {{/items}}
