@@ -1,7 +1,7 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:SiBarrenInfo*
-OutputLCDLabel:	SiBarrenInfo[001 - 999]
+ScriptLCDLabel:	Script:SiIngotInfo*
+OutputLCDLabel:	SiIngotInfo[001 - 999]
 ==== /DO NOT COPY ====
 
 Silicon Ingot
