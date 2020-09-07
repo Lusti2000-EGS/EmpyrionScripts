@@ -1,8 +1,12 @@
-
-
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]TiRodLog*
+OutputLCDLabel:	TiRodLog[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
 
 {{fontsize 4}}
-{{#items E.S '00 Input'}}
+{{#items E.S '00 Input Storage'}}
 {{#test Id eq 2312}}
 {{move this @root.E.S '95 Titanium Rod' 426666}}
 {{datetime}}
