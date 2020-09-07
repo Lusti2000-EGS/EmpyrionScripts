@@ -4,9 +4,10 @@
 x	Main Storage
 		Container: 00 Main Storage
 		Script:[+40]MainStorageLog*
-x	Entry Storage
-		Container: 00 Entry Storage
-		Script:EntryStorageInfo*
+x	Input Storage
+		Container: 00 Input Storage
+		Script:InputStorageLog*
+		Script:InputStorageInfo*
 
 == Erz 94==
 	Pentaxid (unraffiniert) 2293
