@@ -5,7 +5,7 @@ OutputLCDLabel:	TiRodInfo[001 - 999]
 Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
-{{fontsize 4}}
+{{fontsize 6}}
 Titanium Rod
 {{#items E.S '95 Titanium Rod'}}
 {{bar count 0 426666 20}}
