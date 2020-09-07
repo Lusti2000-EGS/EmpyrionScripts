@@ -2,7 +2,7 @@
 Author:		Lusti2000
 ScriptLCDLabel:	Script:MgPowderInfo*
 OutputLCDLabel:	MgPowderInfo[001 - 999]
-
+Version 1.1.6 RG
 ==== /DO NOT COPY ====
 
 {{fontsize @root 6}}
