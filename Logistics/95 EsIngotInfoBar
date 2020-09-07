@@ -1,0 +1,14 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:IsIngotInfo*
+OutputLCDLabel:	EsIngotInfo[001 - 999]
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+Erestrum Ingot
+{{#items E.S '95 Erestrum Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
