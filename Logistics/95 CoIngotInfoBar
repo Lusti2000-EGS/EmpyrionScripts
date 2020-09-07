@@ -5,8 +5,7 @@ OutputLCDLabel: CoIngotInfo[001 - 999]
 Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
-{{fontsize 5}}
- 
+{{fontsize 6}}
 Cobalt Ingot
 {{#items E.S '95 Cobalt Ingot'}}
 {{bar count 0 426666 20}}
