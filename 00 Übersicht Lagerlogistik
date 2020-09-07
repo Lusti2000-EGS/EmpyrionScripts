@@ -1,4 +1,13 @@
 = LogistikScripting =
+
+== Main Storage Class 00 ==
+x	Main Storage
+		Container: 00 Main Storage
+		Script:[+40]MainStorageLog*
+x	Entry Storage
+		Container: 00 Entry Storage
+		Script:EntryStorageInfo*
+
 == Erz 94==
 	Pentaxid (unraffiniert) 2293
 		Script:[+40]PeRohprodLog*
@@ -8,45 +17,58 @@
 	Schotter 2280
 		Script:[+40]SchotterLog*
 	Holzstämme 2290
-WL		Script:[+40]HolzstammeLog*
+		Script:[+40]HolzstammeLog*
 
-== Rohmaterial 95==
-	Eisenbarren 2272
-		Script:[+40]FeBarrenLog*
-		Script:FeBarrenInfo*
-	Kupferbarren 2276
-		Script:[+40]CuBarrenLog*
-		Script:CuBarrenInfo*
-	Siliziumbarren 2274
-		Script:[+40]SiBarrenLog*
-		Script:SiBarrenInfo*
-	Kobaltbarren 2273
-		Script:[+40]CoBarrenLog*
-		Script:CoBarrenInfo*
-	Neodymiumbarren 2275
-		Script:[+40]NdBarrenLog*
-		Script:NdBarrenInfo*
-	Sathiumbarren 2285
-		Script:[+40]SaBarrenLog*
-		Script:SaBarrenInfo*
-	Erestrumbarren 2278
-		Script:[+40]EsBarrenLog*
-		Script:EsBarrenInfo*
-	Zaskosiumbarren 2279
-		Script:[+40]ZsBarrenLog*
-		Script:ZsBarrenInfo*
-	Goldbarren 2298
-		Script:[+40]AuBarrenLog*
-=>	Script:AuBarrenInfo*
-	Magnesiumpulver 2271
-		Script:[+40]MgPulverLog*
-		Script:MgPulverInfo*
-	Promethiumpellet 2277
+== Processed Material Class 95==
+x	Iron Ingot 2272
+		Container: 95 Iron Ingot
+		Script:[+40]FeIngotLog*
+		Script:FeIngot Info*
+x	Copper Ingot 2276
+		Container: 95 Copper Ingot
+		Script:[+40]CuIngotLog*
+		Script:CuIngotInfo*
+x	Silicon Ingot 2274
+		Container: 95 Silicon Ingot
+		Script:[+40]SiIngotLog*
+		Script:SiIngoltInfo*
+x	Titanium Rod
+		Container: 95 Titanium Rod
+		Script:[+40]TiRodLog*
+		Script:TiRodInfo*
+x	Cobalt Ingot 2273
+		Container: 95 Cobalt Ingot
+		Script:[+40]CoIngotLog*
+		Script:CoIngotInfo*
+x	Neodymium Ingot 2275
+		Container: 95 Neodymium Ingot
+		Script:[+40]NdIngotLog*
+		Script:NdIngotInfo*
+x	Sathium Ingot 2285
+		Container: 95 Sathium Ingot
+		Script:[+40]SaIngotLog*
+		Script:SaIngotInfo*
+x	Erestrum Ingot 2278
+		Container: 95 Erestrum Ingot
+		Script:[+40]EsIngotLog*
+		Script:EsIngotInfo*
+x	Zascosium Ingot 2279
+		Container: 95 Zascosium Ingot
+		Script:[+40]ZsIngotLog*
+		Script:ZsIngotInfo*
+	Gold Ingot 2298
+		Container: 95 Gold Ingot
+		Script:[+40]AuIngotLog*
+		Script: AuIngotInfo*
+	Magnesium Powder 2271
+		Container: 95 Magnesium Powder
+		Script:[+40]MgPowderLog*
+		Script:MgPowderInfo*
+x	Promethium Pellet 2277
+		Container: 95 Promethium Pellet
 		Script:[+40]PrPelletLog*	 
 		Script:PrPelletInfo*
-	Wasserkanister 2396
-		Script:[+40]H2OKanisterLog*
-	Gesteinsmehl 2281
+	Crushed Stone 2281
 	
 	
 
@@ -92,7 +114,7 @@ WL		Script:[+40]HolzstammeLog*
 	Nährlösung 2380
 		Script:[+40]NahrlosungLog*
 	Zement 2292
-WL		Script:[+40]ZementLog*
+		Script:[+40]ZementLog*
 	Bergbaugerätekern 2302
 	Elementares Pentaxid 2309
 
