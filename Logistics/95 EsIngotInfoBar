@@ -2,6 +2,7 @@
 Author:		Lusti2000
 ScriptLCDLabel:	Script:IsIngotInfo*
 OutputLCDLabel:	EsIngotInfo[001 - 999]
+Version 1.1.6 RG
 ==== /DO NOT COPY ====
 
 {{fontsize 6}}
