@@ -5,7 +5,7 @@ OutputLCDLabel:	CuIngotLog[001 - 999]
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
-{{#items E.S '00 Entry Storage'}}
+{{#items E.S '00 Input Storage'}}
 {{#test Id eq 2276}}
 {{move this @root.E.S '95 Copper Ingot' 426666}}
 {{datetime}}
