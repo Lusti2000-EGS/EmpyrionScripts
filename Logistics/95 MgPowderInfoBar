@@ -5,7 +5,7 @@ OutputLCDLabel:	MgPowderInfo[001 - 999]
 Version 1.1.6 RG
 ==== /DO NOT COPY ====
 
-{{fontsize @root 6}}
+{{fontsize 6}}
 Magnesium Powder
 {{#items E.S '95 Magnesium Powder'}}
 {{bar count 0 426666 20}}
