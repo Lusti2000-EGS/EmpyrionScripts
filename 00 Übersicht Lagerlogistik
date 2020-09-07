@@ -15,10 +15,10 @@ x	Input Storage
 	Promethiumerz 2254
 		Script:[+40]PrErzLog*
 		Script:PrErzInfo*
-	Schotter 2280
-		Script:[+40]SchotterLog*
-	Holzstämme 2290
-		Script:[+40]HolzstammeLog*
+	Crushed Stone 2280
+		Script:[+40]CrushedStoneLog*
+	Wooldlog 2290
+		Script:[+40]WoodlogLog*
 
 == Processed Material Class 95==
 x	Iron Ingot 2272
