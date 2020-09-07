@@ -4,7 +4,7 @@ ScriptLCDLabel:	Script:[+40]ZsBarrenLog*
 OutputLCDLabel:	ZsBarrenLog[001 - 999]
 ==== /DO NOT COPY ====
 
-{{fontsize @root 4}}
+{{fontsize 4}}
 {{#items E.S '00 Input Storage'}}
 {{#test Id eq 2279}}
 {{move this @root.E.S '95 Zascosium Ingot' 426666}}
