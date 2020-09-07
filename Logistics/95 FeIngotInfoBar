@@ -5,6 +5,7 @@ OutputLCDLabel:	FeIngotInfo[001 - 999]
 Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
+{{fontsize 6}}
 Iron Ingot
 {{#items E.S '95 Iron Ingot'}}
 {{bar count 0 426666 20}}
