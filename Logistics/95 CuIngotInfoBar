@@ -5,6 +5,7 @@ OutputLCDLabel:	CuIngotInfo[001 - 999]
 Version 1.1.6 RG
 ==== /DO NOT COPY ====
 
+{{fontsize 6}}
 Copper Ingot
 {{#items E.S '95 Copper Ingot'}}
 {{bar count 0 426666 20}}
