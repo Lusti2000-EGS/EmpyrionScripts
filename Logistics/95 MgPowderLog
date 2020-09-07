@@ -5,7 +5,7 @@ OutputLCDLabel:	MgPowderLog[001 - 999]
 Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
-{{fontsize @root 4}}
+{{fontsize 4}}
 {{#items E.S '00 Input Storage'}}
 {{#test Id eq 2271}}
 {{move this @root.E.S '95 Magnesium Powder' 426666}}
