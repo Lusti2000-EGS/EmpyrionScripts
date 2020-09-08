@@ -3,6 +3,7 @@ Author:		Lusti2000
 ScriptLCDLabel:	Script:[+40]Deconstruct*
 OutputLCDLabel:	Deconstruct[001 - 999]
 Destination Container: Output
+Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
