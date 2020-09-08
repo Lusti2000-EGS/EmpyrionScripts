@@ -6,7 +6,7 @@ Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
 {{fontsize 6}}
-Cobalt Ingot
+Gold Ingot
 {{#items E.S '95 Gold Ingot'}}
 {{bar count 0 426666 20}}
 {{~math count '/' 426666}}
