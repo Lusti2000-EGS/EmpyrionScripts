@@ -4,14 +4,14 @@ ScriptLCDLabel:	Script:[+40]FusionCellLog*
 OutputLCDLabel:	FusionCellLog[001 - 999]
 ==== /DO NOT COPY ====
 
-  {{fontsize 4}}
-  {{#items E.S '00 Input Storage'}}
-  {{#test Id eq 2373}}
-  {{move this @root.E.S '01 Fusion Cell' 127872}}
-  {{datetime}}
-  {{Source}} -> {{Destination}}
-  {{format Count '{0,5}'}}:
-  {{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-  {{/move}}
-  {{/test}}
-  {{/items}}
+{{fontsize 4}}
+{{#items E.S '00 Input Storage'}}
+{{#test Id eq 2373}}
+{{move this @root.E.S '01 Fusion Cell' 127872}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
