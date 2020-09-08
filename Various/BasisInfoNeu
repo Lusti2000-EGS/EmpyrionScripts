@@ -1,3 +1,10 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:BaseInfo*
+OutputLCDLabel:	BaseInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
 <color=white><size=6><align=center>ZULU {{datetime 'HH:mm' '+0'}}
 CET {{datetime 'HH:mm' '+1'}}
 EET {{datetime 'HH:mm' '+3'}}</size>
