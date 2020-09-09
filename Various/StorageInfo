@@ -1,0 +1,82 @@
+{{fontsize 6}}
+===BACKLOG ===
+ 
+Iron Ingot
+{{#items E.S '95 Iron Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
+
+Silicon Ingot
+{{#items E.S '95 Silicon Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
+
+Copper Ingot
+{{#items E.S '95 Copper Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
+
+Titanium Rod
+{{#items E.S '95 Titanium Rod'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
+
+Cobalt Ingot
+{{#items E.S '95 Cobalt Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
+
+Erestrum Ingot
+{{#items E.S '95 Erestrum Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
+
+Zascosium Ingot
+{{#items E.S '95 Zascosium Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
+
+Promethium Pellet
+{{#items E.S '95 Promethium Pellet'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+{{~/math}}
+{{/items}}
