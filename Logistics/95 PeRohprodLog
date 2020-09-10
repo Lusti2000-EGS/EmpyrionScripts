@@ -8,7 +8,7 @@ Version: 1.1.6 RG
 {{fontsize 4}}
 {{#items E.S '00 Input Storage'}}
 {{#test Id eq 2293}}
-{{move this @root.E.S '95 Pentaxid (raw)' }}
+{{move this @root.E.S '95 Pentaxid (raw)' 18934}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
