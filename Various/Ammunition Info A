@@ -1,0 +1,48 @@
+
+{{fontsize 6}}
+5.8mm Bullet (BA/CV)
+{{#items E.S '90 5.8mm Bullet (BA/CV)'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+{{fontsize 6}}
+15 x 127mm Bullet (BA/CV/SV/HV)
+{{#items E.S '90 15mm Bullet (BA/CV/SV/HV)'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+{{fontsize 6}}
+30 x 175mm Bullet (BA/CV)
+{{#items E.S '90 30mm Bullet (BA/CV)'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+{{fontsize 6}}
+Mk220 Laser Charge (BA)
+{{#items E.S '90 Mk220 Laser Charge (BA)'}}
+{{bar count 0 6400 20}}
+{{~math count '/' 6400}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+{{fontsize 6}}
+L2 Heavy Plasma Cell (BA)
+{{#items E.S '90 L2 Heavy Plasma Cell (BA)'}}
+{{bar count 0 12800 20}}
+{{~math count '/' 12800}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+--INPU
+
