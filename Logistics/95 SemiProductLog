@@ -1,7 +1,7 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]SemiProduct*
-OutputLCDLabel:	SemiProduct[001 - 999]
+ScriptLCDLabel:	Script:[+40]SemiProductLog*
+OutputLCDLabel:	SemiProductLog[001 - 999]
 Version 1.1.6 RG
 ==== /DO NOT COPY ====
 
