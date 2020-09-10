@@ -15,9 +15,9 @@ x	Input Storage
 	Promethiumerz 2254
 		Script:[+40]PrErzLog*
 		Script:PrErzInfo*
-	Crushed Stone 2280
+x	Crushed Stone 2280
 		Script:[+40]CrushedStoneLog*
-	Wooldlog 2290
+x	Wooldlog 2290
 		Script:[+40]WoodlogLog*
 
 == Processed Material Class 95==
@@ -57,11 +57,11 @@ x	Zascosium Ingot 2279
 		Container: 95 Zascosium Ingot
 		Script:[+40]ZsIngotLog*
 		Script:ZsIngotInfo*
-	Gold Ingot 2298
+x	Gold Ingot 2298
 		Container: 95 Gold Ingot
 		Script:[+40]AuIngotLog*
 		Script: AuIngotInfo*
-	Magnesium Powder 2271
+x	Magnesium Powder 2271
 		Container: 95 Magnesium Powder
 		Script:[+40]MgPowderLog*
 		Script:MgPowderInfo*
