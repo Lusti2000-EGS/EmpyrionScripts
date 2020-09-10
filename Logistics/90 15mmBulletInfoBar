@@ -6,7 +6,7 @@ Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
 {{fontsize 6}}
-15 x 127mm Bullet (BA/CV)
+15 x 127mm Bullet (BA/CV/SV/HV)
 {{#items E.S '90 15mm Bullet (BA/CV/SV/HV)'}}
 {{bar count 0 512000 20}}
 {{~math count '/' 512000}}
