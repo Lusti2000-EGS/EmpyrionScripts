@@ -1,0 +1,18 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]30mmBulletLog*
+OutputLCDLabel:	30mmBulletLog[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S '00 Input Storage'}}
+{{#test Id eq 2201}}
+{{move this @root.E.S '90 30mm Bullet (BA/CV)' 512000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
