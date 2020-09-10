@@ -8,8 +8,8 @@ Version: 1.1.6 RG
 {{fontsize 6}}
 Mk220 Laser Charge (BA)
 {{#items E.S '90 Mk220 Laser Charge (BA)'}}
-{{bar count 0 12800 20}}
-{{~math count '/' 12800}}
+{{bar count 0 6400 20}}
+{{~math count '/' 6400}}
 {{~format . '{0,8:P2}'}}
 {{~/math}}
 {{/items}}
