@@ -33,7 +33,7 @@ x	Silicon Ingot 2274
 		Container: 95 Silicon Ingot
 		Script:[+40]SiIngotLog*
 		Script:SiIngoltInfo*
-x	Titanium Rod
+x	Titanium Rod 2312
 		Container: 95 Titanium Rod
 		Script:[+40]TiRodLog*
 		Script:TiRodInfo*
