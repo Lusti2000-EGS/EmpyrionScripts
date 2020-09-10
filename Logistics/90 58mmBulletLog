@@ -6,7 +6,7 @@ Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
-{{#items E.S '00 Main Storage'}}
+{{#items E.S '00 Input Storage'}}
 {{#test Id eq 2102}}
 {{move this @root.E.S '90 5.8mm Bullet (BA/CV)' 512000}}
 {{datetime}}
