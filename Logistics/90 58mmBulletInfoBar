@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:58mmBulletInfo*
+OutputLCDLabel: 58mmBulletInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+Gold Ingot
+{{#items E.S '90 5.8mm Bullet (BA/CV)'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
