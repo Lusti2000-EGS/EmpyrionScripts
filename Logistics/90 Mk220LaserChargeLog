@@ -8,7 +8,7 @@ Version: 1.1.6 RG
 {{fontsize 4}}
 {{#items E.S '00 Input Storage'}}
 {{#test Id eq 2216}}
-{{move this @root.E.S '90 Mk220 Laser Charge (BA)' 12800}}
+{{move this @root.E.S '90 Mk220 Laser Charge (BA)' 6400}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
