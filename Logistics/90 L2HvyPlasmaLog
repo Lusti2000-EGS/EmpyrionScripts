@@ -1,7 +1,7 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]L2HeavyPlasaCellLog*
-OutputLCDLabel:	L2HeavyPlasaCellLog[001 - 999]
+ScriptLCDLabel:	Script:[+40]L2HvyPlasmaLog*
+OutputLCDLabel:	L2HvyPlasmaLog[001 - 999]
 Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
