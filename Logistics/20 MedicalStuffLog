@@ -1,0 +1,18 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]MedicalStuffLog*
+OutputLCDLabel:	MedicalStuffLog[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S '00 Input Storage'}}
+{{#test Id in '2355,2356,2375,2377,2382,2385,2389,2393,2416,2427,2428,2430,2435,2436,2438,2440,2441'}
+{{move this @root.E.S '20 Medical Stuff' 2000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
