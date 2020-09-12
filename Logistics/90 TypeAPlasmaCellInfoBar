@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:TypeAPlasmCInfo*
+OutputLCDLabel: TypeAPlasmCInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+Type-A Plasma Cell (SV/HV)
+{{#items E.S '90 Type-A Plasma Cel (SV/HV)'}}
+{{bar count 0 256000 20}}
+{{~math count '/' 256000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
