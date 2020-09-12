@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:115mmGdMslInfo*
+OutputLCDLabel: 115mmGdMslInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+115mm Guided Missle (SV/HV)
+{{#items E.S '90 115mm Guided Miss (SV/HV)'}}
+{{bar count 0 78048 20}}
+{{~math count '/' 78048}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
