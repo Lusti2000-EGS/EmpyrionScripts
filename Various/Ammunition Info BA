@@ -77,4 +77,3 @@ L2 Heavy Plasma Cell (BA)
 {{~format . '{0,8:P2}'}}
 {{~/math}}
 {{/items}}
-
