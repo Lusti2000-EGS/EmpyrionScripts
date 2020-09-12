@@ -1,0 +1,18 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]RailgunBulletLog*
+OutputLCDLabel:	RailgunBulletLog[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S '00 Input Storage'}}
+{{#test Id eq 2199}}
+{{move this @root.E.S '90 Railgun Bullet (SV)' 355555}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
