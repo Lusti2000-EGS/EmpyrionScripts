@@ -55,7 +55,6 @@ L2 Heavy Plasma Cell (BA)
 {{~/math}}
 {{/items}}
 
-
 145mm Precision-Guided Missle
 {{#items E.S '90 145mm Guided Missle (BA)'}}
 {{bar count 0 10000 20}}
