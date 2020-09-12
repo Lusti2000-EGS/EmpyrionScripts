@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:110mmUnguidedMissleInfo*
+OutputLCDLabel: 110mmUnguidedMissleInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+110mm Unguided Missle (CV/SV/HV)
+{{#items E.S '90 110mm Missle (CV/SV/HV)'}}
+{{bar count 0 88888 20}}
+{{~math count '/' 88888}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
