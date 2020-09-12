@@ -5,8 +5,8 @@ OutputLCDLabel: AmmunitionInfoBA[001 - 999]
 Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
-{{fontsize 6}}
-=== Ammunition Info BA ===
+<size=5>=== Ammunition Info BA ===
+<size=3>
  
 5.8mm Bullet (BA/CV)
 {{#items E.S '90 5.8mm Bullet (BA/CV)'}}
