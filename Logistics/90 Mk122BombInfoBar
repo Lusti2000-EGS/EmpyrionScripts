@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:Mk122BombInfo*
+OutputLCDLabel: Mk122BombInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+MK122 Bomb (SV)
+{{#items E.S '90 Mk122 Bomb (SV)'}}
+{{bar count 0 20512 20}}
+{{~math count '/' 20512}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
