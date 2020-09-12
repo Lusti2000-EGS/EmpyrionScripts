@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:380mmHEArtilleryInfo*
+OutputLCDLabel: 380mmHEArtilleryInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+380mm HE Artillery (BA)
+{{#items E.S '90 380mm HE Artillery (BA)'}}
+{{bar count 0 1600 20}}
+{{~math count '/' 1600}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
