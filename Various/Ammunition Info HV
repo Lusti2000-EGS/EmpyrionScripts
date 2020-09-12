@@ -1,0 +1,81 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:AmmunitionInfoSV*
+OutputLCDLabel: AmmunitionInfoSV[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+<size=5>=== Ammunition Info SV ===
+<size=3>
+
+15 x 127mm Bullet (BA/CV/SV/HV)
+{{#items E.S '90 15mm Bullet (BA/CV/SV/HV)'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+110mm Unguided Missle (CV/SV/HV)
+{{#items E.S '90 110mm Missle (CV/SV/HV)'}}
+{{bar count 0 88888 20}}
+{{~math count '/' 88888}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+115mm Guided Missle (SV/HV)
+{{#items E.S '90 115mm Guided Miss (SV/HV)'}}
+{{bar count 0 78048 20}}
+{{~math count '/' 78048}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+Railgun Bullet (SV)
+{{#items E.S '90 Railgun Bullet (SV)'}}
+{{bar count 0 355555 20}}
+{{~math count '/' 355555}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+Type-A Laser Charge (SV/HV)
+{{#items E.S '90 Type-A Laser Crg (SV/HV)'}}
+{{bar count 0 20915 20}}
+{{~math count '/' 20915}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+Type-A Plasma Cell (SV/HV)
+{{#items E.S '90 Type-A Plasma Cel (SV/HV)'}}
+{{bar count 0 256000 20}}
+{{~math count '/' 256000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+Type-B Plasma Cell (SV/HV)
+{{#items E.S '90 Type-B Plasma Cel (SV/HV)'}}
+{{bar count 0 256000 20}}
+{{~math count '/' 256000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+130mm Guided SAM (HV)
+{{#items E.S '90 130mm Guided SAM (HV)'}}
+{{bar count 0 84210 20}}
+{{~math count '/' 84210}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+155mm Artillery Shell (HV)
+{{#items E.S '90 155mm Artillery (HV)'}}
+{{bar count 0 20000 20}}
+{{~math count '/' 20000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
