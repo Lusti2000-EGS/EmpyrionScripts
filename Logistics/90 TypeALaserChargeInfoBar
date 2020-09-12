@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:TypeALsrCrgInfo*
+OutputLCDLabel: TypeALsrCrgInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+Type-A Laser Charge (SV/HV)
+{{#items E.S '90 Type-A Laser Crg (SV/HV)'}}
+{{bar count 0 20915 20}}
+{{~math count '/' 20915}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
