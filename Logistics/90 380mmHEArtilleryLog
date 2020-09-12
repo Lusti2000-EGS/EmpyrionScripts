@@ -1,7 +1,7 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]380mmHEArtiller*
-OutputLCDLabel:	380mmHEArtillerLog[001 - 999]
+ScriptLCDLabel:	Script:[+40]380mmHEArtLog*
+OutputLCDLabel:	380mmHEArtLog[001 - 999]
 Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
