@@ -6,6 +6,7 @@ Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
 {{fontsize 6}}
+=== Ammunition Info BA ===
 5.8mm Bullet (BA/CV)
 {{#items E.S '90 5.8mm Bullet (BA/CV)'}}
 {{bar count 0 512000 20}}
@@ -14,7 +15,6 @@ Version: 1.1.6 RG
 {{~/math}}
 {{/items}}
 
-{{fontsize 6}}
 15 x 127mm Bullet (BA/CV/SV/HV)
 {{#items E.S '90 15mm Bullet (BA/CV/SV/HV)'}}
 {{bar count 0 512000 20}}
@@ -23,7 +23,6 @@ Version: 1.1.6 RG
 {{~/math}}
 {{/items}}
 
-{{fontsize 6}}
 30 x 175mm Bullet (BA/CV)
 {{#items E.S '90 30mm Bullet (BA/CV)'}}
 {{bar count 0 512000 20}}
@@ -32,7 +31,6 @@ Version: 1.1.6 RG
 {{~/math}}
 {{/items}}
 
-{{fontsize 6}}
 Mk220 Laser Charge (BA)
 {{#items E.S '90 Mk220 Laser Charge (BA)'}}
 {{bar count 0 6400 20}}
@@ -41,7 +39,6 @@ Mk220 Laser Charge (BA)
 {{~/math}}
 {{/items}}
 
-{{fontsize 6}}
 L2 Heavy Plasma Cell (BA)
 {{#items E.S '90 L2 Heavy Plasma Cell (BA)'}}
 {{bar count 0 12800 20}}
@@ -50,7 +47,6 @@ L2 Heavy Plasma Cell (BA)
 {{~/math}}
 {{/items}}
 
-{{fontsize 6}}
 37mm Flak Shell (BA)
 {{#items E.S '90 37mm Flak Shell (BA)'}}
 {{bar count 0 80000 20}}
@@ -60,7 +56,6 @@ L2 Heavy Plasma Cell (BA)
 {{/items}}
 
 
-{{fontsize 6}}
 145mm Precision-Guided Missle
 {{#items E.S '90 145mm Guided Missle (BA)'}}
 {{bar count 0 10000 20}}
@@ -69,7 +64,6 @@ L2 Heavy Plasma Cell (BA)
 {{~/math}}
 {{/items}}
 
-{{fontsize 6}}
 380mm HE Artillery (BA)
 {{#items E.S '90 380mm HE Artillery (BA)'}}
 {{bar count 0 1600 20}}
