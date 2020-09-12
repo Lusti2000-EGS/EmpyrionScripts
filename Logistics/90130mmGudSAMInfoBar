@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:130mmGudSAMInfo*
+OutputLCDLabel: 130mmGudSAMInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+130mm Guided SAM (HV)
+{{#items E.S '90 130mm Guided SAM (HV)'}}
+{{bar count 0 84210 20}}
+{{~math count '/' 84210}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
