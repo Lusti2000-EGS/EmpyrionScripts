@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:375mmHEArtilleryInfo*
+OutputLCDLabel: 375mmHEArtilleryInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+375mm HE Artillery (CV)
+{{#items E.S '90 375mm HE Artillery (CV)'}}
+{{bar count 0 1729 20}}
+{{~math count '/' 1729}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
