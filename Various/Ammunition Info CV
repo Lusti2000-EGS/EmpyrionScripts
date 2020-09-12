@@ -1,0 +1,81 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:AmmunitionInfoCV*
+OutputLCDLabel: AmmunitionInfoCV[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+5.8mm Bullet (BA/CV)
+{{#items E.S '90 5.8mm Bullet (BA/CV)'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+15 x 127mm Bullet (BA/CV/SV/HV)
+{{#items E.S '90 15mm Bullet (BA/CV/SV/HV)'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+30 x 175mm Bullet (BA/CV)
+{{#items E.S '90 30mm Bullet (BA/CV)'}}
+{{bar count 0 512000 20}}
+{{~math count '/' 512000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+110mm Unguided Missle (CV/SV/HV)
+{{#items E.S '90 110mm Missle (CV/SV/HV)'}}
+{{bar count 0 88888 20}}
+{{~math count '/' 88888}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+Mk200 Laser Charge (CV)
+{{#items E.S '90 Mk200 Laser Charge (CV)'}}
+{{bar count 0 6400 20}}
+{{~math count '/' 6400}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+-->fehlt MK240 Laser
+
+L3 Heavy Plasma Cell (CV)
+{{#items E.S '90 L3 Heavy Plasma Cell (CV)'}}
+{{bar count 0 16000 20}}
+{{~math count '/' 16000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+37mm Flak Shell (CV)
+{{#items E.S '90 37mm Flak Shell (CV)'}}
+{{bar count 0 80000 20}}
+{{~math count '/' 80000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+140mm Guided Missle (CV)
+{{#items E.S '90 140mm Guided Missle (BA)'}}
+{{bar count 0 10000 20}}
+{{~math count '/' 10000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+375mm HE Artillery (CV)
+{{#items E.S '90 375mm HE Artillery (CV)'}}
+{{bar count 0 1729 20}}
+{{~math count '/' 1729}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
