@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:37mmFlakShellInfo*
+OutputLCDLabel: 37mmFlakShellInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+37mm Flak Shell (BA)
+{{#items E.S '90 37mm Flak Shell (BA)'}}
+{{bar count 0 80000 20}}
+{{~math count '/' 80000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
