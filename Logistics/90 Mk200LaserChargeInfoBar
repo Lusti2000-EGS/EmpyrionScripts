@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:     Lusti2000
+ScriptLCDLabel: Script:Mk200LaserChargeInfo*
+OutputLCDLabel: Mk200LaserChargeInfo[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+Mk200 Laser Charge (CV)
+{{#items E.S '90 Mk200 Laser Charge (CV)'}}
+{{bar count 0 6400 20}}
+{{~math count '/' 6400}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
