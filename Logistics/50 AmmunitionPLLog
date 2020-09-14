@@ -1,0 +1,19 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]MunitionPLLog*
+OutputLCDLabel:	MunitionPLLog[001 - 999]
+Version: 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S '00 Input Storage'}}
+{{#test Id in '2080,2099,2100,2101,2103,2105,2106,2109,2110,2113,2114,2268,3648'}}
+{{move this @root.E.S '50 Ammunition (PL)' 512000}}
+{{datetime}}
+{{Source}} ->
+ {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
