@@ -48,7 +48,13 @@ Mk200 Laser Charge (CV)
 {{~/math}}
 {{/items}}
 
--->fehlt MK240 Laser
+Mk240 Laser Charge (CV)
+{{#items E.S '90 Mk240 Laser Charge (CV)'}}
+{{bar count 0 6400 20}}
+{{~math count '/' 6400}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
 
 L3 Heavy Plasma Cell (CV)
 {{#items E.S '90 L3 Heavy Plasma Cell (CV)'}}
