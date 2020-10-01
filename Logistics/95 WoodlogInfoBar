@@ -6,7 +6,7 @@ Version: 1.1.6 RG
 ==== /DO NOT COPY ====
 
 {{fontsize 6}}
-Cobalt Ingot
+Wood Log
 {{#items E.S '95 Woodlog'}}
 {{bar count 0 32000 20}}
 {{~math count '/' 32000}}
