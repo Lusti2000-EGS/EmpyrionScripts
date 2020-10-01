@@ -1,0 +1,15 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:H2OContainerInfo*
+OutputLCDLabel:	H2OContainerInfo[001 - 999]
+Version 1.1.6 RG
+==== /DO NOT COPY ====
+
+{{fontsize 6}}
+Water Container
+{{#items E.S '95 Water Container'}}
+{{bar count 0 16000 20}}
+{{~math count '/' 16000}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
