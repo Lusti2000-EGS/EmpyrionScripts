@@ -5,7 +5,7 @@ OutputLCDLabel:	ZsBarrenInfo[001 - 999]
 Version 1.1.6 RG
 ==== /DO NOT COPY ====
 
-{{fontsize @root 6}}
+{{fontsize 6}}
 Zascosium Ingot
 {{#items E.S '95 Zascosium Ingot'}}
 {{bar count 0 426666 20}}
