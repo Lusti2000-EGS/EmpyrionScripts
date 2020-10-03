@@ -17,7 +17,7 @@ Version: 1.1.6 RG
 {{/test}}
 {{/items}}
 
-{{#items E.S '50 Money #04''}}
+{{#items E.S '50 Money #04'}}
 {{#test Id eq 2296}}
 {{move this @root.E.S '50 Money #03' 3200000}}
 {{datetime}}
@@ -28,7 +28,7 @@ Version: 1.1.6 RG
 {{/test}}
 {{/items}}
 
-{{#items E.S '50 Money #03''}}
+{{#items E.S '50 Money #03'}}
 {{#test Id eq 2296}}
 {{move this @root.E.S '50 Money #02' 3200000}}
 {{datetime}}
@@ -39,7 +39,7 @@ Version: 1.1.6 RG
 {{/test}}
 {{/items}}
 
-{{#items E.S '50 Money #02''}}
+{{#items E.S '50 Money #02'}}
 {{#test Id eq 2296}}
 {{move this @root.E.S '50 Money #01' 3200000}}
 {{datetime}}
