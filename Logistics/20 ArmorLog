@@ -7,7 +7,7 @@ Version: 1.1.6 RG
 
 {{fontsize 4}}
 {{#items E.S '00 Input Storage'}}
-{{#test Id in '2648,2649,2650,2652,2653'}}
+{{#test Id in '2648,2649,2650,2651,2652,2653'}}
 {{move this @root.E.S '20 Armor' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
