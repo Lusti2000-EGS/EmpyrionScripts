@@ -1,13 +1,13 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]MainStorageLog*
-OutputLCDLabel:	MainStorageLog[001 - 999]
-Version: 1.1.6 RG
+ScriptLCDLabel:	Script:[+40]InputStorageLog*
+OutputLCDLabel:	InputStorageLog[001 - 999]
+Version: 1.4.4 RE
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
-{{#items E.S 'CargoIn'}}
-{{move this @root.E.S '00 Input Storage'}}
+{{#items E.S 'Box-99 CargoIn'}}
+{{move this @root.E.S 'Box-00 Input Storage'}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
