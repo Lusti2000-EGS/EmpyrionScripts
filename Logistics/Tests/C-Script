@@ -1,8 +1,0 @@
-integer ItemID
-integer UnitsperContainer
-integer ContainerVolume
-
-ItemID = 2248
-ContainerVolume = 320000
-
-UnitsperContainer = {{calc (ContainerVolume) '/' (itemconfig ItemID 'Volume)}}
