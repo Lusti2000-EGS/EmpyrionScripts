@@ -1,13 +1,9 @@
 = LogistikScripting =
 
 == Main Storage Class 00 ==
-x	Main Storage
-		Container: 00 Main Storage
-		Script:[+40]MainStorageLog*
-x	Input Storage
-		Container: 00 Input Storage
-		Script:InputStorageLog*
-		Script:InputStorageInfo*
+x	Box-00 Main Storage | Box-00 Hauptlager
+
+x	Box-00 Input Storage | Box-00 Eingangslager
 
 == Erz 94==
 x	Pentaxid (unraffiniert) 2293
