@@ -1,11 +1,11 @@
-==== DO NOT COPY ====
+==== DO NOT COPY | NICHT KOPIEREN ====
 Author:		Lusti2000
 ScriptLCDLabelEN: Script:[+40]InputStorageLog*
 ScriptLCDLabelDE: Script:[+40]EingangslagerLog*
 OutputLCDLabelEN: InputStorageLog[001 - 999]
 OutputLCDLabelDE: EingangslagerLog[001 - 999]
 Version: 1.4.4 ReforgedEden
-==== /DO NOT COPY ====
+==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
