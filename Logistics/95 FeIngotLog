@@ -11,7 +11,7 @@ Version: 1.4.5 RG
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id eq 2272}}
+{{#test Id eq 4320}}
 {{move this @root.E.S 'Box-95 Iron Ingot' 426666}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -24,7 +24,7 @@ Version: 1.4.5 RG
 ===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id eq 2272}}
+{{#test Id eq 4320}}
 {{move this @root.E.S 'Box-95 Eisenbarren' 426666}}
 {{datetime}}
 {{Source}} -> {{Destination}}
