@@ -1,8 +1,8 @@
 ==== DO NOT COPY | NICHT KOPIEREN ====
 Author:		Lusti2000
-ScriptLCDLabelEN: Script:[+40]TiRodLog*
+ScriptLCDLabelEN: Script:[+40]TiIngotLog*
 ScriptLCDLabelDE: Script:[+40]TiBarrenLog*
-OutputLCDLabelEN: TiRodLog[001 - 999]
+OutputLCDLabelEN: TiIngotLog[001 - 999]
 OutputLCDLabelDE: TiBarrenLog[001 - 999]
 Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
 Version 1.4.5 ReforgedEden
