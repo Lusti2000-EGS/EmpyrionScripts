@@ -9,6 +9,7 @@ ID's:
 - 2111
 ==== /DO NOT COPY ====
 
+===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id in '2111,2128,2129,2138,2266,2287,2294'}}
@@ -21,6 +22,7 @@ ID's:
 {{/test}}
 {{/items}}
 
+===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
 {{#test Id in '2111,2128,2129,2138,2266,2287,2294'}}
