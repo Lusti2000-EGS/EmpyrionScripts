@@ -36,7 +36,7 @@ Version: 1.4.5 ReforgedEden
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
 {{#test Id eq 4322}}
-{{move this @root.E.S 'Box-95 Silikon Barren' 426666}}
+{{move this @root.E.S 'Box-95 Siliziumbarren' 426666}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
@@ -45,7 +45,7 @@ Version: 1.4.5 ReforgedEden
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-95 Silikon Barren'}}
+{{#items E.S 'Box-95 Siliziumbarren'}}
 {{#test Id eq 4322}}
 {{move this @root.E.S 'Box-00 Hauptlager' 8000}}
 {{datetime}}
