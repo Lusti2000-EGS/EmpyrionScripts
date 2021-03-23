@@ -1,18 +1,57 @@
-==== DO NOT COPY ====
+==== DO NOT COPY | NICHT KOPIEREN ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]SiIngotLog*
-OutputLCDLabel:	SiIngotLog[001 - 999]
-Version: 1.1.6 RG
-==== /DO NOT COPY ====
+ScriptLCDLabelEN: Script:[+40]SiIngotLog*
+ScriptLCDLabelDE: Script:[+40]SiBarrenLog*
+OutputLCDLabelEN: SiIngotLog[001 - 999]
+OutputLCDLabelDE: SiBarrenLog[001 - 999]
+Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
+Version: 1.4.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
 
+===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
-{{#items E.S '00 Input Storage'}}
-{{#test Id eq 2274}}
-{{move this @root.E.S '95 Silicon Ingot' 426666}}
+{{#items E.S 'Box-00 Input Storage'}}
+{{#test Id eq 4322}}
+{{move this @root.E.S 'Box-95 Silicon Ingot' 426666}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-95 Silicon Ingot'}}
+{{#test Id eq 4322}}
+{{move this @root.E.S 'Box-00 Main Storage' 8000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+===Script DE-Version== <-NICHT KOPIEREN
+{{fontsize 4}}
+{{#items E.S 'Box-00 Eingangslager'}}
+{{#test Id eq 4322}}
+{{move this @root.E.S 'Box-95 Silikon Barren' 426666}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-95 Silikon Barren'}}
+{{#test Id eq 4322}}
+{{move this @root.E.S 'Box-00 Hauptlager' 8000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
 {{/move}}
 {{/test}}
 {{/items}}
