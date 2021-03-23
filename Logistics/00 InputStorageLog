@@ -5,7 +5,7 @@ ScriptLCDLabelDE: Script:[+40]EingangslagerLog*
 OutputLCDLabelEN: InputStorageLog[001 - 999]
 OutputLCDLabelDE: EingangslagerLog[001 - 999]
 Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
-Version: 1.4.4 ReforgedEden
+Version: 1.4.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script EN-Version== <-DO NOT COPY
