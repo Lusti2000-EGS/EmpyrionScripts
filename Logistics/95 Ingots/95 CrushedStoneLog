@@ -1,7 +1,9 @@
 ==== DO NOT COPY | NICHT KOPIEREN ====
 Author: Lusti2000
-ScriptLCDLabel:	Script:[+40]CrushedStoneLog*
-OutputLCDLabel:	CrushedStoneLog[001 - 999]
+ScriptLCDLabelEN: Script:[+40]CrushedStoneLog*
+ScriptLCDLabelDE: Script:[+40]SchotterLog*
+OutputLCDLabelEN: CrushedStoneLog[001 - 999]
+OutputLCDLabelDE: SchotterLog[001 - 999]
 Version 1.4.5 ReforgedEden
 DANGER: ID NOT CORRECT
 ==== /DO NOT COPY | NICHT KOPIEREN ====
