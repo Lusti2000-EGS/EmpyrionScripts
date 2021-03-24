@@ -1,0 +1,28 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabelEN: Script:SaIngotInfo*
+ScriptLCDLabelDE: Script:SaBarrenInfo*
+OutputLCDLabelEN: SaIngotInfo[001 - 999]
+OutputLCDLabelDE: SaBarrenInfo[001 - 999]
+Version 1.4.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script EN-Version== <-DO NOT COPY
+{{fontsize @root 6}}
+Sathium Ingot
+{{#items E.S 'Box-95 Sathium Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+===Script DE-Version== <-NICHT KOPIEREN
+{{fontsize @root 6}}
+Sathiumbarren
+{{#items E.S 'Box-95 Sathiumbarren'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
