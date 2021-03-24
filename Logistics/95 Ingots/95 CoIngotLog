@@ -36,7 +36,7 @@ Version 1.4.5 ReforgedEden
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
 {{#test Id eq 4321}}
-{{move this @root.E.S 'Box-95 Cobaltbarren' 426666}}
+{{move this @root.E.S 'Box-95 Kobaltbarren' 426666}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
@@ -45,7 +45,7 @@ Version 1.4.5 ReforgedEden
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-95 Cobaltbarren'}}
+{{#items E.S 'Box-95 Kobaltbarren'}}
 {{#test Id eq 4321}}
 {{move this @root.E.S 'Box-00 Hauptlager' 8000}}
 {{datetime}}
