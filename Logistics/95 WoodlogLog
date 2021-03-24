@@ -1,18 +1,57 @@
-==== DO NOT COPY ====
+==== DO NOT COPY | NICHT KOPIEREN ====
 Author: Lusti2000
-ScriptLCDLabel:	Script:[+40]WoodlogLog*
-OutputLCDLabel:	WoodlogLog[001 - 999]
-Version: 
-==== /DO NOT COPY ====
+ScriptLCDLabelEN: Script:[+40]WoodlogLog*
+ScriptLCDLabelDE: Script:[+40]HolzLog*
+OutputLCDLabelEN: WoodlogLog[001 - 999]
+OutputLCDLabelDE: HolzLog[001 - 999]
+Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
+Version 1.4.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
 
+===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
-{{#items E.S '00 Input Storage'}}
-{{#test Id eq 2290}}
-{{move this @root.E.S '95 Woodlog' 32000}}
+{{#items E.S 'Box-00 Input Storage'}}
+{{#test Id eq 4338}}
+{{move this @root.E.S 'Box-95 Woodlog' 32000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-95 Woodlog'}}
+{{#test Id eq 4338}}
+{{move this @root.E.S 'Box-00 Main Storage' 8000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+===Script DE-Version== <-NICHT KOPIEREN
+{{fontsize 4}}
+{{#items E.S 'Box-00 Eingangslager'}}
+{{#test Id eq 4338}}
+{{move this @root.E.S 'Box-95 Holz' 32000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-95 Holz'}}
+{{#test Id eq 4338}}
+{{move this @root.E.S 'Box-00 Hauptlager' 8000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
 {{/move}}
 {{/test}}
 {{/items}}
