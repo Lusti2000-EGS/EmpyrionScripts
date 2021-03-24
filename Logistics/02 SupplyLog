@@ -1,0 +1,57 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabelEN: Script:[+40]SupplyLog*
+ScriptLCDLabelDE: Script:[+40]VersorgungLog*
+OutputLCDLabelEN: SupplyLog[001 - 999]
+OutputLCDLabelDE: VersorgungLog[001 - 999]
+ID's: 4159,4176,4177,4186,4314,4335,4421
+Version 1.4.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script EN-Version== <-DO NOT COPY
+{{fontsize 4}}
+{{#items E.S 'Box-00 Input Storage'}}
+{{#test Id in '4159,4176,4177,4186,4314,4335,4421'}}
+{{move this @root.E.S 'Box-02 Supply' 512000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-02 Supply'}}
+{{#test Id in '4314'}}
+{{move this @root.E.S 'Box-00 Main Storage' 100}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+===Script DE-Version== <-NICHT KOPIEREN
+{{fontsize 4}}
+{{#items E.S 'Box-00 Eingangslager'}}
+{{#test Id in '4159,4176,4177,4186,4314,4335,4421'}}
+{{move this @root.E.S 'Box-02 Versorgung' 512000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-02 Versorgung'}}
+{{#test Id in '4314'}}
+{{move this @root.E.S 'Box-00 Hauptlager' 100}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
