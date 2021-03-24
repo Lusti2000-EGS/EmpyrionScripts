@@ -1,0 +1,57 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabelEN: Script:[+40]PeRefinedLog*
+ScriptLCDLabelDE: Script:[+40]PeRaffiniertLog*
+OutputLCDLabelEN: PeRefinedLog[001 - 999]
+OutputLCDLabelDE: PeRaffiniertLog[001 - 999]
+Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
+Version 1.4.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script EN-Version== <-DO NOT COPY
+{{fontsize 4}}
+{{#items E.S 'Box-00 Input Storage'}}
+{{#test Id eq 4342}}
+{{move this @root.E.S 'Box-95 Pentaxid refined' 426666}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-95 Pentaxid refined'}}
+{{#test Id eq 4342}}
+{{move this @root.E.S 'Box-00 Main Storage' 500}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+===Script DE-Version== <-NICHT KOPIEREN
+{{fontsize 4}}
+{{#items E.S 'Box-00 Eingangslager'}}
+{{#test Id eq 4342}}
+{{move this @root.E.S 'Box-95 Pentaxid raffiniert' 426666}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-95 Pentaxid raffiniert'}}
+{{#test Id eq 4342}}
+{{move this @root.E.S 'Box-00 Hauptlager' 500}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
