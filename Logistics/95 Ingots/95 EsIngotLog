@@ -45,7 +45,7 @@ Version 1.4.5 ReforgedEden
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-95 Erestrumbarrent'}}
+{{#items E.S 'Box-95 Erestrumbarren'}}
 {{#test Id eq 4326}}
 {{move this @root.E.S 'Box-00 Hauptlager' 8000}}
 {{datetime}}
