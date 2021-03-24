@@ -1,7 +1,0 @@
-Nahbereich:
-{{fontsize 4}}
-{{#entitiesbyname '*'}}
-{{#each .}}
-{{Name}}:{{Id}}
-{{/each}}
-{{/entitiesbyname}}
