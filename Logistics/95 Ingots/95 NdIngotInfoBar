@@ -1,0 +1,28 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabelEN: Script:NdIngotInfo*
+ScriptLCDLabelDE: Script:NdBarrenInfo*
+OutputLCDLabelEN: NdIngotInfo[001 - 999]
+OutputLCDLabelDE: NdBarrenInfo[001 - 999]
+Version 1.4.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script EN-Version== <-DO NOT COPY
+{{fontsize @root 6}}
+Neodymium Ingot
+{{#items E.S 'Box-95 Neodymium Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+===Script DE-Version== <-NICHT KOPIEREN
+{{fontsize @root 6}}
+Neodymiumbarren
+{{#items E.S 'Box-95 Neodymiumbarren'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
