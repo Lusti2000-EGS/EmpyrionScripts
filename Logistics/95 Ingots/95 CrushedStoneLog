@@ -5,13 +5,12 @@ ScriptLCDLabelDE: Script:[+40]SchotterLog*
 OutputLCDLabelEN: CrushedStoneLog[001 - 999]
 OutputLCDLabelDE: SchotterLog[001 - 999]
 Version 1.4.5 ReforgedEden
-DANGER: ID NOT CORRECT
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id eq 2280}}
+{{#test Id eq 4328}}
 {{move this @root.E.S 'Box-95 Crushed Stone' 160000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -22,7 +21,7 @@ DANGER: ID NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-95 Crushed Stone'}}
-{{#test Id eq 2280}}
+{{#test Id eq 4328}}
 {{move this @root.E.S 'Box-00 Main Storage' 4000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -35,7 +34,7 @@ DANGER: ID NOT CORRECT
 ===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id eq 2280}}
+{{#test Id eq 4328}}
 {{move this @root.E.S 'Box-95 Schotter' 160000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -46,7 +45,7 @@ DANGER: ID NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-95 Schotter'}}
-{{#test Id eq 2280}}
+{{#test Id eq 4328}}
 {{move this @root.E.S 'Box-00 Hauptlager' 4000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
