@@ -92,7 +92,7 @@ DANGER ID IS NOT CORRECT
 
 {{#items E.S 'Box-94 H2O Container #03'}}
 {{#test Id eq 4444}}
-{{move this @root.E.S 'Box-94 Water Container #02' 16000}}
+{{move this @root.E.S 'Box-94 H2O Container #02' 16000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
@@ -103,7 +103,7 @@ DANGER ID IS NOT CORRECT
 
 {{#items E.S 'Box-94 H2O Container #02'}}
 {{#test Id eq 4444}}
-{{move this @root.E.S 'Box-94 Water Container #01' 16000}}
+{{move this @root.E.S 'Box-94 H2O Container #01' 16000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
