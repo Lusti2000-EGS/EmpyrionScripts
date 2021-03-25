@@ -1,0 +1,28 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabelEN: Script:ZsIngotInfo*
+ScriptLCDLabelDE: Script:ZsBarrenInfo*
+OutputLCDLabelEN: ZsIngotInfo[001 - 999]
+OutputLCDLabelDE: ZsBarrenInfo[001 - 999]
+Version 1.4.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script EN-Version== <-DO NOT COPY
+{{fontsize 6}}
+Zascosium Ingot
+{{#items E.S 'Box-95 Zascosium Ingot'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+
+===Script DE-Version== <-NICHT KOPIEREN
+{{fontsize 6}}
+Zascosiumbarren
+{{#items E.S 'Box-95 Zascosiumbarren'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
