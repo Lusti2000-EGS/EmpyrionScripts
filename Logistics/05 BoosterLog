@@ -16,7 +16,7 @@ Version 1.4.5 ReforgedEden
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{~i18n Id 'English'}}
 {{/move}}
 {{/test}}
 {{/items}}
@@ -29,7 +29,7 @@ Version 1.4.5 ReforgedEden
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{~ Id 'Deutsch'}}
 {{/move}}
 {{/test}}
 {{/items}}
