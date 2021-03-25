@@ -4,14 +4,14 @@ ScriptLCDLabelEN: Script:[+40]ToolLog*
 ScriptLCDLabelDE: Script:[+40]WerkzeugLog*
 OutputLCDLabelEN: ToolLog[001 - 999]
 OutputLCDLabelEN: WerkzeugLog[001 - 999]
-ID's 4107,4115,4119,4127,4135,4136,4796,5651
+ID's 4107,4115,4119,4127,4135,4136,4796
 Version 1.4.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id in '4107,4115,4119,4127,4135,4136,4796,5651'}}
+{{#test Id in '4107,4115,4119,4127,4135,4136,4796'}}
 {{move this @root.E.S 'Box-05 Tools' 100}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -24,7 +24,7 @@ Version 1.4.5 ReforgedEden
 ===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id in '4107,4115,4119,4127,4135,4136,4796,5651'}}
+{{#test Id in '4107,4115,4119,4127,4135,4136,4796'}}
 {{move this @root.E.S 'Box-05 Werkzeuge' 100}}
 {{datetime}}
 {{Source}} -> {{Destination}}
