@@ -1,0 +1,28 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabelEN: Script:MgPowderInfo*
+ScriptLCDLabelDE: Script:MgPulverInfo*
+OutputLCDLabelEN: MgPowderInfo[001 - 999]
+OutputLCDLabelDE: MgPulverInfo[001 - 999]
+Version 1.4.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script EN-Version== <-DO NOT COPY
+{{fontsize 6}}
+Magnesium Powder
+{{#items E.S 'Box-95 Magnesium Powder'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
+ 
+===Script DE-Version== <-NICHT KOPIEREN
+{{fontsize 6}}
+Magnesiumpulver
+{{#items E.S 'Box-95 Magnesiumpulver'}}
+{{bar count 0 426666 20}}
+{{~math count '/' 426666}}
+{{~format . '{0,8:P2}'}}
+{{~/math}}
+{{/items}}
