@@ -4,14 +4,14 @@ ScriptLCDLabelEN: Script:[+40]WeaponLog*
 ScriptLCDLabelDE: Script:[+40]WaffenLog*
 OutputLCDLabelEN: WeaponLog[001 - 999]
 OutputLCDLabelEN: WaffenLog[001 - 999]
-ID's 4105,4106,4112,4114,4123,4126,4129,4138,4139,5651,5652,5653,5654,5655,5656,5657,5852,5855
+ID's 4099,4101,4102,4105,4106,4111,4112,4114,4123,4126,4129,4138,4139,5651,5652,5653,5654,5655,5656,5657,5852,5855
 Version 1.4.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id in '4105,4106,4112,4114,4123,4126,4129,4138,4139,5651,5652,5653,5654,5655,5656,5657,5852,5855'}}
+{{#test Id in '4099,4101,4102,4105,4106,4111,4112,4114,4123,4126,4129,4138,4139,5651,5652,5653,5654,5655,5656,5657,5852,5855'}}
 {{move this @root.E.S 'Box-05 Weapon' 100}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -24,7 +24,7 @@ Version 1.4.5 ReforgedEden
 ===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id in '4105,4106,4112,4114,4123,4126,4129,4138,4139,5651,5652,5653,5654,5655,5656,5657,5852,5855'}}
+{{#test Id in '4099,4101,4102,4105,4106,4111,4112,4114,4123,4126,4129,4138,4139,5651,5652,5653,5654,5655,5656,5657,5852,5855'}}
 {{move this @root.E.S 'Box-05 Waffen' 100}}
 {{datetime}}
 {{Source}} -> {{Destination}}
