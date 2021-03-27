@@ -12,7 +12,7 @@ DANGER ID IS NOT CORRECT
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-94 Titanium Plates #04' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -23,7 +23,7 @@ DANGER ID IS NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-94 Titanium Plates #04'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-94 Titanium Plates #03' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -34,7 +34,7 @@ DANGER ID IS NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-94 Titanium Plates #03'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-94 Titanium Plates #02' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -45,7 +45,7 @@ DANGER ID IS NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-94 Titanium Plates #02'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-94 Titanium Plates #01' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -56,7 +56,7 @@ DANGER ID IS NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-94 Titanium Plates #01'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-00 Main Storage' 8000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -69,7 +69,7 @@ DANGER ID IS NOT CORRECT
 ===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-94 Titanplatten #04' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -80,7 +80,7 @@ DANGER ID IS NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-94 Titanplatten #04'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-94 Titanplatten #03' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -91,7 +91,7 @@ DANGER ID IS NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-94 Sathiumplatten #03'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-94 Sathiumplatten #02' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -102,7 +102,7 @@ DANGER ID IS NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-94 Titanplatten #02'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-94 Titanplatten #01' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -113,7 +113,7 @@ DANGER ID IS NOT CORRECT
 {{/items}}
 
 {{#items E.S 'Box-94 Titanplatten #01'}}
-{{#test Id eq 4343}}
+{{#test Id eq 4361}}
 {{move this @root.E.S 'Box-00 Hauptlager' 8000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
