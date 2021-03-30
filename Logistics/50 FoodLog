@@ -4,15 +4,15 @@ ScriptLCDLabelEN: Script:[+40]FoodLog*
 ScriptLCDLabelDE: Script:[+40]EssenLog*
 OutputLCDLabelEN: FoodLog[001 - 999]
 OutputLCDLabelEN: EssenLog[001 - 999]
-ID's 
+ID's 4397,4399,4402,4405,4406,4409,4410,4411,4412,4413,4414,4416,4419,4422,4424,4426,4429,4431,4434,4436,4439,4440,4442,4447,4451,4452,4453,4457,4460,4461,4465,4467,4468,4471,4480,5950,5955,5960
 Version 1.4.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id in ''}}
-{{move this @root.E.S 'Box-50 Food' 2000}}
+{{#test Id in '4397,4399,4402,4405,4406,4409,4410,4411,4412,4413,4414,4416,4419,4422,4424,4426,4429,4431,4434,4436,4439,4440,4442,4447,4451,4452,4453,4457,4460,4461,4465,4467,4468,4471,4480,5950,5955,5960'}}
+{{move this @root.E.S '50 Fridge Additional #1' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
@@ -24,8 +24,8 @@ Version 1.4.5 ReforgedEden
 ===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id in ''}}
-{{move this @root.E.S 'Box-50 Essen' 2000}}
+{{#test Id in '4397,4399,4402,4405,4406,4409,4410,4411,4412,4413,4414,4416,4419,4422,4424,4426,4429,4431,4434,4436,4439,4440,4442,4447,4451,4452,4453,4457,4460,4461,4465,4467,4468,4471,4480,5950,5955,5960'}}
+{{move this @root.E.S '50 Kühlschrank Zusatz #01' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
