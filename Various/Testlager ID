@@ -1,0 +1,4 @@
+{{fontsize 4}}
+{{items E.S 'Box-99 Testlager'}}
+{{Count}}- {{Name}} - {{ID}}
+{{/items}}
