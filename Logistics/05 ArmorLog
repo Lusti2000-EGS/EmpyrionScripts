@@ -4,14 +4,14 @@ ScriptLCDLabelEN: Script:[+40]ArmorLog*
 ScriptLCDLabelDE: Script:[+40]RuestungLog*
 OutputLCDLabelEN: ArmorLog[001 - 999]
 OutputLCDLabelDE: RuestungLog[001 - 999]
-ID's 4696,4697,4698,4699,5841
+ID's 4696,4697,4698,4699,4720,4751,5841
 Version 1.4.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id in '4696,4697,4698,4699,5841'}}
+{{#test Id in '4696,4697,4698,4699,4720,4751,5841'}}
 {{move this @root.E.S 'Box-05 Armor' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -24,7 +24,7 @@ Version 1.4.5 ReforgedEden
 ===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id in '4696,4697,4698,4699,5841'}}
+{{#test Id in '4696,4697,4698,4699,4720,4751,5841'}}
 {{move this @root.E.S 'Box-05 Ruestungen' 100}}
 {{datetime}}
 {{Source}} -> {{Destination}}
