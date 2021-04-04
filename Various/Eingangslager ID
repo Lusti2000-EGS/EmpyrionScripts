@@ -1,0 +1,4 @@
+{{fontsize 4}}
+{{items E.S 'Box-00 Eingangslager'}}
+{{Count}}- {{Name}} - {{ID}}
+{{/items}}
