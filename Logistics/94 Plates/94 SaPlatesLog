@@ -12,6 +12,17 @@ Version 1.4.5 ReforgedEden
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4343}}
+{{move this @root.E.S 'Box-94 Sathium Plates #05' 213333}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'English'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-94 Sathium Plates #05'}}
+{{#test Id eq 4343}}
 {{move this @root.E.S 'Box-94 Sathium Plates #04' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -69,6 +80,17 @@ Version 1.4.5 ReforgedEden
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
 {{#test Id eq 4343}}
+{{move this @root.E.S 'Box-94 Sathiumplatten #05' 213333}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+{{#items E.S 'Box-94 Sathiumplatten #05'}}
+{{#test Id eq 4343}}
 {{move this @root.E.S 'Box-94 Sathiumplatten #04' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -77,6 +99,7 @@ Version 1.4.5 ReforgedEden
 {{/move}}
 {{/test}}
 {{/items}}
+
 
 {{#items E.S 'Box-94 Sathiumplatten #04'}}
 {{#test Id eq 4343}}
