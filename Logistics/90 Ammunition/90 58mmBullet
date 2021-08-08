@@ -7,7 +7,7 @@ Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
-{{#items E.S 'Box-00 Input Storage'}}
+{{#items E.S 'Box-00 Eingangslager'}}
 {{#test Id eq 4150}}
 {{move this @root.E.S 'Box-90 58mm Bullet' 512000}}
 {{datetime}}
