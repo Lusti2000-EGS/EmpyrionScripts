@@ -9,7 +9,7 @@ Version 1.5.5 ReforgedEden
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
 {{#test Id eq 4163}}
-{{move this @root.E.S 'Box-90 Flammenwerferbenzin' 10000}}
+{{move this @root.E.S 'Box-90 Flammenwerferbenzin' 512000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
