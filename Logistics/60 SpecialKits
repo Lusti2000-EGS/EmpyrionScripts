@@ -4,14 +4,14 @@ ScriptLCDLabelEN: Script:[+40]SpecialKitLog*
 ScriptLCDLabelDE: Script:[+40]SpezialKitLog*
 OutputLCDLabelEN: SpecialKitLog[001 - 999]
 OutputLCDLabelDE: SpezialKitLog[001 - 999]
-ID's 5401,5706,5707,5708,5990,7546,7547
+ID's 5105,5117,5401,5706,5707,5708,5990,7516,7546,7547
 Version 1.4.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id in '5401,5706,5707,5708,5990,7546,7547'}}
+{{#test Id in '5105,5117,5401,5706,5707,5708,5990,7516,7546,7547'}}
 {{move this @root.E.S 'Box-60 Special-Kits' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
@@ -24,7 +24,7 @@ Version 1.4.5 ReforgedEden
 ===Script DE-Version== <-NICHT KOPIEREN
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id in '5401,5706,5707,5708,5990,7546,7547'}}
+{{#test Id in '5105,5117,5401,5706,5707,5708,5990,7516,7546,7547'}}
 {{move this @root.E.S 'Box-60 Spezial-Kits' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
