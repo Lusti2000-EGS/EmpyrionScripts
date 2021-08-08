@@ -1,0 +1,19 @@
+==== DO NOT COPY ====
+Author: Lusti2000
+ScriptLCDLabelDE: Script:[+40]127mmBullet*
+OutputLCDLabelDE: 127mmBullet[001 - 999]
+Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S 'Box-00 Eingangslager'}}
+{{#test Id eq 4154}}
+{{move this @root.E.S 'Box-90 127mm Bullet' 512000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{i18n Id 'Deutsch'}}
+{{/move}}
+{{/test}}
+{{/items}}
