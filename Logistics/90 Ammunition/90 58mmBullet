@@ -9,7 +9,7 @@ Version 1.5.5 ReforgedEden
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4150}}
-{{move this @root.E.S 'Box-90 5.8mm Bullet' 512000}}
+{{move this @root.E.S 'Box-90 58mm Bullet' 512000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
