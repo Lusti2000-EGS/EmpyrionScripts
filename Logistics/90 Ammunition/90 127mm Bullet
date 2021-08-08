@@ -8,7 +8,7 @@ Version 1.5.5 ReforgedEden
 
 {{fontsize 4}}
 {{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id eq 4154}}
+{{#test Id eq 4151}}
 {{move this @root.E.S 'Box-90 127mm Bullet' 512000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
