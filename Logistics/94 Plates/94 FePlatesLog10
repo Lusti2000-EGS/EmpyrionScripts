@@ -1,7 +1,9 @@
 ==== DO NOT COPY | NICHT KOPIEREN ====
 Author: Lusti2000
-ScriptLCDLabelEN: Script:[+40]FePlatesLog*
-OutputLCDLabelEN: FePlatesLog[001 - 999]
+ScriptLCDLabel Part 1: Script:[+40]FePlatesLogA*
+ScriptLCDLabel Part 2: Script:[+40]FePlatesLogB*
+OutputLCDLabel Part 1: FePlatesLogA[001 - 999]
+OutputLCDLabel Part 2: FePlatesLogB[001 - 999]
 Storage: 10x 320000 L | 10 Storage Controller & 390 Storage Containers
 Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
