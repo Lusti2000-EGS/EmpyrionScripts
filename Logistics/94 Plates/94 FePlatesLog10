@@ -6,6 +6,7 @@ Storage: 10x 320000 L | 10 Storage Controller & 390 Storage Containers
 Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
+===Script Version Part 1===
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4313}}
@@ -73,6 +74,7 @@ Version 1.5.5 ReforgedEden
 {{/test}}
 {{/items}}
 
+===Script Version Part 2===
 {{fontsize 4}}
 {{#items E.S 'Box-94 Iron Plates #05'}}
 {{#test Id eq 4313}}
