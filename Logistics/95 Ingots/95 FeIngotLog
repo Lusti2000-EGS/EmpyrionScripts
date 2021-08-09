@@ -1,14 +1,12 @@
-==== DO NOT COPY | NICHT KOPIEREN ====
+==== DO NOT COPY====
 Author: Lusti2000
-ScriptLCDLabelEN:	Script:[+40]FeIngotLog*
-ScriptLCDLabelDE:	Script:[+40]FeBarrenLog*
-OutputLCDLabelEN:	FeIngotLog[001 - 999]
-OutputLCDLabelDE:	FeBarrenLog[001 - 999]
+ScriptLCDLabel:	Script:[+40]FeIngotLog*
+OutputLCDLabel:	FeIngotLog[001 - 999]
 Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
 Version: 1.4.5 ReforgenEden
-==== /DO NOT COPY | NICHT KOPIEREN ====
+==== /DO NOT COPY====
 
-===Script EN-Version== <-DO NOT COPY
+===Script== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4320}}
@@ -16,7 +14,7 @@ Version: 1.4.5 ReforgenEden
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
@@ -27,31 +25,7 @@ Version: 1.4.5 ReforgenEden
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-===Script DE-Version== <-NICHT KOPIEREN
-{{fontsize 4}}
-{{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id eq 4320}}
-{{move this @root.E.S 'Box-95 Eisenbarren' 426666}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-{{#items E.S 'Box-95 Eisenbarren'}}
-{{#test Id eq 4320}}
-{{move this @root.E.S 'Box-00 Hauptlager' 8000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
