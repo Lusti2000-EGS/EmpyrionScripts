@@ -1,13 +1,11 @@
 ==== DO NOT COPY | NICHT KOPIEREN ====
 Author: Lusti2000
 ScriptLCDLabelEN: Script:[+40]CrushedStoneLog*
-ScriptLCDLabelDE: Script:[+40]SchotterLog*
 OutputLCDLabelEN: CrushedStoneLog[001 - 999]
-OutputLCDLabelDE: SchotterLog[001 - 999]
-Version 1.4.5 ReforgedEden
+Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
-===Script EN-Version== <-DO NOT COPY
+===Script Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4328}}
@@ -15,7 +13,7 @@ Version 1.4.5 ReforgedEden
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
@@ -26,31 +24,7 @@ Version 1.4.5 ReforgedEden
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-===Script DE-Version== <-NICHT KOPIEREN
-{{fontsize 4}}
-{{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id eq 4328}}
-{{move this @root.E.S 'Box-95 Schotter' 160000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-{{#items E.S 'Box-95 Schotter'}}
-{{#test Id eq 4328}}
-{{move this @root.E.S 'Box-00 Hauptlager' 4000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
