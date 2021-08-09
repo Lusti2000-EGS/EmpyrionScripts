@@ -1,121 +1,134 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabel Part 1: Script:[+40]TiPlateLogA*
+ScriptLCDLabel Part 2: Script:[+40]TiPlateLogB*
+OutputLCDLabel Part 1: TiPlateLogA[001 - 999]
+OutputLCDLabel Part 2: TiPlateLogB[001 - 999]
+Storage: 10x 320000 L | 10 Storage Controller & 390 Storage Containers
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script Version Part 1=== <-DO NOT COPY
 {{fontsize 4}}
-{{#items E.S 'Box-00 Eingangslager'}}
+{{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #10' 213333}}
-{{datetime}}
+{{move this @root.E.S 'Box-94 Titan Plate #10' 213333}}
+{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Titanplatten #10'}}
+{{#items E.S 'Box-94 Titan Plate #10'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #09' 213333}}
+{{move this @root.E.S 'Box-94 Titan Plate #09' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Titanplatten #09'}}
+{{#items E.S 'Box-94 Titan Plate #09'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #08' 213333}}
+{{move this @root.E.S 'Box-94 Titan Plate #08' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
-{{/move}}
-{{/test}}
-{{/items}}
-{{#items E.S 'Box-94 Titanplatten #08'}}
-{{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #07' 213333}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Titanplatten #07'}}
+{{#items E.S 'Box-94 Titan Plate #08'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #06' 213333}}
+{{move this @root.E.S 'Box-94 Titan Plate #07' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Titanplatten #06'}}
+{{#items E.S 'Box-94 Titan Plate #07'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #05' 213333}}
+{{move this @root.E.S 'Box-94 Titan Plate #06' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
+{{#items E.S 'Box-94 Titan Plate #06'}}
+{{#test Id eq 4361}}
+{{move this @root.E.S 'Box-94 Titan Plate #05' 213333}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id}}
+{{/move}}
+{{/test}}
+{{/items}}
+
+===Script Version Part 2=== <-DO NOT COPY
 {{fontsize 4}}
-{{#items E.S 'Box-94 Titanplatten #05'}}
+{{#items E.S 'Box-94 Titan Plate #05'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #04' 213333}}
+{{move this @root.E.S 'Box-94 Titan Plate #04' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Titanplatten #04'}}
+{{#items E.S 'Box-94 Titan Plate #04'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #03' 213333}}
+{{move this @root.E.S 'Box-94 Titan Plate #03' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Titanplatten #03'}}
+{{#items E.S 'Box-94 Titan Plate #03'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #02' 213333}}
+{{move this @root.E.S 'Box-94 Titan Plate #02' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Titanplatten #02'}}
+{{#items E.S 'Box-94 Titan Plate #02'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-94 Titanplatten #01' 213333}}
+{{move this @root.E.S 'Box-94 Titan Plate #01' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Titanplatten #01'}}
+{{#items E.S 'Box-94 Titan Plate #01'}}
 {{#test Id eq 4361}}
-{{move this @root.E.S 'Box-00 Hauptlager' 8000}}
+{{move this @root.E.S 'Box-00 Main Storage' 8000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
