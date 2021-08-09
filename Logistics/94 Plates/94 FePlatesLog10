@@ -1,22 +1,30 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabelEN: Script:[+40]FePlatesLog*
+OutputLCDLabelEN: FePlatesLog[001 - 999]
+Storage: 10x 320000 L | 10 Storage Controller & 390 Storage Containers
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
 {{fontsize 4}}
-{{#items E.S 'Box-00 Eingangslager'}}
+{{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #10' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #10' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #10'}}
+{{#items E.S 'Box-94 Iron Plates #10'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #09' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #09' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
@@ -27,96 +35,96 @@
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #08'}}
+{{#items E.S 'Box-94 Iron Plates #08'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #07' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #07' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #07'}}
+{{#items E.S 'Box-94 Iron Plates #07'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #06' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #06' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #06'}}
+{{#items E.S 'Box-94 Iron Plates #06'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #05' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #05' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
 {{fontsize 4}}
-{{#items E.S 'Box-94 Eisenplatten #05'}}
+{{#items E.S 'Box-94 Iron Plates #05'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #04' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #04' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #04'}}
+{{#items E.S 'Box-94 Iron Plates #04'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #03' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #03' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #03'}}
+{{#items E.S 'Box-94 Iron Plates #03'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #02' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #02' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #02'}}
+{{#items E.S 'Box-94 Iron Plates #02'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #01' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #01' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #01'}}
+{{#items E.S 'Box-94 Iron Plates #01'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-00 Hauptlager' 8000}}
+{{move this @root.E.S 'Box-00 Main Storage' 8000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
