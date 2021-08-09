@@ -1,15 +1,12 @@
 ==== DO NOT COPY | NICHT KOPIEREN ====
 Author: Lusti2000
-ScriptLCDLabelEN: Script:[+40]H2OContainerLog*
-ScriptLCDLabelDE: Script:[+40]H2OContainerLog*
-OutputLCDLabelEN: H2OContainerLog[001 - 999]
-OutputLCDLabelDE: H2OContainerLog[001 - 999]
-Storage: 4x 320000 L | 5 Storage Controller & 116 Storage Containers
-Version 1.4.5 ReforgedEden
-DANGER ID IS NOT CORRECT
+ScriptLCDLabel: Script:[+40]H2OContainerLog*
+OutputLCDLabel: H2OContainerLog[001 - 999]
+Storage: 5x 320000 L | 5 Storage Controller & 195 Storage Containers
+Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
-===Script EN-Version== <-DO NOT COPY
+===Script Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4444}}
@@ -69,74 +66,6 @@ DANGER ID IS NOT CORRECT
 {{#items E.S 'Box-94 H2O Container #01'}}
 {{#test Id eq 4444}}
 {{move this @root.E.S 'Box-00 Main Storage' 1000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-===Script DE-Version== <-NICHT KOPIEREN
-{{fontsize 4}}
-{{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id eq 4444}}
-{{move this @root.E.S 'Box-94 H2O Container #05' 16000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}:{{i18n Id 'Deutsch'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-{{#items E.S 'Box-94 H2O Container #05'}}
-{{#test Id eq 4444}}
-{{move this @root.E.S 'Box-94 H2O Container #04' 16000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-{{#items E.S 'Box-94 H2O Container #04'}}
-{{#test Id eq 4444}}
-{{move this @root.E.S 'Box-94 H2O Container #03' 16000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-{{#items E.S 'Box-94 H2O Container #03'}}
-{{#test Id eq 4444}}
-{{move this @root.E.S 'Box-94 H2O Container #02' 16000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-{{#items E.S 'Box-94 H2O Container #02'}}
-{{#test Id eq 4444}}
-{{move this @root.E.S 'Box-94 H2O Container #01' 16000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-{{#items E.S 'Box-94 H2O Container #01'}}
-{{#test Id eq 4444}}
-{{move this @root.E.S 'Box-00 Hauptlager' 1000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
