@@ -1,14 +1,11 @@
-==== DO NOT COPY | NICHT KOPIEREN ====
+==== DO NOT COPY====
 Author: Lusti2000
-ScriptLCDLabelEN: Script:[+40]FurnaceLog*
-ScriptLCDLabelDE: Script:[+40]SchmelzeLog*
-OutputLCDLabelEN: FurnaceLog[001 - 999]
-OutputLCDLabelDE: SchmelzeLog[001 - 999]
+ScriptLCDLabel: Script:[+40]FurnaceLog*
+OutputLCDLabel: FurnaceLog[001 - 999]
 ID's 4296,4297,4298,4299,4300,4301,4302,4316,4317,4318,4332,4341,4345,4358,4359,4362
-Version 1.4.5 ReforgedEden
-==== /DO NOT COPY | NICHT KOPIEREN ====
+Version: 1.5.5 ReforgedEden
+==== /DO NOT COPY====
 
-===Script EN-Version== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id in 4296,4297,4298,4299,4300,4301,4302,4316,4317,4318,4332,4341,4345,4358,4359,4362}}
@@ -16,20 +13,7 @@ Version 1.4.5 ReforgedEden
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{~i18n Id 'English'}}
-{{/move}}
-{{/test}}
-{{/items}}
-
-===Script DE-Version== <-NICHT KOPIEREN
-{{fontsize 4}}
-{{#items E.S 'Box-00 Eingangslager'}}
-{{#test Id in 4296,4297,4298,4299,4300,4301,4302,4316,4317,4318,4332,4341,4345,4358,4359,4362}}
-{{move this @root.E.S 'Box-96 Schmelze' 512000}}
-{{datetime}}
-{{Source}} -> {{Destination}}
-{{format Count '{0,5}'}}:
-{{~i18n Id 'Deutsch'}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
