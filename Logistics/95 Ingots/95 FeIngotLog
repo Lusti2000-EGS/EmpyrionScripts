@@ -18,7 +18,6 @@ Version: 1.4.5 ReforgenEden
 {{/move}}
 {{/test}}
 {{/items}}
-
 {{#items E.S 'Box-95 Iron Ingot'}}
 {{#test Id eq 4320}}
 {{move this @root.E.S 'Box-00 Main Storage' 8000}}
