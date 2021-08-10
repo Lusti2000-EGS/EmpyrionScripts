@@ -6,7 +6,7 @@ Version: 1.5.5 ReforgedEden
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
-{{#items E.S '00 Input Storage'}}
+{{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4344}}
 {{move this @root.E.S 'Box-50 Money' 3200000}}
 {{datetime}}
