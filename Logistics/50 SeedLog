@@ -1,9 +1,7 @@
 ==== DO NOT COPY | NICHT KOPIEREN ====
 Author: Lusti2000
-ScriptLCDLabelEN: Script:[+40]SeedLog*
-ScriptLCDLabelDE: Script:[+40]SaatgutLog*
-OutputLCDLabelEN: SeedLog[001 - 999]
-OutputLCDLabelEN: SaatgutLog[001 - 999]
+ScriptLCDLabel: Script:[+40]SeedLog*
+OutputLCDLabel: SeedLog[001 - 999]
 ID's 490,591,594,597,600,607,639,641,644,1167,1171,1175,1179,1531,2049,2119
 Version 1.4.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
