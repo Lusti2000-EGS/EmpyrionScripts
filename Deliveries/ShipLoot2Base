@@ -1,9 +1,0 @@
-==== DO NOT COPY ====
-Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]ShipLoot2Base*
-OutputLCDLabel:	ShipLoot2Base[001 - 999]
-Description: This script scans all faction CV/SV/HV for containers named "80 Loot #[NN]". So if a container named
-"80 Loot #00" to "80 Loot #99" exist, it will be emptied out to the storage input box
-Beschreibung: Diese Script scannt alle Fraktions CV/SV/HV nach Kontainern mit dem Namen "80 Loot #00 - #99". Der Inhalt dieser
-Kontainer wird in den "00 Lagereingang" verschoben.
-==== /DO NOT COPY ====
