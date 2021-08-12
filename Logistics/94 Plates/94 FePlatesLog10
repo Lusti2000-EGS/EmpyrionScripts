@@ -32,9 +32,9 @@ Version 1.5.5 ReforgedEden
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-94 Eisenplatten #09'}}
+{{#items E.S 'Box-94 Iron Plates #09'}}
 {{#test Id eq 4313}}
-{{move this @root.E.S 'Box-94 Eisenplatten #08' 213333}}
+{{move this @root.E.S 'Box-94 Iron Plates #08' 213333}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
