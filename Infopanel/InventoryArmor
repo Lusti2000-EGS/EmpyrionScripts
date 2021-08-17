@@ -1,0 +1,16 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabel: Script:InventoryArmor*
+OutputLCDLabel: InventoryArmor[001 - 999]
+ID's 4696,4697,4698,4699,4720,4751,5841
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script Version== <-DO NOT COPY
+{{fontsize 6}}
+Bestand Rüstungen:
+{{#each E.S.Items}}
+{{#test Id in '4696,4697,4698,4699,4720,4751,5841'}}
+{{Format Count '{0,7}'}} {{i18n}}
+{{/test}}
+{{/each}}
