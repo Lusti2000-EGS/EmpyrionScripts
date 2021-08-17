@@ -11,6 +11,6 @@ Version 1.5.5 ReforgedEden
 Bestand Platten:
 {{#each E.S.Items}}
 {{#test Id in '4313,4361,4343'}}
-{{Format Count '{0,7}'}} {{i18n}}
+{{Format Count '{0,7}'}} {{i18n Id}}
 {{/test}}
 {{/each}}
