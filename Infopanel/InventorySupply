@@ -1,0 +1,16 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabel: Script:InventorySupply*
+OutputLCDLabel: InventorySupply[001 - 999]
+ID's 4159,4176,4177,4186,4314,4335,4421
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script Version== <-DO NOT COPY
+{{fontsize 6}}
+Bestand Versorgung:
+{{#each E.S.Items}}
+{{#test Id in '4159,4176,4177,4186,4314,4335,4421'}}
+{{Format Count '{0,7}'}} {{i18n}}
+{{/test}}
+{{/each}}
