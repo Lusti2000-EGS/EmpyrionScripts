@@ -1,8 +1,16 @@
-{{fontsize 6}}
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabel: Script:InventoryIngot*
+OutputLCDLabel: InventoryIngot[001 - 999]
+ID's 4320,4324,4322,4321,4323,4333,4360,4319,4363,4346,4326,4327,4366,4338,4328,4342,4325
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
 
-Alle Barren in der Basis:
+===Script Version== <-DO NOT COPY
+{{fontsize 6}}
+Bestand Barrenlager:
 {{#each E.S.Items}}
-{{#test Id in '2272,2273,2274,2275,2276,2277,2278,2279,2280,2281,2285,2294,2298,2265'}}
-{{Format Count '{0,7}'}} {{i18n Key 'Deutsch'}}
+{{#test Id in '4320,4324,4322,4321,4323,4333,4360,4319,4363,4346,4326,4327,4366,4338,4328,4342,4325'}}
+{{Format Count '{0,7}'}} {{i18n}}
 {{/test}}
 {{/each}}
