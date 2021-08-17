@@ -1,0 +1,16 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabel: Script:InventoryPlate*
+OutputLCDLabel: InventoryPlate[001 - 999]
+ID's 4313,4361,4343
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script Version== <-DO NOT COPY
+{{fontsize 6}}
+Bestand Platten:
+{{#each E.S.Items}}
+{{#test Id in '4313,4361,4343'}}
+{{Format Count '{0,7}'}} {{i18n}}
+{{/test}}
+{{/each}}
