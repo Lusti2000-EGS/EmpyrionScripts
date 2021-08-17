@@ -1,0 +1,16 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabel: Script:InventoryTool*
+OutputLCDLabel: InventoryTool[001 - 999]
+ID's 4107,4115,4119,4127,4135,4136,4796
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script Version== <-DO NOT COPY
+{{fontsize 6}}
+Bestand Werkzeuge:
+{{#each E.S.Items}}
+{{#test Id in '4107,4115,4119,4127,4135,4136,4796'}}
+{{Format Count '{0,7}'}} {{i18n}}
+{{/test}}
+{{/each}}
