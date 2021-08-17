@@ -1,0 +1,16 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabel: Script:InventoryWeapon*
+OutputLCDLabel: InventoryWeapon[001 - 999]
+ID's 4099,4100,4101,4102,4103,4105,4106,4111,4112,4114,4120,4123,4126,4129,4131,4138,4139,4897,5651,5652,5653,5654,5655,5656,5657,5852,5855
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script Version== <-DO NOT COPY
+{{fontsize 6}}
+Bestand Energieproduktion:
+{{#each E.S.Items}}
+{{#test Id in '4099,4100,4101,4102,4103,4105,4106,4111,4112,4114,4120,4123,4126,4129,4131,4138,4139,4897,5651,5652,5653,5654,5655,5656,5657,5852,5855'}}
+{{Format Count '{0,7}'}} {{i18n}}
+{{/test}}
+{{/each}}
