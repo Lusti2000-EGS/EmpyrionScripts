@@ -1,0 +1,16 @@
+==== DO NOT COPY | NICHT KOPIEREN ====
+Author: Lusti2000
+ScriptLCDLabel: Script:InventorySpecialKits*
+OutputLCDLabel: InventorySpecialKits[001 - 999]
+ID's 4351,4352,4353,4354,4355,4356,5105,5111,5117,5401,5706,5707,5708,5990,7516,7546,7547
+Version 1.5.5 ReforgedEden
+==== /DO NOT COPY | NICHT KOPIEREN ====
+
+===Script Version== <-DO NOT COPY
+{{fontsize 6}}
+Bestand Spezial Kits:
+{{#each E.S.Items}}
+{{#test Id in '4351,4352,4353,4354,4355,4356,5105,5111,5117,5401,5706,5707,5708,5990,7516,7546,7547'}}
+{{Format Count '{0,7}'}} {{i18n}}
+{{/test}}
+{{/each}}
