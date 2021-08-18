@@ -11,6 +11,6 @@ Version 1.5.5 ReforgedEden
 Bestand Booster:
 {{#each E.S.Items}}
 {{#test Id in '4717,4718,4719,4720,4721,4722,4723,4724,4725,4746,4747,4750,4751'}}
-{{Format Count '{0,7}'}} {{i18n}}
+{{Format Count '{0,7}'}} {{i18n Id}}
 {{/test}}
 {{/each}}
