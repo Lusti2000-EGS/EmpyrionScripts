@@ -11,6 +11,6 @@ Version 1.5.5 ReforgedEden
 Bestand Rüstungen:
 {{#each E.S.Items}}
 {{#test Id in '4696,4697,4698,4699,4720,4751,5841'}}
-{{Format Count '{0,7}'}} {{i18n}}
+{{Format Count '{0,7}'}} {{i18n Id}}
 {{/test}}
 {{/each}}
