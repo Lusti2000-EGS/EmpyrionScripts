@@ -11,6 +11,6 @@ Version 1.5.5 ReforgedEden
 Bestand Versorgung:
 {{#each E.S.Items}}
 {{#test Id in '4159,4176,4177,4186,4314,4335,4421'}}
-{{Format Count '{0,7}'}} {{i18n}}
+{{Format Count '{0,7}'}} {{i18n Id}}
 {{/test}}
 {{/each}}
