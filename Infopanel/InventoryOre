@@ -11,6 +11,6 @@ Version 1.5.5 ReforgedEden
 Bestand Erz:
 {{#each E.S.Items}}
 {{#test Id in '4296,4297,4298,4299,4300,4301,4302,4316,4317,4318,4332,4341,4345,4358,4359,4362'}}
-{{Format Count '{0,7}'}} {{i18n}}
+{{Format Count '{0,7}'}} {{i18n Id}}
 {{/test}}
 {{/each}}
