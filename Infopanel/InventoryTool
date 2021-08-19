@@ -11,6 +11,6 @@ Version 1.5.5 ReforgedEden
 Bestand Werkzeuge:
 {{#each E.S.Items}}
 {{#test Id in '4107,4115,4119,4127,4135,4136,4796'}}
-{{Format Count '{0,7}'}} {{i18n}}
+{{Format Count '{0,7}'}} {{i18n Id}}
 {{/test}}
 {{/each}}
