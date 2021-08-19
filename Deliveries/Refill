@@ -1,7 +1,7 @@
 ==== DO NOT COPY ====
 Author:		Lusti2000
-ScriptLCDLabel:	Script:[+40]Refill*
-OutputLCDLabel:	Refill[001 - 999]
+ScriptLCDLabel:	Script:[+40]RefillLog*
+OutputLCDLabel:	RefillLog[001 - 999]
 Source Container:  Source
 ==== /DO NOT COPY ====
 
