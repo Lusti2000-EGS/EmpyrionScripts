@@ -1,4 +1,5 @@
-{{fontsize 4}}
-{{items E.S 'Box-00 Eingangslager'}}
+{{fontsize 6}}
+Eingangslager:
+{{items E.S 'Box-00 Input Storage'}}
 {{Count}}- {{Name}} - {{ID}}
 {{/items}}
