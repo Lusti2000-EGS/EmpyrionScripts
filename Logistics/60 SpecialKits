@@ -2,14 +2,14 @@
 Author: Lusti2000
 ScriptLCDLabel: Script:[+40]SpecialKitLog*
 OutputLCDLabel: SpecialKitLog[001 - 999]
-ID's 4351,4352,4353,4354,4355,4356,5105,5111,5117,5401,5706,5707,5708,5990,7516,7546,7547
+ID's 4351,4352,4353,4354,4355,4356,5105,5111,5117,5401,5706,5707,5708,5990,7460,7514,7515,7516,7546,7547
 Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script Version=== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id in '4351,4352,4353,4354,4355,4356,5105,5111,5117,5401,5706,5707,5708,5990,7516,7546,7547'}}
+{{#test Id in '4351,4352,4353,4354,4355,4356,5105,5111,5117,5401,5706,5707,5708,5990,7460,7514,7515,7516,7546,7547'}}
 {{move this @root.E.S 'Box-60 Special-Kits' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
