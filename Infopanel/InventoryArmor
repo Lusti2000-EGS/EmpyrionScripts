@@ -2,7 +2,7 @@
 Author: Lusti2000
 ScriptLCDLabel: Script:InventoryArmor*
 OutputLCDLabel: InventoryArmor[001 - 999]
-ID's 4696,4697,4698,4699,4720,4751,5841
+ID's 4696,4697,4698,4699,4701,4720,4751,5841,7221
 Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
@@ -10,7 +10,7 @@ Version 1.5.5 ReforgedEden
 {{fontsize 6}}
 Bestand Rüstungen:
 {{#each E.S.Items}}
-{{#test Id in '4696,4697,4698,4699,4720,4751,5841'}}
+{{#test Id in '4696,4697,4698,4699,4701,4720,4751,5841,7221'}}
 {{Format Count '{0,7}'}} {{i18n Id}}
 {{/test}}
 {{/each}}
