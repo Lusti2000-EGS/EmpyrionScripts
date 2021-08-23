@@ -2,14 +2,14 @@
 Author: Lusti2000
 ScriptLCDLabel: Script:[+40]BoosterLog*
 OutputLCDLabel: BoosterLog[001 - 999]
-ID's 4717,4718,4719,4720,4721,4722,4723,4724,4725,4746,4747,4750,4751
+ID's 4717,4718,4719,4720,4721,4722,4723,4724,4725,4746,4747,4750,4751,4752
 Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id in '4717,4718,4719,4720,4721,4722,4723,4724,4725,4746,4747,4750,4751'}}
+{{#test Id in '4717,4718,4719,4720,4721,4722,4723,4724,4725,4746,4747,4750,4751,4752'}}
 {{move this @root.E.S 'Box-05 Booster' 100}}
 {{datetime}}
 {{Source}} -> {{Destination}}
