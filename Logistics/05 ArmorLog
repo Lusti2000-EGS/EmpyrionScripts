@@ -2,14 +2,14 @@
 Author: Lusti2000
 ScriptLCDLabel: Script:[+40]ArmorLog*
 OutputLCDLabel: ArmorLog[001 - 999]
-ID's 4696,4697,4698,4699,4720,4751,5841
+ID's 4696,4697,4698,4699,4701,4720,4751,5841,7221
 Version 1.5.5 ReforgedEden
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script== <-DO NOT COPY
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id in '4696,4697,4698,4699,4700,5841'}}
+{{#test Id in '4696,4697,4698,4699,4701,4720,4751,5841,7221'}}
 {{move this @root.E.S 'Box-05 Armor' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
