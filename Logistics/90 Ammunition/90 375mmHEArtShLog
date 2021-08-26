@@ -1,0 +1,18 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]375mmHEArtShLog*
+OutputLCDLabel:	375mmHEArtShLog[001 - 999]
+Version: 1.5.5 RG
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S 'Box-00 Input Storage'}}
+{{#test Id eq 4263}}
+{{move this @root.E.S 'Box-90 375mm HE Art Shell' 1729}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id}}
+{{/move}}
+{{/test}}
+{{/items}}
