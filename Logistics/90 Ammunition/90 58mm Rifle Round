@@ -13,7 +13,7 @@ Version 1.5.5 ReforgedEden
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
-{{i18n Id}}
+{{~i18n Id}}
 {{/move}}
 {{/test}}
 {{/items}}
