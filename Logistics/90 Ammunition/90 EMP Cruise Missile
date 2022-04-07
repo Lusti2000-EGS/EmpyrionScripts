@@ -1,0 +1,18 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]140mmEMPCMLog*
+OutputLCDLabel:	140mmEMPCMLog[001 - 999]
+Version: 1.7.8 RG
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S 'Box-00 Input Storage'}}
+{{#test Id eq 7259}}
+{{move this @root.E.S 'Box-90 EMP Cruise Missile' 1666}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id}}
+{{/move}}
+{{/test}}
+{{/items}}
