@@ -1,0 +1,17 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]BaumaterialLog*
+OutputLCDLabel:	BaumaterialLog[001 - 999]
+Version: 1.7.8 RG
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S '00 Input Storage'}}
+{{#test Id in 'BlockL'}}
+{{move this @root.E.S 'Box-10 Baumaterial' 512000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id}}
+{{/move}}
+{{/items}}
