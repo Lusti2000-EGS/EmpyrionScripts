@@ -1,0 +1,19 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabelDE:	Script:[+40]CruiseMissilLog*
+OutputLCDLabelDE:	CruiseMissilLog[001 - 999]
+Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
+Version 1.7.8 ReforgedEden
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S 'Box-00 Input Storage'}}
+{{#test Id eq 7257}}
+{{move this @root.E.S 'Box-80 Cruise Missile' 1666}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id}}
+{{/move}}
+{{/test}}
+{{/items}}
