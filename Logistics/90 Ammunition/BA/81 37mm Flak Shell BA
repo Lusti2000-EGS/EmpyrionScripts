@@ -1,0 +1,18 @@
+==== DO NOT COPY ====
+Author:		Lusti2000
+ScriptLCDLabel:	Script:[+40]37mmFlakShBALog*
+OutputLCDLabel:	37mmFlakShBALog[001 - 999]
+Version: 1.5.5 RG
+==== /DO NOT COPY ====
+
+{{fontsize 4}}
+{{#items E.S 'Box-00 Input Storage'}}
+{{#test Id eq 4257}}
+{{move this @root.E.S 'Box-81 37mm Flak Shell BA' 80000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id}}
+{{/move}}
+{{/test}}
+{{/items}}
