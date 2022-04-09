@@ -9,7 +9,7 @@ Version 1.7.8 ReforgedEden
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 5849}}
-{{move this @root.E.S 'Box-80 Large Heat Sink' 512000}}
+{{move this @root.E.S 'Box-80 Large Heat Sink' 160000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
