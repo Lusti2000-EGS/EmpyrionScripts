@@ -9,7 +9,7 @@ Version 1.7.8 ReforgedEden
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 7276}}
-{{move this @root.E.S 'Box-80 Heavy Vulcan Round' 512000}}
+{{move this @root.E.S 'Box-80 Heavy Vulcan Round' 160000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
