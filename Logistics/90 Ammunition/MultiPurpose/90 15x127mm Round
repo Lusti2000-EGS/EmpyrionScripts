@@ -3,13 +3,13 @@ Author: Lusti2000
 ScriptLCDLabelDE: Script:[+40]15x127mmRounLog*
 OutputLCDLabelDE: 15x127mmRounLog[001 - 999]
 Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
-Version 1.5.5 ReforgedEden
+Version 1.7.8 ReforgedEden
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4152}}
-{{move this @root.E.S 'Box-90 15x127mm Round' 512000}}
+{{move this @root.E.S 'Box-80 15x127mm Round' 512000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
