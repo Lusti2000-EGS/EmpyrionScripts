@@ -21,7 +21,7 @@ Version 1.5.5 ReforgedEden
 
 {{#items E.S 'Box-95 Woodlog'}}
 {{#test Id eq 4338}}
-{{move this @root.E.S 'Box-00 Main Storage' 8000}}
+{{move this @root.E.S 'Box-00 Main Storage' 4000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
