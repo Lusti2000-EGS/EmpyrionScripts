@@ -8,7 +8,7 @@ Version 1.7.9 ReforgedEden
 
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
-{{#test Id eq 5770}}
+{{#test Id eq 4247}}
 {{move this @root.E.S 'Box-85 Railgun Projectile' 355555}}
 {{datetime}}
 {{Source}} -> {{Destination}}
