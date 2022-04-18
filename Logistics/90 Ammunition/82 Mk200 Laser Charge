@@ -2,13 +2,13 @@
 Author:		Lusti2000
 ScriptLCDLabel:	Script:[+40]Mk200LaserChLog*
 OutputLCDLabel:	Mk200LaserChLog[001 - 999]
-Version: 1.5.5 RG
+Version: 1.7.9 RG
 ==== /DO NOT COPY ====
 
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4253}}
-{{move this @root.E.S 'Box-90 Mk200 Laser Charge' 6400}}
+{{move this @root.E.S 'Box-82 Mk200 Laser Charge' 6400}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
