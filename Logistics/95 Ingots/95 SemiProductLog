@@ -21,7 +21,7 @@ Version 1.5.5 ReforgedEden
 
 {{#items E.S 'Box-95 Semi Product'}}
 {{#test Id in 4303,4304,4305,4306,4307,4308,4309,4310,4311,4312,4315,4329,4330,4331,4334,4337,4339,4340,4357,4364,4367,4374,4375,4376,4377,4378,4379,4380,4381,4401,4445,5947,5968,5969}}
-{{move this @root.E.S 'Box-00 Main Storage' 4000}}
+{{move this @root.E.S 'Box-00 Main Storage' 2000}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
