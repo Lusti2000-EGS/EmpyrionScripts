@@ -24,7 +24,7 @@
     "ZascosiumOre": ",ZascosiumOre,"
                         
     #Intelligent Groups
-    "FurnaceInput": ",AluminiumOre,CobaltOre,CopperOre,ErestrumOre,GoldOre,IronOre,NeodymiumOre,NeodymiumOre,SiliconOre,TitanOre,ZascosiumOre,"
+    "FurnaceInput": ",CobaltOre,CopperOre,ErestrumOre,GoldOre,IronOre,NeodymiumOre,NeodymiumOre,SiliconOre,TitanOre,ZascosiumOre,"
     
     "Ore": ",AluminiumOre,CobaltOre,CopperOre,ErestrumOre,GoldOre,IronOre,MagnesiumOre,NeodymiumOre,PentaxidOre,PromethiumOre,SiliconOre,TitanOre,ZascosiumOre,",
     "Ingot": ",CobaltIngot,CopperIngot,CrushedStone,ErestrumIngot,GoldIngot,IronIngot,MagnesiumPowder,NeodymiumIngot,PentaxidCrystal,PlatinBar,PromethiumPellets,RockDust,SathiumIngot,SiliconIngot,ZascosiumIngot,",
