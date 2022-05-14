@@ -1,0 +1,17 @@
+{{~set 'Harvest' false}}
+{{~setblock 'Log'}}
+{{~set 'Log' false}}
+{{~#blocks E.S -10 127 -60 14 127 -46}}
+{{~#harvest @root.E.S .
+ 'Box-50 Fridge (Raw Food)' 2 127 -58 true}}
+{{~set 'Harvest' true}}
+Harvest
+{{~format DropOnHarvestCount ' ➠ {0,5}'}} :
+{{~i18n DropOnHarvestId}}
+{{~/harvest}}
+{{~/blocks}}
+{{/setblock}}
+{{~if Data.Harvest}}<color=white>
+{{~datetime}}</color><indent=5px>
+{{~Data.Log}}</indent>
+{{/if}}
