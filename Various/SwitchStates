@@ -1,0 +1,34 @@
+{{~set 'con' '<color=#44444440><cspace=-.92em><size=8>◖<voffset=1.7>▆</voffset>◗</cspace></color></size><size=6><voffset=.6><pos='}}
+{{~set 'n' '<color=#CE1818>◌'}}
+{{~set 'y' '<color=#18CE18>◉'}}
+{{~set 'm' '</color></pos></voffset></size></pos><voffset=1.5><pos='}}
+{{~set 'yl' (concat '<pos=3>' Data.con '11>' Data.y Data.m '18>')}}
+{{~set 'yr' (concat '<pos=48>' Data.con '56>' Data.y Data.m '63>')}}
+{{~set 'nl' (concat '<pos=3>' Data.con '4>' Data.n Data.m '18>')}}
+{{~set 'nr' (concat '<pos=48>' Data.con '49>' Data.n Data.m '63>')}}
+{{~set 'x' '</voffset></pos>'}}
+{{~set 'i' 1}}
+{{~fontsize 3}}{{~set 'l' '<line-height=0.53em><cspace=-0.1em><size=5>'}}
+{{~set 'E' (concat '</pos>' @root.data.l '<pos=93.2>║</pos>
+<pos=0>║</pos></size></cspace></line-height>')}}
+{{~set 'Ee' (concat @root.Data.E @root.Data.E @root.Data.E @root.Data.E @root.Data.E)}}
+{{~@root.data.l}}╔{{~bar 1 0 1 43 '═'}}╗</size></cspace>
+<size=5><pos=0>║</pos></size>{{@root.data.Ee~}}
+{{~signals @root.E.S '*'}}
+{{~#each .}}
+{{~#test (calc @root.Data.i '%' 2) eq 1}}
+{{~#if State}}{{@root.data.yl}}{{else}}{{@root.data.nl}}{{/if}}{{substring Name 0 20}}{{@root.data.x}}
+{{~else}}{{#if State}}{{@root.data.yr}}{{else}}{{@root.data.nr}}{{/if}}{{substring Name 0 20}}{{@root.data.x}}{{@root.data.Ee~}}{{/test}} 
+{{~set 'i' (calc @root.Data.i '+' 1)}}
+{{~/each}}
+{{~/signals}}{{~getswitches @root.E.S '*'}}
+{{~#each .}}{{~#test id in '1227-1230,1256-1262'}}{{#if CustomName}}
+{{~#test (calc @root.Data.i '%' 2) eq 1}}
+{{~#if SwitchState}}{{@root.data.yl}}{{else}}{{@root.data.nl}}{{/if}}{{substring CustomName 0 20}}{{@root.data.x}}
+{{~else}}{{#if SwitchState}}{{@root.data.yr}}{{else}}{{@root.data.nr}}{{/if}}{{substring CustomName 0 20}}{{@root.data.x}}{{@root.data.Ee~}}{{/test}}
+{{~set 'i' (calc @root.Data.i '+' 1)}}
+{{~/if}}{{/test}}{{~/each}}
+{{~/getswitches}}
+{{@root.data.Ee~}}
+<pos=93.2>║</pos>
+{{~@root.data.l}}╚{{~bar 1 0 1 43 '═'}}╝
