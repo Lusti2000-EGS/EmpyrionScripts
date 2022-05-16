@@ -1,0 +1,31 @@
+<line-height=13px>
+{{~#if P.IsPvP}}{{#intervall 1}}{{set 'C1' '#FF4000'}}{{set 'C2' '#FE9A2E'}}{{else}}{{set 'C1' 'red'}}{{set 'C2' 'purple'}}{{/intervall}}{{else}}{{set 'C1' '#FF4000'}}{{set 'C2' '#FE9A2E'}}{{/if}}
+<line-height=17.5><size=18><align=center><color=#00CCFF50>┎───────────────────┒</align>
+<pos=3.5>╹</pos></size><size=4><voffset=14>{{E.Name}} ({{E.Id}}) - HUD System - {{P.Name}}</voffset></size><line-height=5.4><pos=166.6><size=14><color={{@root.Data.C1}}>◌</color><pos=161.6><size=22><color={{@root.Data.C2}}>◜<pos=164.6>◝
+<pos=161.6>◟<pos=164.6>◞</color></line-height><size=18><line-height=1.4><pos=183.5><voffset=4.6>╿</voffset></pos></size></line-height></color>
+<size=3>
+<color=#00CCFF50><line-height=9.8>
+300
+
+200
+
+100</size>
+
+<align=center><color=red><size=12>▻  ❲ ❳  ◅</size></color>
+
+<align=left><size=3>-100
+
+-200
+
+-300
+<align=center><size=5><line-height=7>╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽╷╷╷╷╽
+<size=15>┖────────────────────────┚
+<size=8><sup>
+{{~#external 'MaxWarp'}}
+{{~#if .}}{{../E.S.Pilot.Name}}:<color=yellow>
+{{~.}}</color> LY{{/if}}{{/external}}
+{{~#external 'Navigation'}}
+{{#if NextLocation}} <color=green>
+{{~Route.0}}{{#if Route.1}} → {{Route.1}}
+{{~/if}} ➾ {{Target}}{{/if}}
+{{/external}}
