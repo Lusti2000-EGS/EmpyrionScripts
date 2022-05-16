@@ -1,0 +1,63 @@
+{{~set 'WeaponsIDs' ''}}
+{{~set 'AmmoIDs' ''}}
+{{#devices E.S 'W-*'}}
+{{#each .}}
+{{~set 'WI' (configattr Id 'WeaponItem')}}
+{{~set 'AT' (configattrbyname
+ @root.Data.WI
+ 'AmmoType')}}
+{{~set 'AI' (configattrbyname
+ @root.Data.AT
+ 'Id')}}
+{{~#test @root.Data.WI in
+ @root.Data.WeaponIDs}}
+{{~#lookupblock @root.Data (concat 'WeaponCount' @root.Data.WI)}}
+{{~#math . '+' 1}}
+{{~set (concat 'WeaponCount' @root.Data.WI) .}}
+{{~/math}}
+{{~/lookupblock}}
+{{else}}
+{{~set 'WeaponIDs' 
+(concat @root.Data.WeaponIDs
+ ',' @root.Data.WI)}}
+{{~set (concat 'WeaponCount' @root.Data.WI) 1}}
+{{/test}}
+{{~#test @root.Data.AI in
+ @root.Data.AmmoIDs}}{{else}}
+{{~set 'AmmoIDs' 
+(concat @root.Data.AmmoIDs
+ ',' @root.Data.AI)}}
+{{~/test}}
+{{~/each}}
+{{~/devices}}
+{{~setcache 'WeaponsIDs' Data.WeaponIDs}}
+{{~setcache 'AmmoIDs' Data.AmmoIDs}}
+ 
+ 
+<align=center>
+<pos=15%><size=200%><sprite name="Ammunition">
+</size></align>
+{{~#getitems E.S '*Box-*'}}
+{{~#itemlist . @root.Data.AmmoIDs}}
+{{#test Id in @root.Data.AmmoIDs}}
+<pos=20%>{{i18n Id}}
+{{~#test Count eq 0}}
+{{~#intervall 1}}
+<pos=80%><color=red>Empty</color>
+{{~/intervall}}
+{{~else}}
+<pos=80%>{{Count}}
+{{/test}}
+{{/test}}
+{{/itemlist}}
+{{/getitems}}<size=80%>
+<pos=50%><sprite name="SystemStatus_Bar">
+</size><size=3>
+{{~#split Data.WeaponIDs ',' true}}
+{{#each .}}
+<pos=50%> 
+{{~lookup @root.Data
+ (concat 'WeaponCount' .)}}<pos=54%>
+{{~i18n .}}
+{{/each}}
+{{/split}}</size>
