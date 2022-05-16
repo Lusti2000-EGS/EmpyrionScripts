@@ -1,0 +1,75 @@
+Playfield: "{{P.Name}}"
+{{~#test P.PlayfieldType '=' 'Space'}}
+{{~setswitch ../E.S 'Planet' false}} / <color=yellow>
+{{~else}}
+{{~setswitch ../E.S 'Planet' true}} / <color=green>
+{{~/test}}
+{{P.PlayfieldType}}</color> / PvP:{{P.IsPvP}}
+ 
+<color=green>☢ {{use E.S.FuelTank}}
+{{~bar Content 0 Capacity 20 }} 
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} =
+{{~format Content ' {0,7:0.0}'}} / {{format Capacity '{0,7:0.0}'}} Fuel
+{{~/use}}</color>
+
+<color=#2ECCFA>✇ {{use E.S.OxygenTank}}
+{{~bar Content 0 Capacity 20 }} 
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} = 
+{{~format Content ' {0,7:0.0}'}} / {{format Capacity '{0,7:0.0}'}} Oxygen
+{{~/use}}</color>
+
+<color=purple>⚛ {{use E.S.PentaxidTank}}
+{{~bar Content 0 Capacity 20 }} 
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2}'}}
+{{~/math}} = 
+{{~format Content ' {0,7:0.0}'}} / {{format Capacity '{0,7:0.0}'}} Pentaxid
+{{/use}}</color>
+ 
+Docked on {{#devices E.S 'HullShield'}}
+{{~setswitch @root.E.S 'ShieldState' .0/Active}}
+{{~#if .0/Active}}
+{{~@root.E.Name}}
+{{~else}}
+{{~#intervall 1}} 
+{{~@root.E.Name}} <color=yellow>Shield Offline</color>
+{{~else}}
+{{~@root.E.Name}} <color=red>Shield Offline</color>
+{{~/intervall}}
+{{/if}}
+{{/devices}}
+{{#sort E.S.DockedE 'Name'}}{{#each .}}
+- {{Name}}<pos=18em> 
+{{~#if S.IsPowerd}} !! ON !! {{/if}}
+{{~use S.FuelTank}}<color=green>☢
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2} '}}</color>
+{{~/math}}
+{{/use}}<pos=25em> 
+{{~use S.OxygenTank}}<color=#2ECCFA>✇
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2} '}}
+{{~/math}}{{/use}}</color><pos=32em> 
+{{~use S.PentaxidTank}}<color=purple>⚛
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2} '}}
+{{~/math}}</color>
+{{~/use}}
+{{/each}}{{/sort}}
+ 
+Player:
+{{#each P.Players}}
+ - {{Name}}
+{{/each}}
+ 
+Passengers:
+{{#each E.S.Passengers}}
+ - {{Name}}
+{{/each}}
+ 
+Time on board: {{datetime}}
+{{Version}}
