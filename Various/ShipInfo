@@ -1,0 +1,74 @@
+{{~setcache 'Ammo' '4254,4249,4150,4263'}}
+{{~set 'EnginesOn' false}}
+{{~getsignal E.S 'Pilot'}}
+{{~#if .}}{{set 'EnginesOn' true}}{{/if}}
+{{/getsignal}}
+{{~getsignal E.S 'EnginesOverride'}}
+{{~#if .}}{{set 'EnginesOn' true}}{{/if}}
+{{/getsignal}}
+<indent=10px>
+{{~#if Data.EnginesOn}}
+<line-height=-2px>
+<size=200%><sprite name="AIActive_Bar"></size></line-height>
+<line-height=1px>
+</line-height> 
+{{~else}}
+<line-height=-14px>
+</line-height>
+<size=50%>            Engines</size><line-height=7px>
+<size=200%><sprite=4>    <sprite=4></size></line-height>
+{{/if}}</indent>
+
+<line-height=-18px>
+</line-height>
+
+Docked on {{#devices E.S 'HullShield'}}
+{{~#if .0/Active}}
+{{~@root.E.Name}}
+{{~else}}
+{{~#intervall 1}} 
+{{~@root.E.Name}} <color=yellow>Shield Offline</color>
+{{~else}}
+{{~@root.E.Name}} <color=red>Shield Offline</color>
+{{~/intervall}}
+{{/if}}
+{{/devices}}
+{{#sort E.S.DockedE 'Name'}}{{#each .}}
+- {{Name}}<pos=16em> 
+{{~#if S.IsPowerd}} !! ON !! {{/if}}
+{{~use S.FuelTank}}<color=green>☢
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2} '}}</color>
+{{~/math}}
+{{/use}}<pos=23em> 
+{{~use S.OxygenTank}}<color=#2ECCFA>✇
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2} '}}
+{{~/math}}{{/use}}</color><pos=30em> 
+{{~use S.PentaxidTank}}<color=purple>⚛
+{{~math Content '/' Capacity}}
+{{~format . '{0,8:P2} '}}
+{{~/math}}</color>
+{{~/use}}
+{{/each}}{{/sort}}
+ 
+Pilot:
+{{~#if E.S.Pilot.Name}} {{E.S.Pilot.Name}}
+{{~setswitch @root.E.S 'Pilot' true}}
+{{else}}
+{{~setswitch @root.E.S 'Pilot' false}}
+{{/if}}
+
+<line-height=-12px>
+</line-height>
+<indent=15em>Passengers:{{#each E.S.Passengers}}
+ - {{Name}}
+{{~/each}}</indent>
+ 
+Players on playfield:{{#each P.Players}}
+ - {{Name}}
+{{~/each}}
+ 
+
+Time on board: {{datetime}}
+{{Version}}
