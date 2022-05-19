@@ -1,0 +1,21 @@
+Script:[20]AutoPowerOff*
+
+{{~set 'PlayerCount' 0}}
+{{~#each P.Players}}
+{{~#math @root.Data.PlayerCount '+' 1}}
+{{~set 'PlayerCount' .}}
+{{/math}}
+{{/each}}
+{{~#block E.S 0 128 0}}
+{{~#test @root.Data.PlayerCount '=' 0}}
+{{~#if ./Active}}
+{{~setactive . false}}
+PowerOff: {{datetime}}
+{{~/if}}
+{{~else}}
+{{~#if ./Active}}{{~else}}
+{{~setactive . true}}
+PowerOn: {{datetime}}
+{{~/if}}
+{{~/test}}
+{{/block}}
