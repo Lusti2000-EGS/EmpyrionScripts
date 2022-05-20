@@ -1,4 +1,4 @@
-{{#if getsignal @root.E.S Railgun}}
+{{#if getsignal @root.E.S Hüllenbrecher}}
 {{#intervall 1}}
 {{datetime}} Heavy Railgun Intervall 1 aktiv
 {{setactive W-Heavy Railgun #01 enable}}
