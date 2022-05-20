@@ -2,7 +2,7 @@
  ---DO NOT COPY---
  
  "Ids": {
-    #Ingame to ID Convertion
+    #Ingame to ID Convertion to make scripts human readable
     "AluminiumOre": ",AluminiumOre,"
     "CobaltOre": ",CobaltOre,"
     "CopperOre": ",CopperOre,"
