@@ -1,0 +1,21 @@
+{{#if getsignal @root.E.S Railgun}}
+{{#intervall 1}}
+{{datetime}} Heavy Railgun Intervall 1 aktiv
+{{setactive W-Heavy Railgun #01 enable}}
+{{setactive W-Heavy Railgun #02 enable}}
+{{setactive W-Heavy Railgun #03 disable}}
+{{setactive W-Heavy Railgun #04 disable}}
+{{else}}
+{{datetime}} Heavy Railgun Intervall 2 aktiv
+{{setactive W-Heavy Railgun #01 disable}}
+{{setactive W-Heavy Railgun #02 disable}}
+{{setactive W-Heavy Railgun #03 enable}}
+{{setactive W-Heavy Railgun #04 enable}}
+{{/intervall}}
+{{else}}
+{{datetime}} Heavy Railgun Intervall inaktiv
+{{setactive W-Heavy Railgun #01 disable}}
+{{setactive W-Heavy Railgun #02 disable}}
+{{setactive W-Heavy Railgun #03 disable}}
+{{setactive W-Heavy Railgun #04 disable}}
+{{/if}}
