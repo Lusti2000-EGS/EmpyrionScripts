@@ -1,19 +1,23 @@
 {{#if getsignal @root.E.S Hüllenbrecher}}
 {{#intervall 1}}
-{{datetime}} Heavy Railgun Intervall 1 aktiv
+{{datetime}} Heavy Railgun Gruppe 1 aktiv
 {{setactive W-Heavy Railgun #01 enable}}
 {{setactive W-Heavy Railgun #02 enable}}
 {{setactive W-Heavy Railgun #03 disable}}
 {{setactive W-Heavy Railgun #04 disable}}
 {{else}}
-{{datetime}} Heavy Railgun Intervall 2 aktiv
+{{datetime}} Heavy Railgun Gruppe 2 aktiv
 {{setactive W-Heavy Railgun #01 disable}}
 {{setactive W-Heavy Railgun #02 disable}}
 {{setactive W-Heavy Railgun #03 enable}}
 {{setactive W-Heavy Railgun #04 enable}}
+{{else}}
+{{datetime}} Heavy Railgun Gruppe 3 aktiv
+{{else}}
+{{datetime}} Heavy Railgun Gruppe 4 aktiv
 {{/intervall}}
 {{else}}
-{{datetime}} Heavy Railgun Intervall inaktiv
+{{datetime}} Heavy Railgun Gruppen inaktiv
 {{setactive W-Heavy Railgun #01 disable}}
 {{setactive W-Heavy Railgun #02 disable}}
 {{setactive W-Heavy Railgun #03 disable}}
