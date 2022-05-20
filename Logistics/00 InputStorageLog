@@ -1,8 +1,9 @@
 ==== DO NOT COPY | NICHT KOPIEREN ====
-Author:		      Lusti2000
+Author: Lusti2000
 ScriptLCDLabel: Script:[+40]InputStorageLog*
 OutputLCDLabel: InputStorageLog[001 - 999]
-Version:        RE 1.7.8
+Version: RE 1.7.8
+Explanation: Moves all stuff from CargoIn container to Input Storage to be sorted
 ==== /DO NOT COPY | NICHT KOPIEREN ====
 
 ===Script=== <-DO NOT COPY
