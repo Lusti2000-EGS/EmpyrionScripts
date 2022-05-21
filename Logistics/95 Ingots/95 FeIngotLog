@@ -3,10 +3,21 @@ Author: Lusti2000
 ScriptLCDLabel:	Script:[+40]FeIngotLog*
 OutputLCDLabel:	FeIngotLog[001 - 999]
 Storage: 320000 L | 1 Storage Controller & 39 Storage Containers
-Version: 1.4.5 ReforgenEden
+Version: 1.7.8 ReforgenEden
 ==== /DO NOT COPY====
 
 ===Script== <-DO NOT COPY
+{{#items E.S 'Box-95 Iron Ingot'}}
+{{#test Id eq 4320}}
+{{move this @root.E.S 'Box-00 Main Storage' 4000}}
+{{datetime}}
+{{Source}} -> {{Destination}}
+{{format Count '{0,5}'}}:
+{{~i18n Id}}
+{{/move}}
+{{/test}}
+{{/items}}
+
 {{fontsize 4}}
 {{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4320}}
@@ -19,9 +30,10 @@ Version: 1.4.5 ReforgenEden
 {{/test}}
 {{/items}}
 
-{{#items E.S 'Box-95 Iron Ingot'}}
+{{fontsize 4}}
+{{#items E.S 'Box-00 Input Storage'}}
 {{#test Id eq 4320}}
-{{move this @root.E.S 'Box-00 Main Storage' 8000}}
+{{move this @root.E.S 'Box-00 Trashcontainer' 426666}}
 {{datetime}}
 {{Source}} -> {{Destination}}
 {{format Count '{0,5}'}}:
