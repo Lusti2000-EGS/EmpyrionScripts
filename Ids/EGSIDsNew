@@ -1,29 +1,60 @@
- IGS Id's New Iteration v0.0001
+ IGS Id's New Iteration v10.0.0.1
  ---DO NOT COPY---
  
- "Ids": {
-    #Ingame to ID Convertion to make scripts human readable
+ "Id": {
+    #Ingame to ID Convertion to make scripts human readable, mabe switch this section to Id instead of Ids. Can be understood as Empyrion DNS service
+    #Ingame name without space | Config name
+    #Ore, ingot and powder
     "AluminiumOre": ",AluminiumOre,"
+    "AluminiumPowder": ",AluminiumPowder,"
     "CobaltOre": ",CobaltOre,"
-    "CopperOre": ",CopperOre,"
-    "ErestrumOre": ",ErestrumOre,"
-    "GoldOre": ",GoldOre,"
-    "IronOre": ",IronOre,"
-    "MagnesiumOre": ",MagnesiumOre,"
-    "NeodymiumOre": ",NeodymiumOre,"
-    "PentaxidOre": ",PentaxidOre,"
-    "PromethiumOre": ",PromethiumOre,"
-    "SiliconOre": ",SiliconOre,"
-    "TitanOre": ",TitanOre,"
     "CobaltIngot": ",CobaltIngot,"
-    "CopperIngot": ",CopperIngot,"
+    "CopperOre": ",CopperOre,"
+    "CopperIngot": ",CopperIngot,
+    "ErestrumOre": ",ErestrumOre,"
+    "ErestrumIngot": ",ErestrumIngot,"
+    "GoldOre": ",GoldOre,"
+    "GoldIngot": ",GoldIngot,"
+    "IronOre": ",IronOre,"
+    "IronIngot: ",IronIngot,"
+    "MagnesiumOre": ",MagnesiumOre,"
+    "MagnesiumPowder": ",MagnesiumPowder,"
+    "NeodymiumOre": ",NeodymiumOre,"
+    "NeodymiumIngot": ",NeodymiumIngot,"
+    "PentaxidOre": ",PentaxidOre,"
+    "PentaxidCrystal": ",PentaxidCrystal,"
+    "PromethiumOre": ",PromethiumOre,"
+    "PromethiumPellets": ",PromethiumPellets,"
+    "SiliconOre": ",SiliconOre,"
+    "SiliconIngot": ",SiliconIngot,"
+    "TitanOre": ",TitanOre,"
+    "TitanIngot": ",TitanIngot,"
     "ZascosiumOre": ",ZascosiumOre,"
-                        
+    "ZascosiumIngot": ",ZascosiumIngot,"
+    
+    #Semi product
+
+    #Food product
+    "AkuaWine": ",AkuaWine,"
+    "AnniversaryCake": ",AnniversaryCake,"
+    "BerryJuice": ",BerryJuice,"
+    "Bread": ",Bread,"
+    "Cheese": ",Cheese,"
+
+    #Medicine product
+
+    #Ammunition
+  },
+
+  "Ids": {                      
     #Inventory A.I. Groups
-    "FurnaceInput": ",CobaltOre,CopperOre,ErestrumOre,GoldOre,IronOre,NeodymiumOre,NeodymiumOre,SiliconOre,TitanOre,ZascosiumOre," #All Meltable Ores for the Furnace
-    "FoodFinal": ",AkuaWine,AnniversaryCake,Beer,EmergencyRations,FruitPie,MeatBurger,Pizza,Sandwich," #Food that cannot be processed anymore
-    "FoodIngredient": ","
-    MedicineIngredient": ",PromethiumPellets,"
+    "FurnaceOreInput": ",CobaltOre,CopperOre,ErestrumOre,GoldOre,IronOre,NeodymiumOre,NeodymiumOre,SiliconOre,TitanOre,ZascosiumOre," #All meltable ores for the furnace
+    "FoodFinal": ",AkuaWine,AnniversaryCake,Beer,EmergencyRations,FruitPie,MeatBurger,Pizza,Sandwich," #Food that cannot be processed further
+    "FoodIngredient": ",BerryJuice,Bread,Cheese," #All ingredients used for food production
+    "MedicineIngredient": ",PromethiumPellets," #All ingredients used for medicine production
+    "SemiProducts: ","
+
+    #Broad Groups | Original Astic Content
     "Ore": ",AluminiumOre,CobaltOre,CopperOre,ErestrumOre,GoldOre,IronOre,MagnesiumOre,NeodymiumOre,PentaxidOre,PromethiumOre,SiliconOre,TitanOre,ZascosiumOre,",
     "Ingot": ",CobaltIngot,CopperIngot,CrushedStone,ErestrumIngot,GoldIngot,IronIngot,MagnesiumPowder,NeodymiumIngot,PentaxidCrystal,PlatinBar,PromethiumPellets,RockDust,SathiumIngot,SiliconIngot,ZascosiumIngot,",
     "BlockL": ",AlienBlocks,AlienLargeBlocks,ConcreteArmoredBlocks,ConcreteBlocks,ConcreteDestroyedBlocks,GrowingPot,GrowingPotConcrete,GrowingPotWood,HeavyWindowBlocks,HullArmoredLargeBlocks,HullCombatFullLarge,HullCombatLargeBlocks,HullFullLarge,HullLargeBlocks,HullLargeDestroyedBlocks,HullThinLarge,LadderBlocks,PlasticLargeBlocks,StairsBlocks,StairsBlocksConcrete,StairsBlocksWood,TrussLargeBlocks,WindowArmoredLargeBlocks,WindowLargeBlocks,WindowShutterLargeBlocks,WoodBlocks,",
