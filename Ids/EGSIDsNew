@@ -1,10 +1,10 @@
- IGS Id's New Iteration v10.0.0.1
+ IGS Id's New Iteration Astic/TC Script v10.0.0.1
  ---DO NOT COPY---
  
  "Id": {
     #Ingame to ID Convertion to make scripts human readable, mabe switch this section to Id instead of Ids. Can be understood as Empyrion DNS service
     #Ingame name without space | Config name
-    #Ore, ingot and powder
+    #Ore, ingot, powder, log, plank
     "AluminiumOre": ",AluminiumOre,"
     "AluminiumPowder": ",AluminiumPowder,"
     "CobaltOre": ",CobaltOre,"
@@ -29,6 +29,7 @@
     "SiliconIngot": ",SiliconIngot,"
     "TitanOre": ",TitanOre,"
     "TitanIngot": ",TitanIngot,"
+    -> "WoodLog": ",WoodLog,"
     "ZascosiumOre": ",ZascosiumOre,"
     "ZascosiumIngot": ",ZascosiumIngot,"
     
@@ -40,18 +41,36 @@
     "BerryJuice": ",BerryJuice,"
     "Bread": ",Bread,"
     "Cheese": ",Cheese,"
+    "EmergencyRations": ",EmergencyRations,"
+    "Fruit": ",Fruit,"
+    "FruitJuice": ",FruitJuice,"
+    "FruitPie": ",FruitPie,"
+    "HotBeverage": ",HotBeverage,"
+    "Meat": ",Meat,"
+    "MeatBurger": ",MeatBurger,"
+    "Milk": ",Milk,"
+    "Pizza": ",Pizza,"
+    "Sandwich": ",Sandwich,"
+    "Steak": ",Steak,"
+    "Stew": ",Stew,"
+    "Vegetables": ",Vegetables,"
+    "VegetableJuice": ",VegetableJuice,"
+    "VeggieBurger": ",VeggieBurger,"
 
     #Medicine product
 
     #Ammunition
-  },
+},
 
   "Ids": {                      
     #Inventory A.I. Groups
     "FurnaceOreInput": ",CobaltOre,CopperOre,ErestrumOre,GoldOre,IronOre,NeodymiumOre,NeodymiumOre,SiliconOre,TitanOre,ZascosiumOre," #All meltable ores for the furnace
-    "FoodFinal": ",AkuaWine,AnniversaryCake,Beer,EmergencyRations,FruitPie,MeatBurger,Pizza,Sandwich," #Food that cannot be processed further
-    "FoodIngredient": ",BerryJuice,Bread,Cheese," #All ingredients used for food production
-    "MedicineIngredient": ",PromethiumPellets," #All ingredients used for medicine production
+    "FoodFinal": "," #Food that cannot be processed further in Vanilla
+    "FoodFinalRE": ",AkuaWine,AnniversaryCake,Beer,EmergencyRations,FruitPie,MeatBurger,Pizza,Sandwich,VeggieBurger," #Food that cannot be processed further in ReforgedEden
+    "FoodIngredient "," #All ingredients used for food production in Vanilla
+    "FoodIngredientRE": ",BerryJuice,Bread,Cheese," #All ingredients used for food production in ReforgedEden
+    "MedicineIngredient": "," #All ingredients used for medicine production in Vanilla
+    "MedicineIngredientRE": ",PromethiumPellets," #All ingredients used for medicine production in ReforgedEden
     "SemiProducts: ","
 
     #Broad Groups | Original Astic Content
@@ -77,4 +96,7 @@
     "AmmoSV": ",15mmBullet,FastRocket,FastRocketHoming,PlasmaCannonChargeSS,PulseLaserChargeSS,RailgunBullet,",
     "AmmoCV": ",15mmBullet,30mmBullet,5.8mmBullet,FastRocketMS,FlakRocketMS,LargeRocketMS,PulseLaserChargeMS,PulseLaserChargeMSWeapon,TurretMSPlasmaCharge,",
     "AmmoBA": ",15mmBullet,30mmBullet,5.8mmBullet,FastRocketBA,FlakRocket,LargeRocket,PulseLaserChargeBA,TurretBAPlasmaCharge,"
+
+    #Special Groups | Used for scripts
+    "Gardeners": ",ConsoleSmallHuman," #Used for harvest script
   },
