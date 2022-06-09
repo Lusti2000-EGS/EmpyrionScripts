@@ -636,48 +636,6 @@ HullCombatSmallBlocks
   TechTreeNames: "Base,Capital Vessel"
 }
 
-{ Block Id: 292, Name: WaterGreen
-  CanPlayersSpawnOn: false
-  /*Class: LiquidStatic /*/
-  Material: water
-  Shape: LiquidTerrain
-  Mesh: water
-  Texture: 107
-  ShowUser: No
-  WindSpeed: 4
-  Transparent: 7
-  Turbidity: 0.05
-  WaterColor: "0,255,0,255"
-  TurbidityColor: "225,255,255,255"
-  
-  # Color of water in shader 
-  BlockColor: "0,50,30,252"    
-  { Child Map
-	# Color of water in map 
-    Color: "15,65,45,252"   
-    # ElevMinMax: "20,30"   
-    Specular: 0.3
-  }
-}
-{ Block Id: 293, Name: RockLava03
-  CanPlayersSpawnOn: false
-  /*Class: LiquidStatic /*/
-  Material: lava
-  Shape: LiquidTerrain
-  Mesh: lava
-  Texture: 121
-  AllowPlacingAt: "Base,MS", display: true
-  ShowUser: No
-  { Child Map
-    /* Color: "0,0,110"
-    Color2: "0,0,200"   */
-    Color: "255,220,70"
-    Color2: "255,0,0"
-    ElevMinMax: "15,30"
-    Specular: 0.8
-    Emissive: 1
-  }
-}
 { Block Id: 294, Name: AlienPlant01
   Material: wood
   Shape: Deco
@@ -3105,49 +3063,7 @@ HullCombatSmallBlocks
   
   ShowUser: No
 }
-# Obsolete but dont delete
-#{ Block Id: 435, Name: InteriorBlock01, Ref: Hull
-#  Texture: "12,29,32,32,32,32"
-#}
-# Obsolete but dont delete
-{ Block Id: 436, Name: InteriorBlock02, Ref: Hull
-  Texture: "12,29,30,30,30,30"
-}
-# Obsolete but dont delete
-{ Block Id: 437, Name: InteriorBlock, Ref: Hull
-  Texture: "12,29,31,31,31,31"
-}
-# Obsolete but dont delete
-{ Block Id: 438, Name: InteriorBlock04, Ref: Hull
-  Texture: "12,29,9,9,9,9"
-}
-# Obsolete but dont delete
-{ Block Id: 439, Name: InteriorBlock05, Ref: Hull
-  Texture: "12,29,10,10,10,10"
-}
-# Obsolete but dont delete
-{ Block Id: 440, Name: InteriorBlock06, Ref: Hull
-  Texture: "12,29,11,11,11,11"
-}
-# Obsolete but dont delete
-{ Block Id: 441, Name: InteriorBlock03, Ref: Hull
-  Texture: "12,29,15,15,15,15"
-}
-# Obsolete but dont delete
-#{ Block Id: 442, Name: InteriorLight, Ref: Hull
-#  Texture: 14
-#  ShowUser: NoButCSV    # reported by HWS 
-#}
-# Obsolete but dont delete
-#{ Block Id: 443, Name: RampTop, Ref: Hull
-#  Texture: 13
-#  Model: RampA
-#}
-# Obsolete but dont delete
-#{ Block Id: 444, Name: RampBottom, Ref: Hull
-#  Model: RampCMedium
-#  Mass: 60, type: float, display: true, formatter: Kilogram
-#}
+
 # retractable landinggear
 { +Block Id: 445, Name: LandinggearMSHeavy
   Class: LandingGear              # for retractable landinggears
@@ -3181,20 +3097,6 @@ HullCombatSmallBlocks
   EnergyIn: 1, type: int, display: true, formatter: Watt
 }
 
-{ Block Id: 446, Name: RampSteep, Ref: Hull
-  Model: RampC
-  Texture: 12
-}
-{ Block Id: 447, Name: SolarBlock, Ref: Hull
-  Model: RampC
-  Texture: "50,10,10,10,10,10"      # removed SolarPanel texture
-  AllowPlacingAt: "Base,MS", display: true
-}
-{ Block Id: 448, Name: SolarPanel, Ref: Hull
-  Model: Plate
-  Texture: "50,50,10,10,10,10"      # removed SolarPanel texture
-  AllowPlacingAt: "Base,MS", display: true
-}
 { +Block Id: 449, Name: ThrusterSVRoundNormal
   Class: Thruster
   IndexName: Thruster
@@ -3239,39 +3141,7 @@ HullCombatSmallBlocks
   BlastDamage: 800
   UpgradeTo: ThrusterSVRoundNormalT2, display: false
 }
-{ +Block Id: 450, Name: ThrusterSVRoundArmored, Ref: ThrusterSVRoundNormal
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterSSRoundArmoredPrefab
-  # UpgradeTo: null, display: false
-  UpgradeTo: ThrusterSVRoundArmoredT2, display: false
-}
-{ +Block Id: 451, Name: ThrusterSVRoundSlant, Ref: ThrusterSVRoundNormal
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterSSRoundSlantPrefab
-  # UpgradeTo: null, display: false
-  UpgradeTo: ThrusterSVRoundSlantT2, display: false
-}
-# Obsolete but dont delete
-{ Block Id: 452, Name: ThrusterSVRoundSlantT2OLD, Ref: ThrusterSVRoundNormal
-  # Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterSSAtmoPrefab
-  # Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterCVRoundSlantPrefab
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterSSRoundSlantPrefab
-  CustomIcon: ThrusterMSRoundSlant
-  Info: This thruster shape can only be obtained by using the Change Mode of the Multitool on an Advanced Medium Thruster., display: true
-  SizeInBlocks: "1,2,1", display: true
-  HitPoints: 125, type: int, display: true
-  Mass: 325, type: float, display: true, formatter: Kilogram
-  Volume: 62.5, type: float, display: true, formatter: Liter
-  CPUIn: 165, type: int, display: true
-  ThrusterForce: 172, type: int, display: true, formatter: Newton
-  EnergyIn: 105, type: int, display: true, formatter: Watt
-  Temperature: 584, display: true
-  Radiation: 8, display: RadiationLevel    # Radiation (= Radiation Protection) already exists for Player Armor
-  TemplateRoot: ThrusterSVRoundNormalT2
-  PickupTarget: ThrusterSVRoundSlantT2
 
-  UpgradeTo: null, display: false
-  DowngradeTo: ThrusterSVRoundNormal
-  ShowUser: No
-}
 { +Block Id: 453, Name: ThrusterMSRoundArmored
   Class: Thruster
   IndexName: Thruster
@@ -3320,12 +3190,7 @@ HullCombatSmallBlocks
   Radiation: 7, display: RadiationLevel    # Radiation (= Radiation Protection) already exists for Player Armor
   Temperature: 892, display: true
 }
-{ +Block Id: 454, Name: ThrusterMSRoundSlant, Ref: ThrusterMSRoundArmored
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterCVRoundSlantPrefab
-}
-{ +Block Id: 455, Name: ThrusterMSRoundNormal, Ref: ThrusterMSRoundArmored
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterCVRoundNormalPrefab
-}
+
 { +Block Id: 456, Name: ThrusterSVDirectional
   Class: Thruster
   IndexName: Thruster
@@ -3707,181 +3572,7 @@ HullCombatSmallBlocks
   # ShowUser: NoButCSV    # reported by HWS 
   XpFactor: 2.0
 }
-{ +Block Id: 468, Name: ElevatorMS
-  Class: Elevator
-  Material: device
-  Shape: Ext3dModel
-  MarketPrice: 390, display: true
-  Mesh: models
-  Model: Mothership/Elevator, param1: ElevatorBlock
-  /* Model: Mothership/Elevator, param1: Collider_Mesh  */
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  Place: Free
-  BlockColor: "110,110,110"
-  IsAccessible: false, type: bool
-  IsOxygenTight: false, display: true
-  AllowPlacingAt: "Base,MS", display: true
-  SizeInBlocks: "1,1,1", display: true
-  SizeInBlocksLocked: "Base,MS"    
-  # Info: bkiElevator, display: true
-  Volume: 40, type: float, display: true, formatter: Liter
-  Mass: 80, type: float, display: true, formatter: Kilogram
-  EnergyIn: 1, type: int, display: true, formatter: Watt
-  CPUIn: 0, type: int, display: false
-  AllowWander: true   # this has to be set to true as Elevators are excluded from wandering per default but AI uses them nevertheless. w/o that AI gets stuck in elev.
-  StackSize: 2000
-  /*RemoveOnSI: true /*/
-  Category: Devices
 
-  UnlockCost: 4, display: true
-  UnlockLevel: 5, display: true
-  TechTreeParent: LadderBlocks
-  TechTreeNames: "Base,Capital Vessel"
-}
-
-{ +Block Id: 469, Name: GeneratorMS
-  IndexName: Generator
-  Class: Generator
-  Group: cpgGenerator
-  MarketPrice: 30090, display: true
-  EssentialCategory: cpgGenerator
-  Material: device
-  Shape: ModelEntity
-  ShowBlockName: true
-  Model: @models/Blocks/Mothership/generatorMSPrefab
-  Mesh-Damage-1: Mesh/D0
-  Mesh-Damage-2: Mesh/D1
-  Mesh-Damage-3: Mesh/D2
-  Mesh-Damage-4: Mesh/D3
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  StackSize: 250
-  EnergyOut: 15000, type: int, display: true, formatter: Watt
-  CPUIn: 25000, type: int, display: true
-  Place: Free
-  AllowPlacingAt: "Base,MS", display: true
-  SizeInBlocks: "3,1,1", display: true
-  SizeInBlocksLocked: "Base,MS"
-  Volume: 960, type: float, display: true, formatter: Liter
-  Mass: 53508, type: float, display: true, formatter: Kilogram
-  BlockColor: "110,110,110"
-  SymType: 4
-  IsOxygenTight: false, display: true 
-  IsIgnoreLC: true
-  Info: bkiGenerator, display: true
-  Category: Devices
-  HitPoints: 250, type: int, display: true
-  IsActivateable: true
-  RepFac: 4.0
-
-  BlastParticleName: @rg_projectiles/RG_BlastTorpedoL
-  BlastParticleIndex: 0
-  # BlastParticleIndex: 1
-  BlastRadius: 6
-  BlastDamage: 8800
-
-  UnlockCost: 14, display: true
-  UnlockLevel: 10, display: true
-  TechTreeParent: GeneratorBA
-  TechTreeNames: "Base,Capital Vessel"
-  
-  Temperature: 180, display: true
-  Radiation: 12, display: RadiationLevel    # Radiation (= Radiation Protection) already exists for Player Armor
-}
-
-{ +Block Id: 470, Name: FuelTankSVSmall
-  Model: @models/Blocks/Spaceship/FuelTankSVSmallPrefab
-  Class: FuelTank
-  IndexName: FuelTank
-  Group: cpgFuelTank
-  MarketPrice: 140, display: true
-  EssentialCategory: cpgFuelTank
-  # LootList: 26   # 10 slots
-  Material: device
-  Shape: ModelEntity
-  ShowBlockName: true
-  # Mesh-Damage-1: Mesh/D0
-  # Mesh-Damage-2: Mesh/D1
-  # Mesh-Damage-3: Mesh/D2
-  # Mesh-Damage-4: Mesh/D3
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  DropInventoryEntity: DropContainer
-  Place: Free
-  /* IsActivateable: false   --- fuel tanks activate themselves if they contain fuel */
-  IsActivateableInCP: true
-  IsLockable: true
-  IsOxygenTight: false, display: true
-  IsIgnoreLC: true
-  # IsClosedOnMoving: true
-  AllowPlacingAt: "SS,GV", display: true
-  SizeInBlocks: "1,1,1", display: true
-  HitPoints: 35, type: int, display: true
-  Volume: 8, type: float, display: true, formatter: Liter  
-  Mass: 42, type: float, display: true, formatter: Kilogram
-  Info: bkiFuelTank, display: true
-  StackSize: 2000
-  BlockColor: "110,110,110"
-  EnergyIn: 1, type: int, display: true, formatter: Watt
-  CPUIn: 35, type: int, display: true
-  Category: Devices
-  FuelAccept: "EnergyCell, EnergyCellLarge, FusionCell, BioFuel"
-  FuelCapacity: 300, type: int, display: true
-  BlastParticleName: @rg_projectiles/RG_BlastPlasmaBlueL2
-  BlastParticleIndex: 0
-  # BlastParticleIndex: 11
-  BlastRadius: 3
-  BlastDamage: 450
-  
-  Radiation: 1.5, display: RadiationLevel    # Radiation (= Radiation Protection) already exists for Player Armor
-
-  UnlockCost: 0, display: true
-  UnlockLevel: 1, display: true
-  TechTreeNames: "Small Vessel,Hover Vessel"
-}
-{ +Block Id: 471, Name: GeneratorSVSmall
-  Model: @models/Blocks/Spaceship/GeneratorSVSmallPrefab
-  IndexName: Generator
-  Class: Generator
-  Group: cpgGenerator
-  MarketPrice: 871, display: true
-  EssentialCategory: cpgGenerator
-  LootList: 1
-  Material: device
-  Shape: ModelEntity
-  ShowBlockName: true
-  # Mesh-Damage-1: Mesh/D0
-  # Mesh-Damage-2: Mesh/D1
-  # Mesh-Damage-3: Mesh/D2
-  # Mesh-Damage-4: Mesh/D3
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  BlockColor: "110,110,110"
-  Place: Free
-  AllowPlacingAt: "SS,GV", display: true
-  SizeInBlocks: "1,1,1", display: true
-  Volume: 31.25, type: float, display: true, formatter: Liter  
-  Mass: 248, type: float, display: true, formatter: Kilogram
-  Info: bkiGenerator, display: true
-  # ModelOffset: "0,0.5,0"
-  StackSize: 1000
-  IsOxygenTight: true, display: true
-  IsActivateable: true
-  IsIgnoreLC: true
-  HitPoints: 150, type: int, display: true
-  EnergyOut: 450, type: int, display: true, formatter: Watt
-  CPUIn: 500, type: int, display: true
-  Category: Devices
-  BlastParticleName: @rg_projectiles/RG_BlastPlasmaBlueL2
-  BlastParticleIndex: 0
-  # BlastParticleIndex: 9
-  BlastRadius: 5
-  BlastDamage: 500
-
-  UnlockCost: 0, display: true
-  UnlockLevel: 1, display: true
-  TechTreeNames: "Small Vessel,Hover Vessel"
-  
-  Temperature: 50, display: true
-  Radiation: 1, display: RadiationLevel    # Radiation (= Radiation Protection) already exists for Player Armor
-}
 { Block Id: 472, Name: OpuntiaCactus
   Class: CropsGrown
   { Child DropOnHarvest
@@ -3917,32 +3608,6 @@ HullCombatSmallBlocks
   IsPlant: true
   Model: @models2/Environment/Plants/DesertVegetation/DesertPlant11Prefab
   ShowUser: No
-}
-
-# Gambling desks
-{ +Block Id: 474, Name: GamblingTableTwoPerson, Ref: NPCAlienTemplate
-  # AllowedInBlueprint: false, display: true
-  # CanPickup: true
-  Class: NPCDialogue
-  Info: bkiGamblingTableTwoPerson, display: true
-  Group: cpgCrewStationAlien
-  IsAccessible: true, type: bool
-  NPCModelRotation: false
-  Model: @models2/Entities/Decorations/DecoNPC/ScifiGamblingTableSingleNPCPrefab
-  EnergyIn: 5, type: int, display: true, formatter: Watt
-  ShowUser: Yes
-}
-{ +Block Id: 475, Name: GamblingTableMultiplePeople, Ref: NPCAlienTemplate
-  Class: NPCDialogue
-  NPCModelRotation: false
-  Info: bkiGamblingTableMultiplePeople, display: true
-  Group: cpgCrewStationAlien
-  IsAccessible: true, type: bool
-  # AllowedInBlueprint: false, display: true
-  # CanPickup: true
-  Model: @models2/Entities/Decorations/DecoNPC/ScifiGamblingTableMultipleNPCPrefab
-  EnergyIn: 5, type: int, display: true, formatter: Watt
-  ShowUser: Yes
 }
 
 /* terrain version of plant */
@@ -4348,54 +4013,6 @@ HullCombatSmallBlocks
   Temperature: 1080, display: true
 }
 
-{ +Block Id: 498, Name: GeneratorBA
-  IndexName: Generator
-  Class: Generator
-  Group: cpgGenerator
-  MarketPrice: 4885, display: true
-  EssentialCategory: cpgGenerator
-  Material: device
-  Shape: ModelEntity
-  ShowBlockName: true
-  Model: @models/Blocks/Mothership/generatorSmallMSPrefab
-  Mesh-Damage-1: Mesh/D0
-  Mesh-Damage-2: Mesh/D1
-  Mesh-Damage-3: Mesh/D2
-  Mesh-Damage-4: Mesh/D3
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  StackSize: 1000
-  EnergyOut: 2500, type: int, display: true, formatter: Watt
-  CPUIn: 4250, type: int, display: true
-  Place: Free
-  AllowPlacingAt: "Base,MS", display: true
-  SizeInBlocks: "2,1,1", display: true
-  SizeInBlocksLocked: "Base,MS"
-  Volume: 105, type: float, display: true, formatter: Liter  
-  Mass: 5920, type: float, display: true, formatter: Kilogram
-  BlockColor: "110,110,110"
-  # ModelOffset: "0,0.5,0"
-  SymType: 4
-  IsOxygenTight: false, display: true 
-  IsIgnoreLC: true
-  Info: bkiGenerator, display: true
-  Category: Devices
-  HitPoints: 250, type: int, display: true
-  IsActivateable: true
-  RepFac: 4.0
-
-  BlastParticleName: @rg_projectiles/RG_BlastPlasmaBlueL3
-  BlastParticleIndex: 0
-  # BlastParticleIndex: 6
-  BlastRadius: 6
-  BlastDamage: 7500
-
-  UnlockCost: 4, display: true
-  UnlockLevel: 3, display: true
-  TechTreeNames: "Base,Capital Vessel"
-  
-  Radiation: 6, display: RadiationLevel    # Radiation (= Radiation Protection) already exists for Player Armor
-  Temperature: 90, display: true
-}
 # obsolete - do not remove
 # preview icon used in control panel 
 { Block Id: 499, Name: oxygenTankEscapePod
@@ -4735,59 +4352,6 @@ HullCombatSmallBlocks
   ShowUser: No
 }
 
-# obsolete - do not remove
-{ Block Id: 516, Name: HullQuarterRound, Ref: Hull
-  Model: EdgeRound
-}
-# obsolete - do not remove
-{ Block Id: 517, Name: HullHalfRound, Ref: Hull
-  Model: RoundCornerA
-  Texture: "51,50,50,50,50,50"
-}
-# obsolete - do not remove
-{ Block Id: 518, Name: HullCurveOutSlope, Ref: Hull
-  Model: CornerRoundB
-  Texture: "51,50,50,50,50,50"
-}
-# obsolete - do not remove
-{ Block Id: 519, Name: HullCurveQuarter, Ref: Hull
-  Model: CubeRoundConnectorA
-  Texture: "51,50,50,50,50,50"
-}
-# Obsolete - but do not remove 
-{ Block Id: 520, Name: MarkerBlock
-  AllowedInBlueprint: false, display: true
-  IndexName: Marker
-  Material: hullcombat
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  Texture: "51,26,26,26,26,26"
-  BlockColor: "255,247,0"
-  Shape: New
-  Place: Free
-  Model: Cube
-  TemplateRoot: HullLargeBlocks
-  PickupTarget: SteelPlate
-  AllowPlacingAt: "Base,MS", display: true
-  Mass: 150, type: float, display: true, formatter: Kilogram
-  Info: bkiAlienMarkerBlock, display: true
-  MaxCount: 8, type: int, display: true
-  CPUIn: 0, type: int, display: false
-  ForceMaxCount: true
-  IsOxygenTight: true, display: true
-  IsAccessible: true, type: bool
-  IsTextureable: false
-  ShowUser: NoButCSV
-}
-# Obsolete - but do not remove 
-{ Block Id: 521, Name: MarkerBlock2, Ref: MarkerBlock
-  IndexName: Marker2
-  Info: bkiAlienMarker2Block, display: true
-  BlockColor: "0,15,100"
-  IsDuplicateable: false
-  MaxCount: 1, type: int, display: true
-  ShowUser: NoButCSV
-}
-
 { Block Id: 522, Name: ClusterShroom
   Class: CropsGrown
   { Child DropOnHarvest
@@ -4983,26 +4547,6 @@ HullCombatSmallBlocks
   ShowUser: No
 }
 
-# Obsolete but do not delete 
-{ +Block Id: 535, Name: ContainerBlocks
-  Material: device
-  Shape: Invisible
-  # Model: @models/Blocks/Mothership/CargoBoxPrefab
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  Place: Free
-  AllowPlacingAt: "SS,GV", display: true
-  Volume: 32.5, type: float, display: true, formatter: Liter     # low value since placed on Base,MS,SS,GV
-  Mass: 50, type: float, display: true, formatter: Kilogram
-  Info: bkiBlockGroup, display: true
-  IsOxygenTight: varies, display: true        # not all child blocks are the same
-  StackSize: 2000
-  Category: Devices
-  EnergyIn: 1, type: int, display: false, formatter: Watt
-  ChildBlocks: "ContainerMS01, ScifiContainer2, ScifiContainer1, ScifiContainerPower"
-  ShowUser: NoButCSV
-}
-
-
 { +Block Id: 536, Name: ThrusterSVRoundBlocks
   IndexName: Thruster
   Material: thruster
@@ -5035,18 +4579,6 @@ HullCombatSmallBlocks
   TechTreeNames: Small Vessel
   
   Temperature: 287, display: true
-}
-{ +Block Id: 537, Name: ThrusterMSRoundSlant2x2, Ref: ThrusterMSRoundNormal2x2
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterCVRoundSlant2x2Prefab
-}
-{ +Block Id: 538, Name: ThrusterMSRoundArmored2x2, Ref: ThrusterMSRoundNormal2x2
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterCVRoundArmored2x2Prefab
-}
-{ +Block Id: 539, Name: ThrusterMSRoundSlant3x3, Ref: ThrusterMSRoundNormal3x3
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterCVRoundSlant3x3Prefab
-}
-{ +Block Id: 540, Name: ThrusterMSRoundArmored3x3, Ref: ThrusterMSRoundNormal3x3
-  Model: @models/Blocks/Thrusters/RoundThrusters/ThrusterCVRoundArmored3x3Prefab
 }
 
 { +Block Id: 541, Name: AlienContainer
@@ -5085,19 +4617,6 @@ HullCombatSmallBlocks
   BlastParticleIndex: 14
   BlastRadius: 3
   BlastDamage: 100
-}
-{ +Block Id: 542, Name: AlienContainerRare, Ref: AlienContainer
-  BlockColor: "255,247,0"
-  LootList: 39   /* yellow: rare */
-}
-{ +Block Id: 543, Name: AlienContainerVeryRare, Ref: AlienContainer
-  BlockColor: "170,5,5"
-  LootList: 40   /* red: very rare */
-}
-{ +Block Id: 544, Name: AlienContainerUltraRare, Ref: AlienContainer
-  Model: @models/Blocks/Misc/AlienstorageUltraPrefab
-  BlockColor: "171,32,161"
-  LootList: 41   /* purple: ultra rare */
 }
 
 { +Block Id: 545, Name: WindowShutterLargeBlocks
@@ -5906,47 +5425,7 @@ HullCombatSmallBlocks
   # UnlockLevel: 3, display: true
   # TechTreeNames: "Base,Capital Vessel"
 }
-# not used anymore - same model as SentryGun02
-{ Block Id: 568, Name: SentryGun04
-  AllowedInBlueprint: false, display: true
-  Info: bkiAlienBlock, display: true
-  Class: TurretAuto
-  Group: Sentry
-  CustomIcon: TurretEnemyGreen
-  IndexName: Turret
-  Material: metal
-  Shape: Turret
-  Place: Free
-  BlockColor: "110,110,110"
-  TemplateRoot: SentryGunBlocks
-  PickupTarget: SentryGunBlocks
-  # Model: @models/Blocks/Turrets/SentryGuns/sentryGun04Prefab
-  Model: @models/Blocks/Turrets/TurretEnemyGreenPrefab
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  SoundOnEnter: UseActions/DOOROpen02
-  WeaponItem: sentryGunSingle3
-  AllowPlacingAt: "Base,MS", display: true
-  SizeInBlocks: "1,1,1", display: true
-  SizeInBlocksLocked: "Base,MS"
-  IsActivateable: true
-  Category: Weapons/Items
-  # ModelOffset: "0,0.5,0"
-  BlastParticleIndex: 10
-  BlastRadius: 4
-  BlastDamage: 500
-  HitPoints: 150, type: int, display: true
-  EnergyIn: 10, type: int, display: true, formatter: Watt
-  CPUIn: 1000, type: int, display: true
-  Mass: 200, type: float, display: true, formatter: Kilogram
-  Volume: 400, type: float, display: true, formatter: Liter
-  RotSpeed: 360, type: int, display: true
-  # Zoom: 2, type: float
-  XpFactor: 2
-  AboveTerrainCheck: false
-  TurretTargetIgnore: true
-  IsAntiInfantryWeapon: true
-  # ShowUser: NoButCSV
-}
+
 { +Block Id: 569, Name: LightWork
   /* Class: Light   */
   IndexName: Light
@@ -6280,51 +5759,7 @@ HullCombatSmallBlocks
   ShowUser: No
   HitPoints: 50, type: int, display: true
 }
-{ +Block Id: 588, Name: WaterGenerator
-  Class: WaterGenerator
-  Material: device
-  MarketPrice: 1091, display: true
-  Shape: ModelEntity
-  Model: @models/Blocks/Terrain/WaterGeneratorPrefab
-  # Mesh-Damage-1: Mesh/D0
-  # Mesh-Damage-2: Mesh/D1
-  # Mesh-Damage-3: Mesh/D2
-  # Mesh-Damage-4: Mesh/D3
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  DropInventoryEntity: DropContainer
-  Place: Free
-  AllowPlacingAt: Terrain, display: true
-  SizeInBlocks: "1,1,1", display: true
-  Volume: 200, type: float, display: true, formatter: Liter
-  Mass: 185, type: float, display: true, formatter: Kilogram
-  Info: bkiWaterGenerator, display: true
-  IsTerrainDecoration: true
-  EnergyIn: 30, type: int, display: true, formatter: Watt
-  StackSize: 1000
-  CanPickup: true
-  PickupToToolbar: true
-  XpFactor: 0  # to avoid farming of xp through placement/pickup cycle
-  ForceNoPvEDamage: true
-  Category: Devices
-  BlockColor: "110,110,110"
-  IsColorable: false
-  # SizeInBlocks: "1,2,1", display: true   # removed to avoid problem with "cutting out water"
-  # ModelOffset: "0,0.5,0"
-  FuelAccept: "EnergyCell, EnergyCellLarge, FusionCell, BioFuel"
-  
-  BlastParticleIndex: 4
-  BlastRadius: 7
-  BlastDamage: 250
 
-  UnlockCost: 0, display: true
-  UnlockLevel: 1, display: true
-  TechTreeNames: Misc
-  
-  MapIcon: map_WaterGenerator
-  MapName: WaterGenerator
-  
-  # Temperature: 30, display: true
-}
 { +Block Id: 589, Name: ThrusterGVDirectional
   Class: Thruster
   IndexName: Thruster
@@ -6766,82 +6201,6 @@ HullCombatSmallBlocks
   ShowBlockName: true
   XpFactor: 5.0
 }
-{ +Block Id: 603, Name: HoverBooster
-  IndexName: HoverBooster
-  Group: cpgHoverEngine
-  MarketPrice: 2625, display: true
-  Material: device
-  Shape: ModelEntity
-  ShowBlockName: true
-  IsPhysicsColliders: false
-  IsOxygenTight: false, display: true  
-  Model: @models/Blocks/Spaceship/HoverBoosterPrefab
-  Mesh-Damage-1: Mesh/D0
-  Mesh-Damage-2: Mesh/D1
-  Mesh-Damage-3: Mesh/D2
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  BlockColor: "110,110,110"
-  Info: bkiHoverBooster, display: true
-  Place: FlyDirBottom, display: true
-  AllowPlacingAt: GV, display: true
-  SizeInBlocks: "1,1,2", display: true
-  Volume: 31.25, type: float, display: true, formatter: Liter
-  Mass: 260, type: float, display: true, formatter: Kilogram
-  StackSize: 1000
-  HitPoints: 60, type: int, display: true
-  ThrusterForce: 500, type: int, display: false, formatter: Newton
-  EnergyIn: 5, type: int, display: true, formatter: Watt
-  CPUIn: 25, type: int, display: true
-  EnergyDynamicGroup: HoverEngine
-  Category: Devices
-  BlastParticleIndex: 10
-  BlastRadius: 3
-  BlastDamage: 150
-
-  UnlockCost: 7, display: true
-  UnlockLevel: 5, display: true
-  TechTreeParent: HoverEngineSmall
-  TechTreeNames: Hover Vessel
-}
-{ +Block Id: 604, Name: RCSBlockGV
-  IndexName: RCS
-  Group: cpgRCS
-  Material: device
-  MarketPrice: 1093, display: true
-  Shape: ModelEntity
-  ShowBlockName: true
-  Model: @models/Blocks/Mothership/RCS_BlockPrefab
-  Mesh-Damage-1: Mesh/D0
-  Mesh-Damage-2: Mesh/D1
-  Mesh-Damage-3: Mesh/D2
-  Mesh-Damage-4: Mesh/D3
-  DropMeshfile: Entities/Misc/BagSmallPrefab
-  Place: Free
-  AllowPlacingAt: GV, display: true
-  SizeInBlocks: "1,1,1", display: true
-  Volume: 31.25, type: float, display: true, formatter: Liter
-  Mass: 135, type: float, display: true, formatter: Kilogram
-  IsActivateable: true
-  IsOxygenTight: false, display: true
-  IsIgnoreLC: true
-  Info: bkiGyroscopeGV, display: true
-  # ModelOffset: "0,0.5,0"
-  StackSize: 1000
-  BlockColor: "110,110,110"
-  Category: Devices
-  # Torque: 30, type: int, display: true, formatter: NewtonMeter
-  Torque: 160, type: int, display: true, formatter: NewtonMeter
-  EnergyDynamicGroup: RCS
-  EnergyIn: 30, type: int, display: true, formatter: Watt
-  CPUIn: 250, type: int, display: true
-  BlastParticleIndex: 4
-  BlastRadius: 4
-  BlastDamage: 250
-
-  UnlockCost: 2, display: true
-  UnlockLevel: 1, display: true
-  TechTreeNames: Hover Vessel
-}
 
 /* terrain version of plant */
 { Block Id: 605, Name: InsanityPepperNoFruit
@@ -7017,108 +6376,6 @@ HullCombatSmallBlocks
   ShowBlockName: true
   XpFactor: 1.5
 }
-{ +Block Id: 612, Name: Bed, Ref: DecoTemplate
-  Class: Sleeping
-  Group: cpgEquipment
-  IsAccessible: true, type: bool
-  IsLockable: true
-  BuffNameActivate: StaminaRecover, display: StatusEffect
-  # CanPickup: true
-  ShowUser: Yes
-  BuffNamesActivate: "IncreaseBodyTemp", display: StatusEffect
-  DebuffNamesActivate: "Hangover,BadTrip", display: EffectiveAgainst
-}
-{ +Block Id: 613, Name: Sofa, Ref: DecoTemplate
-  Group: cpgEquipment
-  IsAccessible: true, type: bool
-  Class: PassengerSeat
-  IsLockable: true
-  BuffNameActivate: StaminaRecover, display: StatusEffect
-  # CanPickup: true
-  Model: @models2/Entities/Decorations/HomeSweetHome/SofaPrefab
-  SizeInBlocks: "2,1,2", display: true
-  SymType: 2
-  ShowUser: Yes
-}
-{ +Block Id: 614, Name: KitchenCounter, Ref: DecoTemplate
-  Class: Container
-  IndexName: Container
-  DropInventoryEntity: DropContainer
-  LootList: 63   
-  Model: @models2/Entities/Decorations/HomeSweetHome/KitchenCounterPrefab
-  SizeInBlocks: "1,1,2", display: true
-  SymType: 4
-  ShowUser: Yes
-  VolumeCapacity: 1000, type: float, display: true, formatter: Liter     
-}
-{ +Block Id: 615, Name: KitchenTable, Ref: DecoTemplate
-  Group: cpgEquipment
-  Class: PassengerSeat
-  IsAccessible: true, type: bool
-  IsLockable: true
-  BuffNameActivate: StaminaRecover, display: StatusEffect
-  # CanPickup: true
-  Model: @models2/Entities/Decorations/HomeSweetHome/KitchenTablePrefab
-  ShowUser: Yes
-}
-{ Block Id: 616, Name: TableTV, Ref: DecoTemplate
-  # CanPickup: true
-  Info: bkiDecoModel, display: true
-  Model: @models2/Entities/Decorations/HomeSweetHome/TableTVPrefab
-  ShowUser: Yes
-}
-{ +Block Id: 617, Name: Bookshelf, Ref: DecoTemplate
-  # CanPickup: true
-  Info: bkiDecoModel, display: true
-  Model: @models2/Entities/Decorations/HomeSweetHome/BookshelfPrefab
-  SymType: 1
-  ShowUser: Yes
-}
-{ +Block Id: 618, Name: ControlStation, Ref: DecoTemplate
-  # CanPickup: true
-  Class: PassengerSeat
-  Group: cpgEquipment  
-  BlockColor: "170,170,170"
-  Info: bkiDecoModel, display: true
-  Model: @models2/Entities/Decorations/HomeSweetHome/ControlStationPrefab
-  ShowUser: Yes
-  IsAccessible: true, type: bool
-  IsLockable: true
-}
-{ +Block Id: 619, Name: BathroomCounter, Ref: DecoTemplate
-  Class: Container
-  IndexName: Container
-  DropInventoryEntity: DropContainer
-  LootList: 62   
-  Model: @models2/Entities/Decorations/HomeSweetHome/BathroomCounterPrefab
-  SizeInBlocks: "1,1,2", display: true
-  SymType: 4
-  ShowUser: Yes
-  VolumeCapacity: 1000, type: float, display: true, formatter: Liter
-}
-{ +Block Id: 620, Name: Toilet, Ref: DecoTemplate
-  Model: @models2/Entities/Decorations/HomeSweetHome/ToiletPrefab
-  Class: PassengerSeat
-  BlockColor: "220,220,220"
-  Group: cpgEquipment
-  IsAccessible: true, type: bool
-  IsLockable: true
-  DebuffNamesActivate: "Indigestion,Hangover,BadTrip", display: EffectiveAgainst
-  SfxBuffActivate: UseActions/BlockToilet
-  ShowUser: Yes
-}
-{ +Block Id: 621, Name: Shower, Ref: DecoTemplate      
-  Model: @models2/Entities/Decorations/HomeSweetHome/ShowerPrefab
-  BlockColor: "220,220,220"
-  Group: cpgEquipment
-  IsAccessible: true, type: bool
-  IsLockable: true
-  # BuffNamesActivate: "ReduceRadiation,DecreaseBodyTemp,IncreaseBodyTemp", display: StatusEffect
-  BuffNamesActivate: "ReduceRadiation,NeutralBodyTemp", display: StatusEffect
-  DebuffNamesActivate: "Fire"
-  SfxBuffActivate: UseActions/BlockShower
-  ShowUser: Yes  
-}
 
 { Block Id: 624, Name: InteriorKitchen
   Material: hulllight
@@ -7135,20 +6392,6 @@ HullCombatSmallBlocks
   Category: BuildingBlocks
   ShowUser: No
 }
-{ Block Id: 625, Name: InteriorKitchen02, Ref: InteriorKitchen
-  Texture: "78,80,81,81,81,81"
-} 
-{ Block Id: 626, Name: InteriorLiving, Ref: InteriorKitchen
-  Texture: "90,80,89,89,89,89"
-  BlockColor: "187,135,90"
-}
-#{ Block Id: 627, Name: InteriorLiving02, Ref: InteriorKitchen
-#  Texture: "90,85,80,80,80,80"
-#  BlockColor: "187,135,90"
-#}
-#{ Block Id: 628, Name: InteriorBath, Ref: InteriorKitchen
-#  Texture: "87,85,81,81,83,83"
-#}
 
 { +Block Id: 629, Name: IndoorPlant01
   Material: device
@@ -7169,12 +6412,6 @@ HullCombatSmallBlocks
   # ModelOffset: "0,0.5,0"
   Category: Deco Blocks
   TemplateRoot: IndoorPlants
-}
-{ +Block Id: 630, Name: IndoorPlant02, Ref: IndoorPlant01
-  Model: @models2/Entities/Decorations/IndoorPlants/IndoorPlant02Prefab
-}
-{ +Block Id: 631, Name: IndoorPlant03, Ref: IndoorPlant01
-  Model: @models2/Entities/Decorations/IndoorPlants/IndoorPlant03Prefab
 }
 
 # obsolete but do not remove 
@@ -7214,16 +6451,6 @@ HullCombatSmallBlocks
   BlockColor: "110,110,110"
   
   ShowUser: NoButCSV 
-}
-
-# obsolete but do not remove 
-{ +Block Id: 633, Name: CockpitSV05, Ref: CockpitSV02
-  Model: @models/Blocks/Cockpits/_Legacy/CockpitSS05Prefab
-  SizeInBlocks: "3,2,4", display: true
-  # Volume: 2400, type: float, display: true, formatter: Liter  
-  Mass: 370, type: float, display: true, formatter: Kilogram
-  
-  ShowUser: No 
 }
 
 /* Old constructor - no advanced capabilities: not in game anymore */
@@ -7322,16 +6549,6 @@ HullCombatSmallBlocks
   EnergyIn: 1, type: int, display: true, formatter: Watt
   CPUIn: 0, type: int, display: false
   TemplateRoot: ConsoleBlocks
-}
-{ +Block Id: 637, Name: ConsoleLargeMS02, Ref: ConsoleLargeMS01
-  Model: @models/Blocks/Mothership/ConsoleLargeMS02Prefab
-  SizeInBlocks: "2,1,1", display: true
-  Volume: 100, type: float, display: true, formatter: Liter
-}
-{ +Block Id: 638, Name: ConsoleMapMS01, Ref: ConsoleLargeMS01
-  Model: @models/Blocks/Mothership/ConsoleMapMS01Prefab
-  SizeInBlocks: "1,1,1", display: true
-  Volume: 50, type: float, display: true, formatter: Liter
 }
 
 # Sprout
@@ -8056,26 +7273,6 @@ HullCombatSmallBlocks
   TechTreeNames: Hover Vessel
 }
 
-# obsolete but do not remove 
-{ +Block Id: 670, Name: CockpitSV03, Ref: CockpitSV02
-  Model: @models/Blocks/Cockpits/_Legacy/CockpitSS03Prefab
-  SizeInBlocks: "3,3,5", display: true
-  # Volume: 4500, type: float, display: true, formatter: Liter  
-  HitPoints: 900, type: int, display: true
-  Mass: 445, type: float, display: true, formatter: Kilogram 
-  
-  ShowUser: No 
-}
-# obsolete but do not remove 
-{ +Block Id: 671, Name: CockpitSV07, Ref: CockpitSV02
-  Model: @models/Blocks/Cockpits/_Legacy/CockpitSS07Prefab
-  Mass: 480, type: float, display: true, formatter: Kilogram
-  HitPoints: 875, type: int, display: true
-  SizeInBlocks: "2,2,9", display: true
-  # Volume: 3600, type: float, display: true, formatter: Liter  
-  
-  ShowUser: No 
-}
 { +Block Id: 672, Name: StairsWedge
   Material: hullsteel
   Shape: Ext3dModel
@@ -8176,24 +7373,7 @@ HullCombatSmallBlocks
   Category: BuildingBlocks
   AllowWander: true
 }
-# obsolete - do not remove
-{ Block Id: 677, Name: InteriorWall, Ref: Hull
-  Model: Wall
-  Texture: "53,53,31,53,31,53"
-}
-# obsolete - do not remove
-{ Block Id: 678, Name: InteriorWallCorner, Ref: Hull
-  Model: WallLShape
-  Texture: "53,53,31,53,31,31"
-}
-# obsolete - do not remove
-{ Block Id: 679, Name: HullWall, Ref: Hull
-  Model: Wall
-}
-# obsolete - do not remove
-{ Block Id: 680, Name: HullWallCorner, Ref: Hull
-  Model: WallLShape
-}
+
 { +Block Id: 681, Name: RailingL, Ref: RailingDiagonal
   Model: Mothership/RailingL, param1: RailingL
   SymType: 2
@@ -8381,11 +7561,7 @@ HullCombatSmallBlocks
   SymType: 4
   MirrorTo: RailingSlopeLeft
 }
-# obsolete - do not remove
-{ Block Id: 693, Name: HullCornerLarge, Ref: Hull
-  Model: CornerC
-  Texture: "51,50,52,52,51,51"
-}
+
 { +Block Id: 694, Name: ThrusterJetRound3x7x3
   Class: Thruster
   IndexName: Thruster

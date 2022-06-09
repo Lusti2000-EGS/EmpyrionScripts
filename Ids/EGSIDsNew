@@ -64,16 +64,27 @@
     #BlocksL
     "WoodBlocks": ",WoodBlocks,"
 
+    #DeviceTerrain
+    "WaterGenerator": ",WaterGenerator,"
+
     #DeviceL
     "AlienDeviceBlocks": ",AlienDeviceBlocks,"
     "CockpitBlocksCV": ",CockpitBlocksCV,"
+    "ElevatorMS": ",ElevatorMS,"
+    "GeneratorBA": ","GeneratorBA,"
+    "GeneratorMS": ",GeneratorMS,"
     "GravityGeneratorMS": ",GravityGeneratorMS,"
     "LightLargeBlocks": ",LightLargeBlocks,"
     "MedicinelabMS": ",MedicinelabMS,"
     "PassengerSeatMS": ",PassengerSeatMS,"
 
     #DeviceBlocksS
+    "FuelTankSVSmall": ",FuelTankSVSmall,"
+    "GeneratorSVSmall": ",GeneratorSVSmall,"
+    "HoverBooster": ",HoverBooster,"
+    "RCSBlockGV": ",RCSBlockGV,"
     "RCSBlockSV": ",RCSBlockSV,"
+    
 },
 
   "Ids": {                      
